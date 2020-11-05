@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA65249D25517396000B333C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65249C25517396000B333C /* AppDelegate.m */; };
+		BA65249F25517398000B333C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65249E25517398000B333C /* Assets.xcassets */; };
+		BA6524A225517398000B333C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6524A025517398000B333C /* MainMenu.xib */; };
+		BA6524A525517398000B333C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6524A425517398000B333C /* main.m */; };
+		BA65280E2552AB91000B333C /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65280C2552AB91000B333C /* MyWindowController.m */; };
+		BA65280F2552AB91000B333C /* MyWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65280D2552AB91000B333C /* MyWindowController.xib */; };
+		BA6528432552C9A8000B333C /* DvpStimPanelFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6528422552C9A8000B333C /* DvpStimPanelFrameWork.framework */; };
+		BA6528682552CA3C000B333C /* ButtonPressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528672552CA3C000B333C /* ButtonPressVC.m */; };
+		BA65286B2552CA78000B333C /* DischargeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65286A2552CA78000B333C /* DischargeVC.m */; };
+		BA65286E2552CAAE000B333C /* DmicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65286D2552CAAE000B333C /* DmicVC.m */; };
+		BA6528712552CAD5000B333C /* EloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528702552CAD5000B333C /* EloadVC.m */; };
+		BA6528742552CAF6000B333C /* LdcmVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528732552CAF6000B333C /* LdcmVC.m */; };
+		BA6528772552CB1B000B333C /* NtcVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528762552CB1B000B333C /* NtcVC.m */; };
+		BA65287A2552CB44000B333C /* OrionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528792552CB44000B333C /* OrionVC.m */; };
+		BA65287D2552CB5C000B333C /* PenroseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65287C2552CB5C000B333C /* PenroseVC.m */; };
+		BA6528802552CB7B000B333C /* PowerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65287F2552CB7B000B333C /* PowerVC.m */; };
+		BA6528832552CB99000B333C /* ResAudioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528822552CB99000B333C /* ResAudioVC.m */; };
+		BA6528862552CBB6000B333C /* RigelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528852552CBB6000B333C /* RigelVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA65249825517396000B333C /* DvpStimDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DvpStimDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA65249B25517396000B333C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA65249C25517396000B333C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA65249E25517398000B333C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA6524A125517398000B333C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BA6524A325517398000B333C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6524A425517398000B333C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA6524A625517398000B333C /* DvpStimDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DvpStimDemo.entitlements; sourceTree = "<group>"; };
+		BA65280B2552AB91000B333C /* MyWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		BA65280C2552AB91000B333C /* MyWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		BA65280D2552AB91000B333C /* MyWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyWindowController.xib; sourceTree = "<group>"; };
+		BA6528422552C9A8000B333C /* DvpStimPanelFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DvpStimPanelFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6528662552CA3C000B333C /* ButtonPressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonPressVC.h; sourceTree = "<group>"; };
+		BA6528672552CA3C000B333C /* ButtonPressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonPressVC.m; sourceTree = "<group>"; };
+		BA6528692552CA78000B333C /* DischargeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DischargeVC.h; sourceTree = "<group>"; };
+		BA65286A2552CA78000B333C /* DischargeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DischargeVC.m; sourceTree = "<group>"; };
+		BA65286C2552CAAE000B333C /* DmicVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DmicVC.h; sourceTree = "<group>"; };
+		BA65286D2552CAAE000B333C /* DmicVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DmicVC.m; sourceTree = "<group>"; };
+		BA65286F2552CAD5000B333C /* EloadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EloadVC.h; sourceTree = "<group>"; };
+		BA6528702552CAD5000B333C /* EloadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EloadVC.m; sourceTree = "<group>"; };
+		BA6528722552CAF6000B333C /* LdcmVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LdcmVC.h; sourceTree = "<group>"; };
+		BA6528732552CAF6000B333C /* LdcmVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LdcmVC.m; sourceTree = "<group>"; };
+		BA6528752552CB1B000B333C /* NtcVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NtcVC.h; sourceTree = "<group>"; };
+		BA6528762552CB1B000B333C /* NtcVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NtcVC.m; sourceTree = "<group>"; };
+		BA6528782552CB44000B333C /* OrionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrionVC.h; sourceTree = "<group>"; };
+		BA6528792552CB44000B333C /* OrionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrionVC.m; sourceTree = "<group>"; };
+		BA65287B2552CB5C000B333C /* PenroseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenroseVC.h; sourceTree = "<group>"; };
+		BA65287C2552CB5C000B333C /* PenroseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenroseVC.m; sourceTree = "<group>"; };
+		BA65287E2552CB7B000B333C /* PowerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerVC.h; sourceTree = "<group>"; };
+		BA65287F2552CB7B000B333C /* PowerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerVC.m; sourceTree = "<group>"; };
+		BA6528812552CB99000B333C /* ResAudioVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResAudioVC.h; sourceTree = "<group>"; };
+		BA6528822552CB99000B333C /* ResAudioVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResAudioVC.m; sourceTree = "<group>"; };
+		BA6528842552CBB6000B333C /* RigelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RigelVC.h; sourceTree = "<group>"; };
+		BA6528852552CBB6000B333C /* RigelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RigelVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA65249525517396000B333C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6528432552C9A8000B333C /* DvpStimPanelFrameWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA65248F25517396000B333C = {
+			isa = PBXGroup;
+			children = (
+				BA65249A25517396000B333C /* DvpStimDemo */,
+				BA65249925517396000B333C /* Products */,
+				BA6525612551750D000B333C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA65249925517396000B333C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA65249825517396000B333C /* DvpStimDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA65249A25517396000B333C /* DvpStimDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA65249B25517396000B333C /* AppDelegate.h */,
+				BA65249C25517396000B333C /* AppDelegate.m */,
+				BA65280B2552AB91000B333C /* MyWindowController.h */,
+				BA65280C2552AB91000B333C /* MyWindowController.m */,
+				BA65280D2552AB91000B333C /* MyWindowController.xib */,
+				BA65249E25517398000B333C /* Assets.xcassets */,
+				BA6524A025517398000B333C /* MainMenu.xib */,
+				BA6524A325517398000B333C /* Info.plist */,
+				BA6524A425517398000B333C /* main.m */,
+				BA6524A625517398000B333C /* DvpStimDemo.entitlements */,
+				BA6528662552CA3C000B333C /* ButtonPressVC.h */,
+				BA6528672552CA3C000B333C /* ButtonPressVC.m */,
+				BA6528692552CA78000B333C /* DischargeVC.h */,
+				BA65286A2552CA78000B333C /* DischargeVC.m */,
+				BA65286C2552CAAE000B333C /* DmicVC.h */,
+				BA65286D2552CAAE000B333C /* DmicVC.m */,
+				BA65286F2552CAD5000B333C /* EloadVC.h */,
+				BA6528702552CAD5000B333C /* EloadVC.m */,
+				BA6528722552CAF6000B333C /* LdcmVC.h */,
+				BA6528732552CAF6000B333C /* LdcmVC.m */,
+				BA6528752552CB1B000B333C /* NtcVC.h */,
+				BA6528762552CB1B000B333C /* NtcVC.m */,
+				BA6528782552CB44000B333C /* OrionVC.h */,
+				BA6528792552CB44000B333C /* OrionVC.m */,
+				BA65287B2552CB5C000B333C /* PenroseVC.h */,
+				BA65287C2552CB5C000B333C /* PenroseVC.m */,
+				BA65287E2552CB7B000B333C /* PowerVC.h */,
+				BA65287F2552CB7B000B333C /* PowerVC.m */,
+				BA6528812552CB99000B333C /* ResAudioVC.h */,
+				BA6528822552CB99000B333C /* ResAudioVC.m */,
+				BA6528842552CBB6000B333C /* RigelVC.h */,
+				BA6528852552CBB6000B333C /* RigelVC.m */,
+			);
+			path = DvpStimDemo;
+			sourceTree = "<group>";
+		};
+		BA6525612551750D000B333C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA6528422552C9A8000B333C /* DvpStimPanelFrameWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA65249725517396000B333C /* DvpStimDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6524A925517398000B333C /* Build configuration list for PBXNativeTarget "DvpStimDemo" */;
+			buildPhases = (
+				BA65249425517396000B333C /* Sources */,
+				BA65249525517396000B333C /* Frameworks */,
+				BA65249625517396000B333C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DvpStimDemo;
+			productName = DvpStimDemo;
+			productReference = BA65249825517396000B333C /* DvpStimDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA65249025517396000B333C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "ciwei luo";
+				TargetAttributes = {
+					BA65249725517396000B333C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BA65249325517396000B333C /* Build configuration list for PBXProject "DvpStimDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA65248F25517396000B333C;
+			productRefGroup = BA65249925517396000B333C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA65249725517396000B333C /* DvpStimDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA65249625517396000B333C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA65280F2552AB91000B333C /* MyWindowController.xib in Resources */,
+				BA65249F25517398000B333C /* Assets.xcassets in Resources */,
+				BA6524A225517398000B333C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA65249425517396000B333C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6528862552CBB6000B333C /* RigelVC.m in Sources */,
+				BA6528772552CB1B000B333C /* NtcVC.m in Sources */,
+				BA6528682552CA3C000B333C /* ButtonPressVC.m in Sources */,
+				BA6528832552CB99000B333C /* ResAudioVC.m in Sources */,
+				BA6524A525517398000B333C /* main.m in Sources */,
+				BA65249D25517396000B333C /* AppDelegate.m in Sources */,
+				BA6528712552CAD5000B333C /* EloadVC.m in Sources */,
+				BA6528742552CAF6000B333C /* LdcmVC.m in Sources */,
+				BA6528802552CB7B000B333C /* PowerVC.m in Sources */,
+				BA65286E2552CAAE000B333C /* DmicVC.m in Sources */,
+				BA65286B2552CA78000B333C /* DischargeVC.m in Sources */,
+				BA65287A2552CB44000B333C /* OrionVC.m in Sources */,
+				BA65280E2552AB91000B333C /* MyWindowController.m in Sources */,
+				BA65287D2552CB5C000B333C /* PenroseVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA6524A025517398000B333C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6524A125517398000B333C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA6524A725517398000B333C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA6524A825517398000B333C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA6524AA25517398000B333C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = DvpStimDemo/DvpStimDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DvpStimDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suncode.DvpStimDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA6524AB25517398000B333C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = DvpStimDemo/DvpStimDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DvpStimDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suncode.DvpStimDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA65249325517396000B333C /* Build configuration list for PBXProject "DvpStimDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6524A725517398000B333C /* Debug */,
+				BA6524A825517398000B333C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6524A925517398000B333C /* Build configuration list for PBXNativeTarget "DvpStimDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6524AA25517398000B333C /* Debug */,
+				BA6524AB25517398000B333C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA65249025517396000B333C /* Project object */;
+}

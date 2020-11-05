@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="DMICViewController">
+            <connections>
+                <outlet property="startBtn" destination="A44-op-7SG" id="fwe-je-2qM"/>
+                <outlet property="stopBtn" destination="Lnq-eb-NME" id="e0O-oY-OhS"/>
+                <outlet property="switchBtn1" destination="ls5-7i-Sy1" id="Met-Ju-Wzx"/>
+                <outlet property="switchBtn2" destination="AQa-Dg-JMi" id="SR7-vQ-rBE"/>
+                <outlet property="switchBtn3" destination="9ol-xz-qsU" id="kT7-Q9-DCc"/>
+                <outlet property="switchBtn4" destination="4jz-JB-zFG" id="EGv-bn-rMd"/>
+                <outlet property="switchBtn5" destination="SNg-K9-GRr" id="st0-Eq-euP"/>
+                <outlet property="switchBtn6" destination="JTs-Jj-8iH" id="yhY-RV-K7i"/>
+                <outlet property="switchBtn7" destination="6He-5F-W9k" id="WHS-DN-WNs"/>
+                <outlet property="switchBtn8" destination="m6m-aq-ziX" id="L7F-Jk-HNe"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="SGR-lr-tv0"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="1000" height="700"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="YKh-Os-Jcm">
+                    <rect key="frame" x="-3" y="-3" width="1006" height="706"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="photo" image="DMIC" id="nY1-qm-4DJ"/>
+                </imageView>
+                <button verticalHuggingPriority="750" tag="1" id="A44-op-7SG">
+                    <rect key="frame" x="165" y="174" width="113" height="51"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="smallSquare" title="START PDM" alternateTitle="PDMBUTTON" bezelStyle="smallSquare" imagePosition="left" alignment="center" borderStyle="border" sound="Basso" inset="2" id="y9a-Tc-LQu">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="pdmBtnClick:" target="-2" id="LAZ-jR-FTh"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" tag="2" id="Lnq-eb-NME">
+                    <rect key="frame" x="165" y="117" width="113" height="51"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="smallSquare" title="STOP PDM" alternateTitle="PDMBUTTON" bezelStyle="smallSquare" imagePosition="left" alignment="center" borderStyle="border" sound="Basso" inset="2" id="PhX-qt-yjD">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="pdmBtnClick:" target="-2" id="gEZ-Ae-8dO"/>
+                    </connections>
+                </button>
+                <button tag="107" id="ls5-7i-Sy1" userLabel="bit107_btn1">
+                    <rect key="frame" x="421" y="391" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="h7e-Ev-1CA">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="jcO-1Q-Oih"/>
+                    </connections>
+                </button>
+                <button tag="107" id="AQa-Dg-JMi" userLabel="bit107_btn2">
+                    <rect key="frame" x="421" y="360" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="xC1-UI-FPw">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="xWN-eL-anu"/>
+                    </connections>
+                </button>
+                <button tag="108" id="9ol-xz-qsU" userLabel="bit108_btn1">
+                    <rect key="frame" x="421" y="319" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="KtM-24-DBx">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="s6n-2K-q9T"/>
+                    </connections>
+                </button>
+                <button tag="108" id="4jz-JB-zFG" userLabel="bit108_btn2">
+                    <rect key="frame" x="421" y="286" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="BR7-5w-HoR">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="YQp-zV-Zga"/>
+                    </connections>
+                </button>
+                <button tag="106" id="SNg-K9-GRr" userLabel="bit106_btn1">
+                    <rect key="frame" x="421" y="247" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="xOo-y6-w3Y">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="8AR-M3-CyR"/>
+                    </connections>
+                </button>
+                <button tag="106" id="JTs-Jj-8iH" userLabel="bit106_btn2">
+                    <rect key="frame" x="421" y="213" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="8n8-cf-1Db">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="AwJ-Dc-zzz"/>
+                    </connections>
+                </button>
+                <button tag="105" id="6He-5F-W9k" userLabel="bit105_btn1">
+                    <rect key="frame" x="420" y="173" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="b9K-KU-A42">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="5BZ-Vq-tIn"/>
+                    </connections>
+                </button>
+                <button tag="105" id="m6m-aq-ziX" userLabel="bit105_btn2">
+                    <rect key="frame" x="420" y="137" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="Me0-fd-c7A">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="fT7-iT-343"/>
+                    </connections>
+                </button>
+            </subviews>
+            <point key="canvasLocation" x="464" y="470"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="DMIC" width="993.5" height="675"/>
+        <image name="switch1_off" width="62" height="27.5"/>
+        <sound name="Basso"/>
+    </resources>
+</document>

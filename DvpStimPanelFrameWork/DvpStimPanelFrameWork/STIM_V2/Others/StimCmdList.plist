@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PDMBUTTON</key>
+	<dict>
+		<key>0001</key>
+		<string>[123]pdm enable(1000,-25,2400000)#mutex:0002=0</string>
+		<key>0002</key>
+		<string>[123]pdm disable()#mutex:0001=0</string>
+	</dict>
+	<key>RESET_ALL</key>
+	<dict>
+		<key>FIXTURERESET</key>
+		<string>[123]io set(1,bit199=0);[123]io set(1,bit66=0);[123]io set(1,bit386=0);[123]io set(1,bit50=0);[123]io set(1,bit388=0);[123]dac set(d,0);[123]delay 0.1[123]dac set(a,0);[123]dac set(b,0);[123]dac set(c,0);delay 1;[123]gpio set(1,bit7=0);[123]io set(1,bit389=0);[123]io set(1,bit060=0);[123]io set(1,bit200=1);[123]io set(1,bit390=1);[123]exio chip set(cp255=0);[123]eload reset(1);[123]eload reset(2);[123]eload set(1,cc,0);[123]eload disable(1);[123]eload set(2,cc,0);[123]eload disable(2);[123]io chip set(cp1=0,cp2=0,cp3=0,cp4=0,cp5=0,cp6=0,cp7=0,cp8=0,cp12=0,cp13=0,cp14=0,cp15=0,cp16=0,cp25=0);[123]oab3 io set(TX_EN,1);[123]oab3 io set(PULL_UP,0);[123]oab3 io set(PULL_DOWN,0);[123]change low hearder(region0);[123]change source pdo count(4);
+[123]tps write register by addr(0x32,PDO1: Max Voltage,0x02);[123]io set(1,bit390=0);[123]uart pin contrl(UUT,disable);[123]uart pin contrl(SBELLATRIX,disable);[123]io set(1,bit199=1)</string>
+		<key>RESET_END</key>
+		<string>[123]io set(1,bit66=0);[123]io set(1,bit386=0);[123]io set(1,bit50=0);[123]io set(1,bit388=0);[123]dac set(d,0);delay 0.1;[123]dac set(a,0);[123]dac set(b,0);[123]dac set(c,0);[123]io set(1,bit390=1);[123]exio chip set(cp255=0);[123]eload reset(1);[123]eload reset(2);[123]eload set(1,cc,0);[123]eload disable(1);[123]eload set(2,cc,0);[123]eload disable(2);[123]io set(1,bit389=0);[123]io set(1,bit060=0);[123]io set(1,bit199=0);[123]io set(1,bit200=1);[123]io chip set(cp1=0,cp2=0,cp3=0,cp4=0,cp5=0,cp6=0,cp7=0,cp8=0,cp12=0,cp13=0,cp14=0,cp15=0,cp16=0,cp25=0);[123]oab3 io set(TX_EN,1);[123]oab3 io set(PULL_UP,0);[123]oab3 io set(PULL_DOWN,0);[123]change low hearder(region0);[123]change source pdo count(4);[123]tps write register by addr(0x32,PDO1: Max Voltage,0x02);[123]io set(1,bit390=0)</string>
+	</dict>
+	<key>VBATT</key>
+	<dict>
+		<key>0003</key>
+		<string>[123]dac set(a,xxxx)</string>
+	</dict>
+	<key>VBUS</key>
+	<dict>
+		<key>0004</key>
+		<string>[123]dac set(c,xxxx)</string>
+	</dict>
+	<key>VBUS2</key>
+	<dict>
+		<key>0010</key>
+		<string>charge --setma xxxx --setmv 5000#mutex:0011=0,0012=0,0013=0</string>
+		<key>0011</key>
+		<string>charge --setma xxxx --setmv 9000#mutex:0010=0,0012=0,0013=0</string>
+		<key>0012</key>
+		<string>charge --setma xxxx --setmv 12000#mutex:0010=0,0011=0,0013=0</string>
+		<key>0013</key>
+		<string>charge --setma xxxx --setmv 15000#mutex:0010=0,0011=0,0012=0</string>
+		<key>X1</key>
+		<string>[123]io set(3,bit100=1,bit102=0,bit101=0);delay 0.5;[123]io set(1,bit100=0)</string>
+		<key>X10</key>
+		<string>[123]io set(3,bit100=1,bit102=0,bit101=1);delay 0.5;[123]io set(1,bit100=0)</string>
+		<key>X100</key>
+		<string>[123]io set(3,bit100=1,bit102=1,bit101=0);delay 0.5;[123]io set(1,bit100=0)</string>
+		<key>X1000</key>
+		<string>[123]io set(3,bit100=1,bit102=1,bit101=1);delay 0.5;[123]io set(1,bit100=0)</string>
+		<key>LOCK</key>
+		<string>[123]io set(1,bit100=0)</string>
+	</dict>
+	<key>BUTTON</key>
+	<dict>
+		<key>0001</key>
+		<string>[123]dac set(a,xxxx)</string>
+		<key>0002</key>
+		<string>[123]dac set(a,xxxx)</string>
+		<key>0005</key>
+		<string>[123]dac set(a,xxxx)</string>
+	</dict>
+	<key>IO</key>
+	<dict>
+		<key>1013_CONNECT</key>
+		<string>[123]io set(1,bit248=1)</string>
+		<key>1013_DISCONNECT</key>
+		<string>[123]io set(1,bit248=0)</string>
+		<key>1014_CONNECT</key>
+		<string>[123]io set(1,bit248=1)</string>
+		<key>1014_DISCONNECT</key>
+		<string>[123]io set(1,bit248=0)</string>
+		<key>1015_CONNECT</key>
+		<string>[123]io set(1,bit248=1)</string>
+		<key>1015_DISCONNECT</key>
+		<string>[123]io set(1,bit248=0)</string>
+		<key>0108_CONNECT</key>
+		<string>[123]io set(3,bit108=0,bit107=0,bit106=1)#mutex:0107=0,0106=0,0105=0</string>
+		<key>0108_DISCONNECT</key>
+		<string>[123]io set(3,bit108=0,bit107=0,bit106=0)#mutex:0107=0,0106=0,0105=0</string>
+		<key>0107_CONNECT</key>
+		<string>[123]io set(3,bit108=0,bit107=1,bit106=0)#mutex:0108=0,0106=0,0105=0</string>
+		<key>0107_DISCONNECT</key>
+		<string>[123]io set(3,bit108=0,bit107=0,bit106=0)#mutex:0108=0,0107=0,0105=0</string>
+		<key>0106_CONNECT</key>
+		<string>[123]io set(3,bit108=0,bit107=1,bit106=1)#mutex:0108=0,0107=0,0105=0</string>
+		<key>0106_DISCONNECT</key>
+		<string>[123]io set(3,bit108=0,bit107=0,bit106=0)#mutex:0108=0,0107=0,0105=0</string>
+		<key>0105_CONNECT</key>
+		<string>[123]io set(3,bit108=1,bit107=0,bit106=0)#mutex:0108=0,0107=0,0106=0</string>
+		<key>0105_DISCONNECT</key>
+		<string>[123]io set(3,bit108=0,bit107=0,bit106=0)#mutex:0108=0,0107=0,0106=0</string>
+		<key>0253_CONNECT</key>
+		<string>[123]io set(1,bit253=1)</string>
+		<key>0253_DISCONNECT</key>
+		<string>[123]io set(1,bit253=0)</string>
+		<key>0255_CONNECT</key>
+		<string>[123]io set(1,bit255=1)</string>
+		<key>0255_DISCONNECT</key>
+		<string>[123]io set(1,bit255=0)</string>
+		<key>0256_CONNECT</key>
+		<string>[123]io set(1,bit256=1)</string>
+		<key>0256_DISCONNECT</key>
+		<string>[123]io set(1,bit256=0)</string>
+		<key>0227_CONNECT</key>
+		<string>[123]io set(1,bit227=1)</string>
+		<key>0227_DISCONNECT</key>
+		<string>[123]io set(1,bit227=0)</string>
+		<key>0254_CONNECT</key>
+		<string>[123]io set(1,bit254=1)</string>
+		<key>0254_DISCONNECT</key>
+		<string>[123]io set(1,bit254=0)</string>
+		<key>0099_CONNECT</key>
+		<string>[123]io set(1,bit99=1)</string>
+		<key>0099_DISCONNECT</key>
+		<string>[123]io set(1,bit99=0)</string>
+		<key>0244_CONNECT</key>
+		<string>[123]io set(1,bit244=1)</string>
+		<key>0244_DISCONNECT</key>
+		<string>[123]io set(1,bit244=0)</string>
+		<key>0245_CONNECT</key>
+		<string>[123]io set(1,bit245=1)</string>
+		<key>0245_DISCONNECT</key>
+		<string>[123]io set(1,bit245=0)</string>
+		<key>0242_CONNECT</key>
+		<string>[123]io set(1,bit242=1)</string>
+		<key>0242_DISCONNECT</key>
+		<string>[123]io set(1,bit242=0)</string>
+		<key>0243_CONNECT</key>
+		<string>[123]io set(1,bit243=1)</string>
+		<key>0243_DISCONNECT</key>
+		<string>[123]io set(1,bit243=0)</string>
+		<key>0066_CONNECT</key>
+		<string>[123]io set(1,bit66=1)</string>
+		<key>0066_DISCONNECT</key>
+		<string>[123]io set(1,bit66=0)</string>
+		<key>0064_CONNECT</key>
+		<string>[123]io set(5,bit55=0,bit66=0,bit64=1,bit65=0,bit54=0)</string>
+		<key>0064_DISCONNECT</key>
+		<string>[123]io set(5,bit55=0,bit66=0,bit65=0,bit64=0,bit54=0)</string>
+		<key>0338_CONNECT</key>
+		<string>[123]io set(1,bit388=1)</string>
+		<key>0338_DISCONNECT</key>
+		<string>[123]io set(1,bit388=0)</string>
+		<key>0063_CONNECT</key>
+		<string>[123]io set(1,bit63=1)</string>
+		<key>0063_DISCONNECT</key>
+		<string>[123]io set(1,bit63=0)</string>
+		<key>0050_CONNECT</key>
+		<string>[123]io set(1,bit50=1)</string>
+		<key>0050_DISCONNECT</key>
+		<string>[123]io set(1,bit50=0)</string>
+		<key>0049_CONNECT</key>
+		<string>[123]io set(1,bit49=1)</string>
+		<key>0049_DISCONNECT</key>
+		<string>[123]io set(1,bit49=0)</string>
+		<key>0801_CONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=1,bit58=0,bit69=0)#mutex:0802=0,0803=0,0804=0,0805=0</string>
+		<key>0801_DISCONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=0)#mutex:0802=0,0803=0,0804=0,0805=0</string>
+		<key>0802_CONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=1,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=0)#mutex:0801=0,0803=0,0804=0,0805=0</string>
+		<key>0802_DISCONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=0)#mutex:0801=0,0803=0,0804=0,0805=0</string>
+		<key>0803_CONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=1,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=1)#mutex:0801=0,0802=0,0804=0,0805=0</string>
+		<key>0803_DISCONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=0)#mutex:0801=0,0802=0,0804=0,0805=0</string>
+		<key>0804_CONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=1,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=1)#mutex:0802=0,0803=0,0801=0,0805=0</string>
+		<key>0804_DISCONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=0)#mutex:0802=0,0803=0,0801=0,0805=0</string>
+		<key>0805_CONNECT</key>
+		<string>[123]io set(9,bit55=0,bit56=0,bit60=0,bit57=1,bit58=0,bit56=0,bit66=0,bit64=0,bit59=0)#mutex:0801=0,0802=0,0803=0,0804=0</string>
+		<key>0805_DISCONNECT</key>
+		<string>[123]io set(9,bit55=0,bit56=0,bit60=0,bit57=0,bit58=0,bit56=0,bit66=0,bit64=0,bit59=0)#mutex:0801=0,0802=0,0803=0,0804=0</string>
+		<key>0806_CONNECT</key>
+		<string>[123]io set(5,bit61=1,bit62=0,bit56=0,bit39=0,bit69=0)#mutex:0807=0,0808=0</string>
+		<key>0806_DISCONNECT</key>
+		<string>[123]io set(5,bit61=0,bit62=0,bit56=0,bit39=0,bit69=0)#mutex:0807=0,0808=0</string>
+		<key>0807_CONNECT</key>
+		<string>[123]io set(5,bit61=0,bit62=1,bit56=0,bit39=0,bit69=0)#mutex:0806=0,0808=0</string>
+		<key>0807_DISCONNECT</key>
+		<string>[123]io set(5,bit61=0,bit62=0,bit56=0,bit39=0,bit69=0)#mutex:0806=0,0808=0</string>
+		<key>0808_CONNECT</key>
+		<string>[123]io set(5,bit61=0,bit62=0,bit56=1,bit39=0,bit69=0)#mutex:0806=0,0807=0</string>
+		<key>0808_DISCONNECT</key>
+		<string>[123]io set(5,bit61=0,bit62=0,bit56=0,bit39=0,bit69=0)#mutex:0806=0,0807=0</string>
+		<key>0078_CONNECT</key>
+		<string>[123]io set(1,bit78=1)</string>
+		<key>0078_DISCONNECT</key>
+		<string>[123]io set(1,bit78=0)</string>
+		<key>0079_CONNECT</key>
+		<string>[123]io set(1,bit79=1)</string>
+		<key>0079_DISCONNECT</key>
+		<string>[123]io set(1,bit79=0)</string>
+		<key>0229_CONNECT</key>
+		<string>[123]io set(1,bit229=1)</string>
+		<key>0229_DISCONNECT</key>
+		<string>[123]io set(1,bit229=0)</string>
+		<key>0007_CONNECT</key>
+		<string>[123]io set(1,bit7=1)</string>
+		<key>0007_DISCONNECT</key>
+		<string>[123]io set(1,bit7=0)</string>
+		<key>0228_CONNECT</key>
+		<string>[123]io set(1,bit228=1)</string>
+		<key>0228_DISCONNECT</key>
+		<string>[123]io set(1,bit228=0)</string>
+		<key>0037_CONNECT</key>
+		<string>[123]io set(2,bit37=0,bit38=1)#mutex:0038=0,0039=0</string>
+		<key>0037_DISCONNECT</key>
+		<string>[123]io set(2,bit37=0,bit38=0)#mutex:0038=0,0039=0</string>
+		<key>0038_CONNECT</key>
+		<string>[123]io set(2,bit37=1,bit38=0)#mutex:0037=0,0039=0</string>
+		<key>0038_DISCONNECT</key>
+		<string>[123]io set(2,bit37=0,bit38=0)#mutex:0037=0,0039=0</string>
+		<key>0039_CONNECT</key>
+		<string>[123]io set(2,bit37=1,bit38=1)#mutex:0037=0,0038=0</string>
+		<key>0039_DISCONNECT</key>
+		<string>[123]io set(2,bit37=0,bit38=0)#mutex:0037=0,0038=0</string>
+		<key>0120_CONNECT</key>
+		<string>[123]io set(2,bit120=0,bit121=1)#mutex:0121=0,0122=0</string>
+		<key>0120_DISCONNECT</key>
+		<string>[123]io set(2,bit120=0,bit121=0)#mutex:0121=0,0122=0</string>
+		<key>0121_CONNECT</key>
+		<string>[123]io set(2,bit120=1,bit121=0)#mutex:0120=0,0122=0</string>
+		<key>0121_DISCONNECT</key>
+		<string>[123]io set(2,bit120=0,bit121=0)#mutex:0120=0,0122=0</string>
+		<key>0122_CONNECT</key>
+		<string>[123]io set(2,bit120=1,bit121=1)#mutex:0120=0,0121=0</string>
+		<key>0122_DISCONNECT</key>
+		<string>[123]io set(2,bit120=0,bit121=0)#mutex:0120=0,0121=0</string>
+		<key>0118_CONNECT</key>
+		<string>[123]io set(3,bit118=0,bit117=0,bit116=1)#mutex:0117=0,0116=0</string>
+		<key>0118_DISCONNECT</key>
+		<string>[123]io set(3,bit118=0,bit117=0,bit116=0)#mutex:0117=0,0116=0</string>
+		<key>0117_CONNECT</key>
+		<string>[123]io set(3,bit118=0,bit117=1,bit116=0)#mutex:0118=0,0116=0</string>
+		<key>0117_DISCONNECT</key>
+		<string>[123]io set(3,bit118=0,bit117=0,bit116=0)#mutex:0118=0,0116=0</string>
+		<key>0116_CONNECT</key>
+		<string>[123]io set(3,bit118=0,bit117=1,bit116=1)#mutex:0117=0,0118=0</string>
+		<key>0116_DISCONNECT</key>
+		<string>[123]io set(3,bit118=0,bit117=0,bit116=0)#mutex:0117=0,0118=0</string>
+	</dict>
+	<key>IO_LDCM</key>
+	<dict>
+		<key>S1_CONNECT</key>
+		<string>[123]io set(1,bit248=1)</string>
+		<key>S1_DISCONNECT</key>
+		<string>[123]io set(1,bit248=0)</string>
+		<key>S2_CONNECT</key>
+		<string>[123]io set(1,bit248=1)</string>
+		<key>S2_DISCONNECT</key>
+		<string>[123]io set(1,bit248=0)</string>
+		<key>S3_CONNECT</key>
+		<string>[123]io set(1,bit248=1)</string>
+		<key>S3_DISCONNECT</key>
+		<string>[123]io set(1,bit248=0)</string>
+		<key>S4_CONNECT</key>
+		<string>[123]io set(1,bit252=1)</string>
+		<key>S4_DISCONNECT</key>
+		<string>[123]io set(1,bit252=0)</string>
+		<key>S5_CONNECT</key>
+		<string>[123]io set(1,bit168=1)</string>
+		<key>S5_DISCONNECT</key>
+		<string>[123]io set(1,bit168=1)</string>
+	</dict>
+	<key>IO_ELoad</key>
+	<dict>
+		<key>S1_CONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=1,bit58=0,bit69=0)</string>
+		<key>S1_DISCONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=0)</string>
+		<key>S2_CONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=1,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=0)</string>
+		<key>S2_DISCONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=0)</string>
+		<key>S3_CONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=1,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=1)</string>
+		<key>S3_DISCONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=0)</string>
+		<key>S4_CONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=1,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=1)</string>
+		<key>S4_DISCONNECT</key>
+		<string>[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=0,bit58=0,bit69=0)</string>
+		<key>S5_CONNECT</key>
+		<string>[123]io set(9,bit55=0,bit56=0,bit60=0,bit57=1,bit58=0,bit56=0,bit66=0,bit64=0,bit59=0)</string>
+		<key>S5_DISCONNECT</key>
+		<string>[123]io set(9,bit55=0,bit56=0,bit60=0,bit57=0,bit58=0,bit56=0,bit66=0,bit64=0,bit59=0)</string>
+		<key>S6_CONNECT</key>
+		<string>[123]io set(5,bit61=1,bit62=0,bit56=1,bit39=0,bit69=0)#mutex:0807=0,0808=0</string>
+		<key>S6_DISCONNECT</key>
+		<string>[123]io set(5,bit61=0,bit62=0,bit56=0,bit39=0,bit69=0)#mutex:0807=0,0808=0</string>
+		<key>S7_CONNECT</key>
+		<string>[123]io set(2,bit69=0,bit39=0)#mutex:0806=0,0808=0</string>
+		<key>S7_DISCONNECT</key>
+		<string>[123]io set(1,bit69=1)#mutex:0806=0,0808=0</string>
+	</dict>
+	<key>IO_Penrose</key>
+	<dict>
+		<key>S1_CONNECT</key>
+		<string>[123]io set(3,bit185=1,bit186=1,bit188=1)</string>
+		<key>S1_DISCONNECT</key>
+		<string>[123]io set(3,bit185=0,bit186=0,bit188=0)</string>
+		<key>S2_CONNECT</key>
+		<string>[123]io set(3,bit185=1,bit186=1,bit188=1)</string>
+		<key>S2_DISCONNECT</key>
+		<string>[123]io set(3,bit185=0,bit186=0,bit188=0)</string>
+	</dict>
+	<key>EXIO</key>
+	<dict>
+		<key>0001_CONNECT</key>
+		<string>[123]exio set(2,bit3=0,bit2=1)</string>
+		<key>0001_DIXCONNECT</key>
+		<string>[123]exio set(2,bit3=0,bit2=0)</string>
+		<key>0002_CONNECT</key>
+		<string>[123]exio set(2,bit33=0,bit2=1)</string>
+		<key>0002_DISCONNECT</key>
+		<string>[123]exio set(2,bit33=0,bit2=1)</string>
+		<key>0003_CONNECT</key>
+		<string>[123]exio set(2,bit3=0,bit2=1)</string>
+		<key>0003_DISCONNECT</key>
+		<string>[123]exio set(2,bit3=0,bit2=1)</string>
+	</dict>
+	<key>LED</key>
+	<dict>
+		<key>0002_CONNECT</key>
+		<string>[123]exio set(2,bit8=0,bit9=1)</string>
+		<key>0002_DISCONNECT</key>
+		<string>[123]exio set(2,bit8=0,bit9=0)</string>
+	</dict>
+	<key>Set_ELoad</key>
+	<dict>
+		<key>CC_Load1</key>
+		<string>123]eload enable(1);[123]eload set(1,cc,xxxx);[123]eload enable(1)</string>
+		<key>CC_Load2</key>
+		<string>[123]eload enable(2);[123]eload set(2,cc,xxxx);[123]eload enable(2)</string>
+		<key>shut_down</key>
+		<string>[123]eload set(1,cc,0);[123]eload disable(1);[123]eload set(2,cc,0);[123]eload disable(2)</string>
+	</dict>
+	<key>Penrose</key>
+	<dict>
+		<key>SetPwm1</key>
+		<string>[123]pwm output enable(channel3,xxxx)</string>
+		<key>SetPwm2</key>
+		<string>[123]pwm output enable(channel4,xxxx)</string>
+		<key>OffPwm3</key>
+		<string>[123]pwm output disable(channel3)</string>
+		<key>OffPwm4</key>
+		<string>[123]pwm output disable(channel4)</string>
+	</dict>
+	<key>MEAS</key>
+	<dict>
+		<key>0001</key>
+		<string>[123]io set(7,bit45=1,bit126=0,bit125=0,bit30=0,bit124=0,bit123=0,bit122=0);[555666777]adc read(nor,G,10V,10000,1,150)#gain=1</string>
+		<key>0002</key>
+		<string>[123]io set(7,bit45=1,bit126=0,bit125=0,bit30=1,bit124=0,bit123=1,bit122=0);[555666777]adc read(nor,G,10V,10000,1,150)#gain=1</string>
+		<key>0003</key>
+		<string>[123]io set(7,bit45=1,bit126=0,bit125=0,bit30=1,bit124=1,bit123=0,bit122=0);[555666777]adc read(nor,G,10V,10000,1,150)#gain=1</string>
+		<key>0004</key>
+		<string>[123]io set(8,bit45=1,bit126=0,bit125=0,bit30=0,bit124=0,bit123=1,bit122=1,bit251=1);[555666777]adc read(nor,H,10V,10000,1,150)#gain=3</string>
+		<key>0005</key>
+		<string>[123]io set(8,bit45=1,bit126=0,bit125=0,bit30=0,bit124=1,bit123=0,bit122=0,bit251=1);[555666777]adc read(nor,H,10V,10000,1,150)#gain=3</string>
+		<key>0006</key>
+		<string>[123]io set(8,bit45=1,bit126=0,bit125=0,bit30=0,bit124=1,bit123=0,bit122=1,bit251=1);[555666777]adc read(nor,H,10V,10000,1,150)#gain=3</string>
+		<key>0007</key>
+		<string>[123]io set(7,bit45=0,bit126=1,bit125=0,bit124=1,bit123=0,bit122=1,bit251=0);[555666777]adc read(nor,H,10V,10000,1,150)#gain=20</string>
+		<key>0008</key>
+		<string>[123]io set(1,bit48=1);[555666777]adc read(nor,A,10V,10000,1,150)#gain=3.277828766225252</string>
+		<key>0009</key>
+		<string>[123]io set(1,bit48=1);[555666777]adc read(nor,B,10V,10000,1,150)#gain=0.7782101167315175</string>
+		<key>0010</key>
+		<string>[123]io set(1,bit48=1);[555666777]adc read(nor,C,10V,10000,1,150)#gain=3.277828766225252</string>
+		<key>0011</key>
+		<string>[123]io set(1,bit48=1);[555666777]adc read(nor,D,10V,10000,1,150)#gain=0.7782101167315175</string>
+	</dict>
+	<key>LDCM</key>
+	<dict>
+		<key>1001</key>
+		<string>[123]io set(3,bit235=0,bit234=0,bit233=0)</string>
+		<key>1002</key>
+		<string>[123]io set(3,bit235=0,bit234=0,bit233=1)</string>
+		<key>1003</key>
+		<string>[123]io set(3,bit235=0,bit234=1,bit233=0)</string>
+		<key>1004</key>
+		<string>[123]io set(3,bit235=0,bit234=1,bit233=1)</string>
+		<key>1005</key>
+		<string>[123]io set(3,bit235=1,bit234=0,bit233=0)</string>
+		<key>1006</key>
+		<string>[123]io set(3,bit235=1,bit234=0,bit233=1)</string>
+		<key>1007</key>
+		<string>[123]io set(3,bit235=1,bit234=1,bit233=0)</string>
+		<key>1008</key>
+		<string>[123]io set(3,bit235=1,bit234=1,bit233=1)</string>
+		<key>1009</key>
+		<string>[123]io set(3,bit169=0,bit237=0,bit236=0)</string>
+		<key>1010</key>
+		<string>[123]io set(3,bit169=0,bit237=0,bit236=1)</string>
+		<key>1011</key>
+		<string>[123]io set(3,bit169=0,bit237=1,bit236=0)</string>
+		<key>1012</key>
+		<string>[123]io set(3,bit169=0,bit237=1,bit236=1)</string>
+		<key>1013</key>
+		<string>[123]io set(3,bit169=1,bit237=0,bit236=1)</string>
+		<key>1014</key>
+		<string>[123]io set(3,bit169=1,bit237=0,bit236=0)</string>
+		<key>1015</key>
+		<string>[123]io set(3,bit169=1,bit237=1,bit236=0)</string>
+		<key>1016</key>
+		<string>[123]io set(3,bit169=1,bit237=1,bit236=1)</string>
+		<key>1017</key>
+		<string>[123]io set(2,bit66=0,bit50=0);delay 2;[123]dac set(d,xxxx);[123]io set(5,bit41=1,bit30=1,bit124=1,bit123=0,bit122=1);[123]io set(3,bit45=1,bit126=0,bit125=0);
+[123]adg2188 switch(adg2188_6,2,7,1);[123]adc read(-c,nor,G,5V,10000,1,70);[123]adg2188 switch(adg2188_6,2,7,0)</string>
+		<key>1018</key>
+		<string>[123]dac set(d,945);[123]io set(2,bit49=0,bit50=1);delay 1</string>
+		<key>displayCmd</key>
+		<string>[123]adc read(-c,nor,G,5V,10000,1,70)</string>
+	</dict>
+	<key>ORION_SET</key>
+	<dict>
+		<key>0001</key>
+		<string>i2c -v 2 0x13 0x02 0x04;[123]eload enable(1);delay 0.2;[123]eload set(1,cc,xxxx)</string>
+	</dict>
+	<key>ORION_BTN</key>
+	<dict>
+		<key>0001</key>
+		<string>[123]eload set(1,cc,0);[123]eload disable(1);[123]oab3 io set(PULL_DOWN,0);[123]oab3 io set(PULL_UP,0);[123]io set(5,bit52=0,bit54=0,bit59=0,bit40=0,bit53=0);[123]io set(8,bit64=1,bit66=0,bit55=0,bit65=0,bit54=0,bit63=1,bit49=0,bit50=1);ace --pick usbc --4cc SRDY --txdata &quot;0x00&quot; --rxdata 0;[123]io set(1,bit50=0);socgpio --port 2 --pin 1 --get;[123]io set(2,bit52=1,bit40=0);[123]io set(1,bit53=1);[123]io set(1,bit386=0);[123]io set(5,bit55=0,bit65=0,bit54=0,bit64=0,bit66=0);[123]io set(1,bit51=1);[123]io set(3,bit83=0,bit82=0,bit81=0);[123]io set(1,bit50=0);[123]aid fw control(stop);delay 0.02;[123]oab3 io set(PULL_DOWN,0);[123]oab3 io set(PULL_UP,0);[123]aid fw control(start);delay 0.5;[123]aid fw control(WAITFORID);delay 0.5;[123]oab3 io set(TX_EN,1);delay 0.5;[123]oab3 io set(PULL_UP,1);delay 0.5;socgpio --port 1 --pin 22 --get;delay 0.5;socgpio --port 1 --pin 32 --output 0;delay 0.05;socgpio --port 1 --pin 32 --output 1;delay 0.05;i2c -v 2 0x13 0x00 0x80;delay 0.05;i2c -v 2 0x13 0x00 0x80;delay 0.5;i2c -v 2 0x13 0x00 0x80;delay 0.5;socgpio --port 1 --pin 32 --output 0;delay 0.5;socgpio --port 1 --pin 32 --output 1;delay 0.5;i2c -v 2 0x13 0x00 0x80;delay 0.5;i2c -v 2 0x13 0x00 0x80;delay 0.02;i2c -v 2 0x13 0x00 0x80;delay 0.2;socgpio --port 1 --pin 22 --get;[123]dac set(a,3600);delay 0.5;[123]io set(1,bit386=1);delay 0.5;[123]dac set(d,944);delay 0.5;[123]io set(5,bit55=0,bit66=0,bit65=0,bit64=0,bit54=1);delay 2;[123]io set(2,bit52=1,bit40=0);[123]io set(1,bit53=1);[123]io set(5,bit55=0,bit65=0,bit54=0,bit64=0,bit66=0);[123]io set(1,bit51=0);[123]io set(3,bit83=0,bit82=0,bit81=0);[123]io set(1,bit50=0);delay 0.1;[123]aid fw control(WAITFORID);delay 0.1;[123]oab3 io set(TX_EN,1);delay 0.2;[123]oab3 io set(PULL_DOWN,0);delay 0.2;[123]io set(5,bit55=0,bit65=0,bit54=0,bit64=0,bit66=0);delay 0.2;[123]dac set(a,4300);delay 0.2;[123]oab3 io set(PULL_UP,0);delay 0.2;socgpio --pin 94 --output 0;delay 0.2;socgpio --port 1 --pin 32 --output 0;delay 0.2;socgpio --port 1 --pin 32 --output 1;delay 0.2;i2c -v 2 0x13 0x00 0x80;delay 0.2;i2c -v 2 0x13 0x00 0x80;delay 0.2;socgpio --pin 94 --output 1;delay 0.2;socgpio --pin 94 --output 0;delay 0.2;socgpio --port 1 --pin 32 --output 0;delay 0.2;socgpio --port 1 --pin 32 --output 1;delay 0.2;i2c -v 2 0x13 0x00 0x80;delay 0.2;i2c -v 2 0x13 0x00 0x80;delay 0.2;socgpio --pin 94 --output 1;delay 0.2;i2c -d 2 0x13 0x74 8;delay 0.2;[123]io set(4,bit389=0,bit46=0,bit29=0,bit28=0);[123]io set(2,bit389=1,bit84=0);[123]io set(11,bit60=0,bit61=0,bit62=0,bit67=0,bit68=0,bit77=0,bit76=0,bit57=0,bit59=1,bit58=0,bit69=0);delay 2;i2c -d 2 0x13 0x1A 1;[123]io set(2,bit389=1,bit84=0);[123]oab3 io set(PULL_DOWN,1);delay 0.2;i2c -d 2 0x13 0x1A 1#mutex:0002=0,0003=0</string>
+		<key>0002</key>
+		<string>[123]eload set(1,cc,0);[123]eload disable(1);[123]oab3 io set(PULL_DOWN,0);[123]oab3 io set(PULL_UP,0);[123]io set(5,bit52=0,bit54=0,bit59=0,bit40=0,bit53=0);[123]io set(8,bit64=1,bit66=0,bit55=0,bit65=0,bit54=0,bit63=1,bit49=0,bit50=1);ace --pick usbc --4cc SRDY --txdata &quot;0x00&quot; --rxdata 0;[123]io set(1,bit50=0);socgpio --port 2 --pin 1 --get;[123]io set(2,bit52=1,bit40=0);[123]io set(1,bit53=1);[123]io set(1,bit386=0);[123]io set(5,bit55=0,bit65=0,bit54=0,bit64=0,bit66=0);[123]io set(1,bit51=1);[123]io set(3,bit83=0,bit82=0,bit81=0);[123]io set(1,bit50=0);[123]aid fw control(stop);delay 0.02;[123]oab3 io set(PULL_DOWN,0);[123]oab3 io set(PULL_UP,0);[123]aid fw control(start);delay 0.5;[123]aid fw control(WAITFORID);delay 0.5;[123]oab3 io set(TX_EN,1);delay 0.5;[123]oab3 io set(PULL_UP,1);delay 0.5;socgpio --port 1 --pin 22 --get;delay 0.5;socgpio --port 1 --pin 32 --output 0;delay 0.05;socgpio --port 1 --pin 32 --output 1;delay 0.05;i2c -v 2 0x13 0x00 0x80;delay 0.05;i2c -v 2 0x13 0x00 0x80;delay 0.5;i2c -v 2 0x13 0x00 0x80;delay 0.5;socgpio --port 1 --pin 32 --output 0;delay 0.5;socgpio --port 1 --pin 32 --output 1;delay 0.5;i2c -v 2 0x13 0x00 0x80;delay 0.5;i2c -v 2 0x13 0x00 0x80;delay 0.02;i2c -v 2 0x13 0x00 0x80;delay 0.2;socgpio --port 1 --pin 22 --get;[123]dac set(a,3600);delay 0.5;[123]io set(1,bit386=1);delay 0.5;[123]dac set(d,944);delay 0.5;[123]io set(5,bit55=0,bit66=0,bit65=0,bit64=0,bit54=1);delay 3;i2c -d 2 0x13 0x1A 1#mutex:0001=0,0003=0</string>
+		<key>0003</key>
+		<string>[123]eload disable(1);[123]eload set(1,cc,0);[123]oab3 io set(PULL_DOWN,0);[123]oab3 io set(PULL_UP,0);[123]io set(5,bit52=0,bit54=0,bit59=0,bit40=0,bit53=0);[123]io set(8,bit64=1,bit66=0,bit55=0,bit65=0,bit54=0,bit63=1,bit49=0,bit50=1);ace --pick usbc --4cc SRDY --txdata &quot;0x00&quot; --rxdata 0#mutex:0001=0,0002=0</string>
+	</dict>
+	<key>REAL_BATT_CHG</key>
+	<dict>
+		<key>ENTER_DIAGS</key>
+		<string>[123]dac set(d,944);delay 0.5;[123]io set(6,bit386=1,bit64=1,bit55=0,bit65=0,bit54=0,bit66=0);[123]io set(2,bit63=1,bit66=0);delay 1;[123]io set(1,bit50=1);[123]change tx source voltage(1,5000,3500,PP_HVE);[123]io set(1,bit50=0);[123]io set(1,bit50=1)</string>
+		<key>START_CHG</key>
+		<string>[123]io set(1,bit66=0);delay 1;charge --setma 100 --setmv 5000;delay 1;[123]dac set(d,944);delay 1;charge --setma 500 --setmv 5000;delay 1;[123]dac set(d,944);delay 1;[123]io set(1,bit66=1);delay 0.1</string>
+		<key>STOP_CHG</key>
+		<string>charge --setma 0 --setmv 5000</string>
+		<key>READ_GG</key>
+		<string>device -k gasgauge -p</string>
+	</dict>
+	<key>DUT_CHECK</key>
+	<dict>
+		<key>CHECK_VOLTAGE</key>
+		<string>[123]io set(9,bit41=1,bit42=0,bit45=1,bit126=0,bit125=0,bit30=1,bit124=1,bit123=0,bit122=1);delay 0.5;[777999888]adc read(nor,G,10V,10000,1,150)</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="StimMainVC">
+            <connections>
+                <outlet property="cc_load1" destination="b1y-YU-k5M" id="a29-g3-df3"/>
+                <outlet property="cc_load2" destination="fhD-l6-9yU" id="yO1-4y-SlF"/>
+                <outlet property="comboBox" destination="Fi6-kb-4Vm" id="H7m-VS-00l"/>
+                <outlet property="cr_load1" destination="yjQ-21-EEj" id="fIb-0j-WAY"/>
+                <outlet property="cr_load2" destination="Oyx-0v-qZn" id="gEV-Xa-ylX"/>
+                <outlet property="vbatt" destination="9Oj-hY-aKy" id="5bh-Od-zAY"/>
+                <outlet property="vbus" destination="zoc-7u-qA4" id="cjh-CT-w6a"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="STIM" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="1000" height="700"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="1001"/>
+            <view key="contentView" wantsLayer="YES" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="1000" height="700"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="04903932-F236-4990-AB8F-0BB461DC0B8A" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="zAo-n2-MOO">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="0CB57A2F-C485-4317-A9E9-1CE7949C2558" label="" paletteLabel="" id="hd9-ta-kVw" userLabel="CR_Load_1">
+                        <nil key="toolTip"/>
+                        <size key="maxSize" width="124" height="17"/>
+                        <textField key="view" hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" id="yjQ-21-EEj">
+                            <rect key="frame" x="0.0" y="14" width="124" height="17"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" alignment="left" title="CR Load 1:0mA" id="Vs1-px-GLr">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="E7607160-81AC-44CF-9021-3A03A513AE75" label="" paletteLabel="" id="dws-U9-Rfd" userLabel="CC_Load_1">
+                        <nil key="toolTip"/>
+                        <size key="maxSize" width="124" height="17"/>
+                        <textField key="view" hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" id="b1y-YU-k5M">
+                            <rect key="frame" x="0.0" y="14" width="124" height="17"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="CC_Load_1:0mA" id="vyf-2h-B1z">
+                                <font key="font" usesAppearanceFont="YES"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="36C8C1F5-EBE2-4895-8D64-1DE49C3799C4" label="" paletteLabel="" id="e0q-7N-gaq" userLabel="CR_Load_2">
+                        <nil key="toolTip"/>
+                        <size key="maxSize" width="124" height="17"/>
+                        <textField key="view" hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" id="Oyx-0v-qZn" userLabel="CR_Load_2">
+                            <rect key="frame" x="0.0" y="14" width="124" height="17"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="CR_Load_2:0mA" id="IVs-Le-8Up">
+                                <font key="font" usesAppearanceFont="YES"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="0D0B0DF0-0E51-4554-8BD6-C1AEA9815E17" label="" paletteLabel="" id="MhD-P3-Bu2" userLabel="CC_Load_2">
+                        <nil key="toolTip"/>
+                        <size key="maxSize" width="124" height="17"/>
+                        <textField key="view" hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" id="fhD-l6-9yU" userLabel="CC_Load_2">
+                            <rect key="frame" x="0.0" y="14" width="124" height="17"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="CC_Load_2:0mA" id="3ad-9r-QL7">
+                                <font key="font" usesAppearanceFont="YES"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="10FA9124-349A-4C58-B592-952E791DE944" label="" paletteLabel="" id="stN-hb-qaa" userLabel="VBATT">
+                        <nil key="toolTip"/>
+                        <size key="maxSize" width="105" height="17"/>
+                        <textField key="view" hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" id="9Oj-hY-aKy" userLabel="VBATT">
+                            <rect key="frame" x="0.0" y="14" width="105" height="17"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="VBATT:4200mV" id="jP7-20-M6M">
+                                <font key="font" usesAppearanceFont="YES"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="741E3793-7523-4FB3-8BA2-6AFE16AD7BF2" label="" paletteLabel="" id="8s1-TI-d8l" userLabel="VBUS">
+                        <nil key="toolTip"/>
+                        <size key="maxSize" width="99" height="17"/>
+                        <textField key="view" hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" id="zoc-7u-qA4" userLabel="VBUS">
+                            <rect key="frame" x="0.0" y="14" width="99" height="17"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="VBUS:5000mV" id="xwy-Bk-G7c">
+                                <font key="font" usesAppearanceFont="YES"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="Xge-RJ-rXI"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="4Pi-bh-nR4"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="sz0-Qe-ctn"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="YSv-yg-yr5"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="yeJ-LM-cE0"/>
+                    <toolbarItem implicitItemIdentifier="3A7593D2-5D20-461F-AA4D-00DECB56C098" label="" paletteLabel="" id="K4V-4J-K69" userLabel="Reset All">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="105" height="43"/>
+                        <size key="maxSize" width="120" height="150"/>
+                        <button key="view" verticalHuggingPriority="750" id="dZE-Vo-aGp">
+                            <rect key="frame" x="0.0" y="14" width="105" height="43"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="push" title="Reset All" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="KRp-gT-NYr">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                        </button>
+                        <connections>
+                            <action selector="reset_all:" target="-2" id="jK6-rQ-aeT"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="B556A40F-248C-4E1C-B6AF-D12E06B82246" label="" paletteLabel="" image="toolbarItem:uNn-8h-gMy:image" id="uNn-8h-gMy" userLabel="Switch Test">
+                        <nil key="toolTip"/>
+                        <size key="maxSize" width="96" height="22"/>
+                        <button key="view" verticalHuggingPriority="750" id="qRD-3e-mM2">
+                            <rect key="frame" x="0.0" y="14" width="96" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="bevel" title="Switch Test" bezelStyle="regularSquare" image="toolbarItem:uNn-8h-gMy:image" imagePosition="left" inset="2" id="I8y-Ji-sZc">
+                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                        </button>
+                        <connections>
+                            <action selector="switch_test:" target="-2" id="Ia6-8K-aJg"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="D6F599BD-237D-44CF-A213-087DC41F29CE" label="" paletteLabel="" id="qlG-aC-PEm" userLabel="Group Button">
+                        <nil key="toolTip"/>
+                        <size key="maxSize" width="98" height="20"/>
+                        <button key="view" verticalHuggingPriority="750" id="Qwb-pU-M0M">
+                            <rect key="frame" x="0.0" y="14" width="98" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="recessed" title="Open Log" bezelStyle="recessed" imagePosition="left" alignment="center" borderStyle="border" inset="2" id="IUi-rt-LbP">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                <font key="font" metaFont="systemBold" size="12"/>
+                            </buttonCell>
+                        </button>
+                        <connections>
+                            <action selector="group_btn:" target="-2" id="TQN-sS-JXp"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="D2F383A8-F210-4464-A793-DC7F0D7DCF09" label="" paletteLabel="" id="Cms-nJ-lNP" userLabel="ComboBox">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="43" height="26"/>
+                        <size key="maxSize" width="150" height="26"/>
+                        <comboBox key="view" hidden="YES" verticalHuggingPriority="750" id="Fi6-kb-4Vm">
+                            <rect key="frame" x="0.0" y="14" width="43" height="26"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="10" id="xYU-em-GI3">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </comboBoxCell>
+                            <connections>
+                                <action selector="selectionChanged:" target="-2" id="Nxo-OT-JMf"/>
+                            </connections>
+                        </comboBox>
+                    </toolbarItem>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="hd9-ta-kVw"/>
+                    <toolbarItem reference="dws-U9-Rfd"/>
+                    <toolbarItem reference="e0q-7N-gaq"/>
+                    <toolbarItem reference="MhD-P3-Bu2"/>
+                    <toolbarItem reference="stN-hb-qaa"/>
+                    <toolbarItem reference="8s1-TI-d8l"/>
+                    <toolbarItem reference="Cms-nJ-lNP"/>
+                    <toolbarItem reference="K4V-4J-K69"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+        </window>
+    </objects>
+    <resources>
+        <image name="toolbarItem:uNn-8h-gMy:image" width="18" height="18">
+            <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGeHlYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QHAcI
+ERYbHCo3ODk6Ozw9PkVGR0tPVFdaY2pucnVVJG51bGzUCQoLDA0ODxBWJGNsYXNzXE5TSW1hZ2VGbGFn
+c1ZOU1JlcHNXTlNDb2xvcoAbEgDAAACAAoAW0hIJExVaTlMub2JqZWN0c6EUgAOAFdISCRcaohgZgASA
+BYAUEADYHQkeHyAhIiMkJSYbGycoKVZOU1NpemVfEBBOU0NvbG9yU3BhY2VOYW1lXxAZTlNJbnRlcm5h
+bExheW91dERpcmVjdGlvbl8QD05TQml0c1BlclNhbXBsZVxOU0NvbG9yU3BhY2VaTlNIYXNBbHBoYV8Q
+FE5TQ29yZVVJSW1hZ2VPcHRpb25zgA+AE4AQgBEJgAbTKxIJLDE2V05TLmtleXOkLS4vMIAHgAiACYAK
+pDIYNDWAC4AEgAyADYAOVHNpemVVdmFsdWVVc3RhdGVWd2lkZ2V0V3JlZ3VsYXJWbm9ybWFsWGNoZWNr
+Ym940j9AQUJaJGNsYXNzbmFtZVgkY2xhc3Nlc18QE05TTXV0YWJsZURpY3Rpb25hcnmjQUNEXE5TRGlj
+dGlvbmFyeVhOU09iamVjdFh7MTgsIDE4fV8QGU5TQ2FsaWJyYXRlZFJHQkNvbG9yU3BhY2XSSAlJSlRO
+U0lEEAGAEtI/QExNXE5TQ29sb3JTcGFjZaJORFxOU0NvbG9yU3BhY2XSP0BQUV8QEE5TQ29yZVVJSW1h
+Z2VSZXCjUlNEXxAQTlNDb3JlVUlJbWFnZVJlcFpOU0ltYWdlUmVw0j9AVVZXTlNBcnJheaJVRNI/QFhZ
+Xk5TTXV0YWJsZUFycmF5o1hVRNVbXCFdCV5fYGFiV05TV2hpdGVcTlNDb21wb25lbnRzXxASTlNDdXN0
+b21Db2xvclNwYWNlRDAgMABDMCAwEAOAF4Aa1EhkZQlmZ2hKVU5TSUNDV05TTW9kZWwQCYAYEACAEtJr
+CWxtV05TLmRhdGFPERFoAAARaGFwcGwCAAAAbW50ckdSQVlYWVogB9wACAAXAA8ALgAPYWNzcEFQUEwA
+AAAAbm9uZQAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1hcHBsAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFZGVzYwAAAMAAAAB5ZHNjbQAAATwAAAfoY3BydAAACSQA
+AAAjd3RwdAAACUgAAAAUa1RSQwAACVwAAAgMZGVzYwAAAAAAAAAfR2VuZXJpYyBHcmF5IEdhbW1hIDIu
+MiBQcm9maWxlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG1sdWMAAAAAAAAAHwAAAAxza1NLAAAALgAAAYRk
+YURLAAAAOAAAAbJjYUVTAAAAOAAAAep2aVZOAAAAQAAAAiJwdEJSAAAASgAAAmJ1a1VBAAAALAAAAqxm
+ckZVAAAAPgAAAthodUhVAAAANAAAAxZ6aFRXAAAAHgAAA0puYk5PAAAAOgAAA2hjc0NaAAAAKAAAA6Jo
+ZUlMAAAAJAAAA8ppdElUAAAATgAAA+5yb1JPAAAAKgAABDxkZURFAAAATgAABGZrb0tSAAAAIgAABLRz
+dlNFAAAAOAAAAbJ6aENOAAAAHgAABNZqYUpQAAAAJgAABPRlbEdSAAAAKgAABRpwdFBPAAAAUgAABURu
+bE5MAAAAQAAABZZlc0VTAAAATAAABdZ0aFRIAAAAMgAABiJ0clRSAAAAJAAABlRmaUZJAAAARgAABnho
+ckhSAAAAPgAABr5wbFBMAAAASgAABvxydVJVAAAAOgAAB0ZlblVTAAAAPAAAB4BhckVHAAAALAAAB7wA
+VgFhAGUAbwBiAGUAYwBuAOEAIABzAGkAdgDhACAAZwBhAG0AYQAgADIALAAyAEcAZQBuAGUAcgBpAHMA
+awAgAGcAcgDlACAAMgAsADIAIABnAGEAbQBtAGEAcAByAG8AZgBpAGwARwBhAG0AbQBhACAAZABlACAA
+ZwByAGkAcwBvAHMAIABnAGUAbgDoAHIAaQBjAGEAIAAyAC4AMgBDHqUAdQAgAGgA7ABuAGgAIABNAOAA
+dQAgAHgA4QBtACAAQwBoAHUAbgBnACAARwBhAG0AbQBhACAAMgAuADIAUABlAHIAZgBpAGwAIABHAGUA
+bgDpAHIAaQBjAG8AIABkAGEAIABHAGEAbQBhACAAZABlACAAQwBpAG4AegBhAHMAIAAyACwAMgQXBDAE
+MwQwBDsETAQ9BDAAIABHAHIAYQB5AC0EMwQwBDwEMAAgADIALgAyAFAAcgBvAGYAaQBsACAAZwDpAG4A
+6QByAGkAcQB1AGUAIABnAHIAaQBzACAAZwBhAG0AbQBhACAAMgAsADIAwQBsAHQAYQBsAOEAbgBvAHMA
+IABzAHoA/AByAGsAZQAgAGcAYQBtAG0AYQAgADIALgAykBp1KHBwlo5RSV6mACAAMgAuADIAIIJyX2lj
+z4/wAEcAZQBuAGUAcgBpAHMAawAgAGcAcgDlACAAZwBhAG0AbQBhACAAMgAsADIALQBwAHIAbwBmAGkA
+bABPAGIAZQBjAG4A4QAgAWEAZQBkAOEAIABnAGEAbQBhACAAMgAuADIF0gXQBd4F1AAgBdAF5AXVBegA
+IAXbBdwF3AXZACAAMgAuADIAUAByAG8AZgBpAGwAbwAgAGcAcgBpAGcAaQBvACAAZwBlAG4AZQByAGkA
+YwBvACAAZABlAGwAbABhACAAZwBhAG0AbQBhACAAMgAsADIARwBhAG0AYQAgAGcAcgBpACAAZwBlAG4A
+ZQByAGkAYwEDACAAMgAsADIAQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAARwByAGEAdQBzAHQAdQBmAGUA
+bgAtAFAAcgBvAGYAaQBsACAARwBhAG0AbQBhACAAMgAsADLHfLwYACDWjMDJACCsELnIACAAMgAuADIA
+INUEuFzTDMd8Zm6QGnBwXqZ8+2VwACAAMgAuADIAIGPPj/Blh072TgCCLDCwMOwwpDCsMPMw3gAgADIA
+LgAyACAw1zDtMNUwoTCkMOsDkwO1A70DuQO6A8wAIAOTA7oDwQO5ACADkwOsA7wDvAOxACAAMgAuADIA
+UABlAHIAZgBpAGwAIABnAGUAbgDpAHIAaQBjAG8AIABkAGUAIABjAGkAbgB6AGUAbgB0AG8AcwAgAGQA
+YQAgAEcAYQBtAG0AYQAgADIALAAyAEEAbABnAGUAbQBlAGUAbgAgAGcAcgBpAGoAcwAgAGcAYQBtAG0A
+YQAgADIALAAyAC0AcAByAG8AZgBpAGUAbABQAGUAcgBmAGkAbAAgAGcAZQBuAOkAcgBpAGMAbwAgAGQA
+ZQAgAGcAYQBtAG0AYQAgAGQAZQAgAGcAcgBpAHMAZQBzACAAMgAsADIOIw4xDgcOKg41DkEOAQ4hDiEO
+Mg5ADgEOIw4iDkwOFw4xDkgOJw5EDhsAIAAyAC4AMgBHAGUAbgBlAGwAIABHAHIAaQAgAEcAYQBtAGEA
+IAAyACwAMgBZAGwAZQBpAG4AZQBuACAAaABhAHIAbQBhAGEAbgAgAGcAYQBtAG0AYQAgADIALAAyACAA
+LQBwAHIAbwBmAGkAaQBsAGkARwBlAG4AZQByAGkBDQBrAGkAIABHAHIAYQB5ACAARwBhAG0AbQBhACAA
+MgAuADIAIABwAHIAbwBmAGkAbABVAG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBmAGkAbAAgAHMA
+egBhAHIAbwFbAGMAaQAgAGcAYQBtAG0AYQAgADIALAAyBB4EMQRJBDAETwAgBEEENQRABDAETwAgBDME
+MAQ8BDwEMAAgADIALAAyAC0EPwRABD4ERAQ4BDsETABHAGUAbgBlAHIAaQBjACAARwByAGEAeQAgAEcA
+YQBtAG0AYQAgADIALgAyACAAUAByAG8AZgBpAGwAZQY6BicGRQYnACAAMgAuADIAIAZEBkgGRgAgBjEG
+RQYnBi8GSgAgBjkGJwZFdGV4dAAAAABDb3B5cmlnaHQgQXBwbGUgSW5jLiwgMjAxMgAAWFlaIAAAAAAA
+APNRAAEAAAABFsxjdXJ2AAAAAAAABAAAAAAFAAoADwAUABkAHgAjACgALQAyADcAOwBAAEUASgBPAFQA
+WQBeAGMAaABtAHIAdwB8AIEAhgCLAJAAlQCaAJ8ApACpAK4AsgC3ALwAwQDGAMsA0ADVANsA4ADlAOsA
+8AD2APsBAQEHAQ0BEwEZAR8BJQErATIBOAE+AUUBTAFSAVkBYAFnAW4BdQF8AYMBiwGSAZoBoQGpAbEB
+uQHBAckB0QHZAeEB6QHyAfoCAwIMAhQCHQImAi8COAJBAksCVAJdAmcCcQJ6AoQCjgKYAqICrAK2AsEC
+ywLVAuAC6wL1AwADCwMWAyEDLQM4A0MDTwNaA2YDcgN+A4oDlgOiA64DugPHA9MD4APsA/kEBgQTBCAE
+LQQ7BEgEVQRjBHEEfgSMBJoEqAS2BMQE0wThBPAE/gUNBRwFKwU6BUkFWAVnBXcFhgWWBaYFtQXFBdUF
+5QX2BgYGFgYnBjcGSAZZBmoGewaMBp0GrwbABtEG4wb1BwcHGQcrBz0HTwdhB3QHhgeZB6wHvwfSB+UH
++AgLCB8IMghGCFoIbgiCCJYIqgi+CNII5wj7CRAJJQk6CU8JZAl5CY8JpAm6Cc8J5Qn7ChEKJwo9ClQK
+agqBCpgKrgrFCtwK8wsLCyILOQtRC2kLgAuYC7ALyAvhC/kMEgwqDEMMXAx1DI4MpwzADNkM8w0NDSYN
+QA1aDXQNjg2pDcMN3g34DhMOLg5JDmQOfw6bDrYO0g7uDwkPJQ9BD14Peg+WD7MPzw/sEAkQJhBDEGEQ
+fhCbELkQ1xD1ERMRMRFPEW0RjBGqEckR6BIHEiYSRRJkEoQSoxLDEuMTAxMjE0MTYxODE6QTxRPlFAYU
+JxRJFGoUixStFM4U8BUSFTQVVhV4FZsVvRXgFgMWJhZJFmwWjxayFtYW+hcdF0EXZReJF64X0hf3GBsY
+QBhlGIoYrxjVGPoZIBlFGWsZkRm3Gd0aBBoqGlEadxqeGsUa7BsUGzsbYxuKG7Ib2hwCHCocUhx7HKMc
+zBz1HR4dRx1wHZkdwx3sHhYeQB5qHpQevh7pHxMfPh9pH5Qfvx/qIBUgQSBsIJggxCDwIRwhSCF1IaEh
+ziH7IiciVSKCIq8i3SMKIzgjZiOUI8Ij8CQfJE0kfCSrJNolCSU4JWgllyXHJfcmJyZXJocmtyboJxgn
+SSd6J6sn3CgNKD8ocSiiKNQpBik4KWspnSnQKgIqNSpoKpsqzysCKzYraSudK9EsBSw5LG4soizXLQwt
+QS12Last4S4WLkwugi63Lu4vJC9aL5Evxy/+MDUwbDCkMNsxEjFKMYIxujHyMioyYzKbMtQzDTNGM38z
+uDPxNCs0ZTSeNNg1EzVNNYc1wjX9Njc2cjauNuk3JDdgN5w31zgUOFA4jDjIOQU5Qjl/Obw5+To2OnQ6
+sjrvOy07azuqO+g8JzxlPKQ84z0iPWE9oT3gPiA+YD6gPuA/IT9hP6I/4kAjQGRApkDnQSlBakGsQe5C
+MEJyQrVC90M6Q31DwEQDREdEikTORRJFVUWaRd5GIkZnRqtG8Ec1R3tHwEgFSEtIkUjXSR1JY0mpSfBK
+N0p9SsRLDEtTS5pL4kwqTHJMuk0CTUpNk03cTiVObk63TwBPSU+TT91QJ1BxULtRBlFQUZtR5lIxUnxS
+x1MTU19TqlP2VEJUj1TbVShVdVXCVg9WXFapVvdXRFeSV+BYL1h9WMtZGllpWbhaB1pWWqZa9VtFW5Vb
+5Vw1XIZc1l0nXXhdyV4aXmxevV8PX2Ffs2AFYFdgqmD8YU9homH1YklinGLwY0Njl2PrZEBklGTpZT1l
+kmXnZj1mkmboZz1nk2fpaD9olmjsaUNpmmnxakhqn2r3a09rp2v/bFdsr20IbWBtuW4SbmtuxG8eb3hv
+0XArcIZw4HE6cZVx8HJLcqZzAXNdc7h0FHRwdMx1KHWFdeF2Pnabdvh3VnezeBF4bnjMeSp5iXnnekZ6
+pXsEe2N7wnwhfIF84X1BfaF+AX5ifsJ/I3+Ef+WAR4CogQqBa4HNgjCCkoL0g1eDuoQdhICE44VHhauG
+DoZyhteHO4efiASIaYjOiTOJmYn+imSKyoswi5aL/IxjjMqNMY2Yjf+OZo7OjzaPnpAGkG6Q1pE/kaiS
+EZJ6kuOTTZO2lCCUipT0lV+VyZY0lp+XCpd1l+CYTJi4mSSZkJn8mmia1ZtCm6+cHJyJnPedZJ3SnkCe
+rp8dn4uf+qBpoNihR6G2oiailqMGo3aj5qRWpMelOKWpphqmi6b9p26n4KhSqMSpN6mpqhyqj6sCq3Wr
+6axcrNCtRK24ri2uoa8Wr4uwALB1sOqxYLHWskuywrM4s660JbSctRO1irYBtnm28Ldot+C4WbjRuUq5
+wro7urW7LrunvCG8m70VvY++Cr6Evv+/er/1wHDA7MFnwePCX8Lbw1jD1MRRxM7FS8XIxkbGw8dBx7/I
+Pci8yTrJuco4yrfLNsu2zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjX
+XNfg2GTY6Nls2fHadtr724DcBdyK3RDdlt4c3qLfKd+v4DbgveFE4cziU+Lb42Pj6+Rz5PzlhOYN5pbn
+H+ep6DLovOlG6dDqW+rl63Dr++yG7RHtnO4o7rTvQO/M8Fjw5fFy8f/yjPMZ86f0NPTC9VD13vZt9vv3
+ivgZ+Kj5OPnH+lf65/t3/Af8mP0p/br+S/7c/23//4AZ0j9Ab3BdTlNNdXRhYmxlRGF0YaNvcURWTlNE
+YXRh0j9Ac3RXTlNDb2xvcqJzRNI/QHZ3V05TSW1hZ2WidkRfEA9OU0tleWVkQXJjaGl2ZXLRentUcm9v
+dIABAAgAEQAaACMALQAyADcAVgBcAGUAbAB5AIAAiACKAI8AkQCTAJgAowClAKcAqQCuALEAswC1ALcA
+uQDKANEA5AEAARIBHwEqAUEBQwFFAUcBSQFKAUwBUwFbAWABYgFkAWYBaAFtAW8BcQFzAXUBdwF8AYIB
+iAGPAZcBngGnAawBtwHAAdYB2gHnAfAB+QIVAhoCHwIhAiMCKAI1AjgCRQJKAl0CYQJ0An8ChAKMAo8C
+lAKjAqcCsgK6AscC3ALhAuUC5wLpAusC9AL6AwIDBAMGAwgDCgMPAxcUgxSFFIoUmBScFKMUqBSwFLMU
+uBTAFMMU1RTYFN0AAAAAAAACAQAAAAAAAAB8AAAAAAAAAAAAAAAAAAAU3w
+</mutableData>
+        </image>
+    </resources>
+</document>

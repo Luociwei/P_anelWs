@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ELoadViewController">
+            <connections>
+                <outlet property="btn1" destination="r5F-Li-ZrD" id="GpL-IC-5C5"/>
+                <outlet property="btn2" destination="Dqo-nf-1bG" id="kdg-2V-xTY"/>
+                <outlet property="btn3" destination="Pqj-eq-eWb" id="R4Q-44-faa"/>
+                <outlet property="btn4" destination="Ih5-dI-dXF" id="gOd-bN-CQa"/>
+                <outlet property="btn5" destination="0re-tb-ZRR" id="Ytp-DP-GmC"/>
+                <outlet property="btn6" destination="pfL-8K-aF4" id="vnv-VS-Dbs"/>
+                <outlet property="btn7" destination="wnM-hY-bUh" id="gf5-pA-6mh"/>
+                <outlet property="btn8" destination="QIi-FO-pQ0" id="QNL-AE-qTM"/>
+                <outlet property="setBtn1" destination="CBQ-hJ-puU" id="yao-xX-Tn9"/>
+                <outlet property="setBtn2" destination="rgZ-MZ-zZJ" id="pKC-VB-I0R"/>
+                <outlet property="setBtn3" destination="IpT-cU-AXe" id="8xr-NY-mP6"/>
+                <outlet property="setBtn4" destination="dxs-nH-tTO" id="cOT-lJ-hjz"/>
+                <outlet property="textF1" destination="yr1-BR-sPA" id="baX-TG-9Ko"/>
+                <outlet property="textF2" destination="o36-Jx-z9s" id="a3R-nh-tyE"/>
+                <outlet property="textF3" destination="f2i-kW-7EG" id="gcP-PQ-6XR"/>
+                <outlet property="textF4" destination="75T-dK-n24" id="l7j-Pe-po0"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="SGR-lr-tv0"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="1000" height="700"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="W9L-fq-vfY">
+                    <rect key="frame" x="-3" y="-3" width="1006" height="706"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="photo" image="E_Load" id="lPo-7q-4S1"/>
+                </imageView>
+                <button tag="801" id="r5F-Li-ZrD" userLabel="bit_801">
+                    <rect key="frame" x="501" y="409" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="smj-yq-YcO">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="aPP-pG-PpR"/>
+                    </connections>
+                </button>
+                <button tag="805" id="0re-tb-ZRR" userLabel="bit_805">
+                    <rect key="frame" x="500" y="271" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="cGJ-Kb-gkv">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="8m9-te-MRQ"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" tag="2" id="rgZ-MZ-zZJ" userLabel="Set_2">
+                    <rect key="frame" x="350" y="360" width="71" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="Set" alternateTitle="ELOAD" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="MtI-Xl-r43">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="setBtnClick:" target="-2" id="Svs-Te-vnI"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" tag="2" id="o36-Jx-z9s" userLabel="TextF2">
+                    <rect key="frame" x="248" y="369" width="73" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" title="0" drawsBackground="YES" id="SWc-76-mKC">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button tag="803" id="Pqj-eq-eWb" userLabel="bit_803">
+                    <rect key="frame" x="500" y="333" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="j0N-Rt-6VA">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="wml-l7-rV9"/>
+                    </connections>
+                </button>
+                <button hidden="YES" verticalHuggingPriority="750" tag="1" id="CBQ-hJ-puU" userLabel="Set_1">
+                    <rect key="frame" x="350" y="385" width="71" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="Set" alternateTitle="ELOAD" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" sound="Basso" inset="2" id="Sre-fk-fTd">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="setBtnClick:" target="-2" id="zRF-CF-9hc"/>
+                    </connections>
+                </button>
+                <textField hidden="YES" verticalHuggingPriority="750" tag="3" id="f2i-kW-7EG" userLabel="TextF3">
+                    <rect key="frame" x="248" y="227" width="73" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" title="0" drawsBackground="YES" id="iLj-Jk-k1H">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" tag="4" id="75T-dK-n24" userLabel="TextF4">
+                    <rect key="frame" x="248" y="201" width="73" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" title="0" drawsBackground="YES" id="7U9-39-vA3">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" tag="4" id="dxs-nH-tTO" userLabel="Set_4">
+                    <rect key="frame" x="350" y="192" width="71" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="Set" alternateTitle="ELOAD" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YWD-Dw-6nP">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="setBtnClick:" target="-2" id="QhI-cF-Hag"/>
+                    </connections>
+                </button>
+                <button tag="804" id="Ih5-dI-dXF" userLabel="bit_804">
+                    <rect key="frame" x="500" y="299" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="LHD-K7-aQz">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="6m0-N6-9bt"/>
+                    </connections>
+                </button>
+                <button tag="806" id="pfL-8K-aF4" userLabel="bit_806">
+                    <rect key="frame" x="499" y="239" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="oOr-NO-uBX">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="switchClick2:" target="-2" id="lIS-nU-3pd"/>
+                    </connections>
+                </button>
+                <button tag="802" id="Dqo-nf-1bG" userLabel="bit_802">
+                    <rect key="frame" x="500" y="365" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="ynK-Qi-qWk">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="4LC-kg-cHI"/>
+                    </connections>
+                </button>
+                <button tag="808" id="QIi-FO-pQ0" userLabel="bit_808">
+                    <rect key="frame" x="500" y="155" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="6bZ-WV-WDD">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="switchClick2:" target="-2" id="0vx-Pl-Yv0"/>
+                    </connections>
+                </button>
+                <textField hidden="YES" verticalHuggingPriority="750" tag="1" id="yr1-BR-sPA" userLabel="TextF1">
+                    <rect key="frame" x="248" y="394" width="73" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" title="0" drawsBackground="YES" id="AVo-4R-QJk">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button tag="807" id="wnM-hY-bUh" userLabel="bit_807">
+                    <rect key="frame" x="500" y="197" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="Mno-dy-nMd">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="switchClick2:" target="-2" id="wcK-IC-P9a"/>
+                    </connections>
+                </button>
+                <button hidden="YES" verticalHuggingPriority="750" tag="3" id="IpT-cU-AXe" userLabel="Set_3">
+                    <rect key="frame" x="350" y="218" width="71" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="Set" alternateTitle="ELOAD" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="l9j-RM-5lC">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="setBtnClick:" target="-2" id="hvq-EP-Rx4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <point key="canvasLocation" x="464" y="470"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="E_Load" width="988" height="673"/>
+        <image name="switch1_off" width="62" height="27.5"/>
+        <sound name="Basso"/>
+    </resources>
+</document>

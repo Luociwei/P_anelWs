@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PenroseViewController">
+            <connections>
+                <outlet property="DutyPWM1" destination="rWN-S1-kf6" id="dTF-eh-gS0"/>
+                <outlet property="DutyPWM2" destination="iJv-92-6ZF" id="dso-WO-i1g"/>
+                <outlet property="FreqPWM1" destination="Zt4-hK-1HV" id="G1l-QE-CfW"/>
+                <outlet property="FreqPWM2" destination="FQy-Aj-Jax" id="Reh-5Z-PdB"/>
+                <outlet property="OffPWM1" destination="m56-ue-gsM" id="7sh-P4-U9h"/>
+                <outlet property="OffPWM2" destination="FB7-ez-uBl" id="WOy-Ut-yex"/>
+                <outlet property="SetPWM1" destination="1i8-qS-BxX" id="gg8-6g-ceQ"/>
+                <outlet property="SetPWM2" destination="dmd-nA-yb7" id="TFF-Uw-iJp"/>
+                <outlet property="descLabel" destination="vA7-68-o3n" id="xTQ-KY-nnm"/>
+                <outlet property="s1" destination="dwJ-5B-K4o" id="OAc-cD-17L"/>
+                <outlet property="s2" destination="vtR-3j-b7i" id="SKc-WX-9g2"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="1000" height="700"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O83-cG-eGP">
+                    <rect key="frame" x="0.0" y="0.0" width="1000" height="700"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="penrose" id="XeZ-e3-NDd"/>
+                </imageView>
+                <button fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="dwJ-5B-K4o" userLabel="S1">
+                    <rect key="frame" x="629" y="377" width="67" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO_Penrose" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="Cmh-Q4-JDh">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="s1click:" target="-2" id="HoR-Du-E31"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="1i8-qS-BxX" userLabel="PWM1_Set">
+                    <rect key="frame" x="79" y="339" width="61" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="Set" alternateTitle="Penrose" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SeC-no-Uxf">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnPwm1Click:" target="-2" id="fIH-eP-HvR"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" fixedFrame="YES" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="m56-ue-gsM" userLabel="PWM1_OFF">
+                    <rect key="frame" x="152" y="339" width="65" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="OFF" alternateTitle="Penrose" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Hg2-ro-fwI">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnPwm1Click:" target="-2" id="11f-sT-P4b"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="dmd-nA-yb7" userLabel="PWM2_Set">
+                    <rect key="frame" x="79" y="245" width="61" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="Set" alternateTitle="Penrose" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zzU-GS-pru">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnPwm2Click:" target="-2" id="X6c-gY-8Cp"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" fixedFrame="YES" tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="FB7-ez-uBl" userLabel="PWM2_OFF">
+                    <rect key="frame" x="150" y="245" width="65" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="OFF" alternateTitle="Penrose" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ngA-hx-rkF">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnPwm2Click:" target="-2" id="NeA-6r-gXZ"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zt4-hK-1HV" userLabel="PWM1_Freq">
+                    <rect key="frame" x="158" y="390" width="70" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" alignment="left" placeholderString="500" drawsBackground="YES" id="2IQ-Dt-Tq3">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rWN-S1-kf6" userLabel="PWM1_Duty">
+                    <rect key="frame" x="158" y="369" width="70" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" alignment="left" placeholderString="50" drawsBackground="YES" id="Ury-T9-6q1">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FQy-Aj-Jax" userLabel="PWM2_Freq">
+                    <rect key="frame" x="158" y="295" width="70" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" alignment="left" placeholderString="500" drawsBackground="YES" id="s7h-Xa-T3g">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iJv-92-6ZF" userLabel="PWM2_Duty">
+                    <rect key="frame" x="158" y="274" width="70" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" alignment="left" placeholderString="50" drawsBackground="YES" id="CgE-az-s7F">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="vtR-3j-b7i" userLabel="S1">
+                    <rect key="frame" x="629" y="341" width="67" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO_Penrose" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="K5V-MG-Xnb">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="s1click:" target="-2" id="fUY-F8-DI0"/>
+                    </connections>
+                </button>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fGf-tn-C2t">
+                    <rect key="frame" x="698" y="362" width="20" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="S2" id="Ssp-m9-k5H">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zbU-9A-dd8">
+                    <rect key="frame" x="698" y="400" width="19" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="S1" id="Rsr-6r-4fY">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vA7-68-o3n">
+                    <rect key="frame" x="49" y="11" width="953" height="192"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="8Dx-jO-l83">
+                        <font key="font" metaFont="system"/>
+                        <string key="title">Process:
+1. Enter Diags with OneButtonEnterDiags/Mobile Restore.
+2. Set ZYNQ_LED_PWM frequency &amp; duty cycle value to enable Green/IR LED
+3, Connect IR/VIS Vout switch
+4. Run Diags Commands /Smokey in Diags CLI and View Logs in Console, in the Main DVP Tools GUI
+        camisp —find,
+        Audio -r,routeaudio -b socpdm -i ap-dec0 -o ap-pdm -r,routeaudio -b socpdm -i ap-dec1 -o ap-pdm -r,
+        audioparam -b socpdm -p ap-dec0 -s -n mic-input -v 6,audioparam -b socpdm -p ap-dec1 -s -n mic-input -v 6,
+        recordaudio -b socpdm -p ap-pdm --len 1000 --rate 16000 -c 2
+5. Run Diags Commands /Smokey in Diags CLI and View Logs in Console, in the Main DVP Tools GUI
+        processaudio -p fft -o "--minHz 50 --maxHz 8000 --peakBinWidth 4 --numTones 7 --windowNorm true --sortOrder 1" -i record0</string>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+        </customView>
+    </objects>
+    <resources>
+        <image name="penrose" width="987" height="674.5"/>
+        <image name="switch1_off" width="62" height="27.5"/>
+    </resources>
+</document>

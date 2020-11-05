@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="LDCMViewController">
+            <connections>
+                <outlet property="btnTrace1" destination="oVl-Mg-ctb" id="54u-Fm-ADE"/>
+                <outlet property="btnTrace2" destination="fc8-Tb-5HP" id="pvT-fe-f0J"/>
+                <outlet property="descLabel" destination="UBP-UQ-UjH" id="9hD-9n-JMU"/>
+                <outlet property="imagBtn1" destination="v0z-hf-8Zo" id="EEi-lJ-11x"/>
+                <outlet property="imagBtn2" destination="sCP-HE-2wV" id="SGK-Ny-LzN"/>
+                <outlet property="imagBtn3" destination="cVH-iX-cPm" id="z2c-CT-c9A"/>
+                <outlet property="image1" destination="E5H-SI-Y7k" id="Okd-3W-kwJ"/>
+                <outlet property="image2" destination="iu4-ts-WU5" id="ApZ-Ar-jaS"/>
+                <outlet property="powerBoardView" destination="PsC-Md-U9h" id="Oda-Iw-U0K"/>
+                <outlet property="vauleDisplay" destination="lk9-ng-QjH" id="hDI-NI-fCh"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="1000" height="700"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="22K-Sq-q0G">
+                    <rect key="frame" x="-3" y="-1" width="1006" height="705"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="photo" image="LDCM_New" id="9JI-3R-F7h"/>
+                </imageView>
+                <button fixedFrame="YES" tag="1001" translatesAutoresizingMaskIntoConstraints="NO" id="jf6-aJ-1tz" userLabel="btn1">
+                    <rect key="frame" x="587" y="504" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="CG0-Cc-kw5">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="0Vo-Ri-v93"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1009" translatesAutoresizingMaskIntoConstraints="NO" id="cSY-aJ-JQe" userLabel="btn9">
+                    <rect key="frame" x="724" y="504" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="D7f-St-eee">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="KJz-Is-eom"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1002" translatesAutoresizingMaskIntoConstraints="NO" id="494-t6-5wY" userLabel="btn2">
+                    <rect key="frame" x="587" y="488" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="ku6-56-O4D">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="3qc-VM-DqX"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1003" translatesAutoresizingMaskIntoConstraints="NO" id="QVE-wv-TD0" userLabel="btn3">
+                    <rect key="frame" x="587" y="471" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="g1k-gf-Dj0">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="IQG-KV-blb"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1004" translatesAutoresizingMaskIntoConstraints="NO" id="mO8-mv-4za" userLabel="btn4">
+                    <rect key="frame" x="587" y="456" width="16" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="mLt-ld-OKI">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="S5f-cK-xm8"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1005" translatesAutoresizingMaskIntoConstraints="NO" id="LHR-7c-hZy" userLabel="btn5">
+                    <rect key="frame" x="587" y="438" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="dzi-95-vCu">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="HEP-6C-9bY"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1006" translatesAutoresizingMaskIntoConstraints="NO" id="M0q-Xb-0rS" userLabel="btn6">
+                    <rect key="frame" x="587" y="422" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="Ybk-Jo-deJ">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="eKR-BB-FUn"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1007" translatesAutoresizingMaskIntoConstraints="NO" id="ajj-ZX-dSC" userLabel="btn7">
+                    <rect key="frame" x="587" y="404" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="y0C-b6-5s1">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="BwK-9h-Aw1"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1008" translatesAutoresizingMaskIntoConstraints="NO" id="PAB-kk-jrn" userLabel="btn8">
+                    <rect key="frame" x="587" y="389" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="cwT-Bs-YTU">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="FCj-Z7-t71"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1010" translatesAutoresizingMaskIntoConstraints="NO" id="rUf-Hh-Myv" userLabel="btn10">
+                    <rect key="frame" x="724" y="488" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="30M-B8-miu">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="mhA-Kk-zuE"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1011" translatesAutoresizingMaskIntoConstraints="NO" id="FuM-qa-a8j" userLabel="btn11">
+                    <rect key="frame" x="724" y="470" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="5zL-lo-24m">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="oRv-eX-VFy"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1012" translatesAutoresizingMaskIntoConstraints="NO" id="vRk-AC-tG1" userLabel="btn12">
+                    <rect key="frame" x="724" y="455" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="odi-MA-J4z">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="EBj-v3-fSv"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="v0z-hf-8Zo" userLabel="imagbtn1">
+                    <rect key="frame" x="440" y="469" width="40" height="62"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO_LDCM" bezelStyle="shadowlessSquare" image="Canvas 1" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Wdt-hb-wts">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="imagBtnsClick:" target="-2" id="9WI-sG-GDT"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="sCP-HE-2wV" userLabel="imagbtn2">
+                    <rect key="frame" x="440" y="396" width="40" height="62"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO_LDCM" bezelStyle="shadowlessSquare" image="Canvas 1" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="ESi-sd-67t">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="imagBtnsClick:" target="-2" id="u4W-5a-mUP"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="oVl-Mg-ctb" userLabel="trace1">
+                    <rect key="frame" x="489" y="246" width="52" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO_LDCM" bezelStyle="shadowlessSquare" image="switch3_on" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="gqY-yu-Ztr">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="traceClick:" target="-2" id="JqB-17-rk9"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="5" translatesAutoresizingMaskIntoConstraints="NO" id="fc8-Tb-5HP" userLabel="trace2">
+                    <rect key="frame" x="427" y="220" width="52" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO_LDCM" bezelStyle="shadowlessSquare" image="switch3_on" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="Wf6-VH-2nA">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="traceClick:" target="-2" id="gI6-9Z-C6i"/>
+                    </connections>
+                </button>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iu4-ts-WU5" userLabel="ImageView1">
+                    <rect key="frame" x="677" y="386" width="48" height="136"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="image9" id="LFB-sJ-fbn"/>
+                </imageView>
+                <button fixedFrame="YES" tag="1013" translatesAutoresizingMaskIntoConstraints="NO" id="19T-1H-nDd" userLabel="btn13">
+                    <rect key="frame" x="724" y="438" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="tlN-86-88j">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="LD8-nk-lYz"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1014" translatesAutoresizingMaskIntoConstraints="NO" id="RxQ-V8-OqW" userLabel="btn14">
+                    <rect key="frame" x="724" y="422" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="qQk-jF-zgp">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="rxI-W7-ESF"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1015" translatesAutoresizingMaskIntoConstraints="NO" id="nL7-FK-F1K" userLabel="btn15">
+                    <rect key="frame" x="724" y="404" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="fMN-sl-bjF">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="S6M-HY-nS0"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="1016" translatesAutoresizingMaskIntoConstraints="NO" id="4ao-iG-Tsr" userLabel="btn16">
+                    <rect key="frame" x="724" y="389" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="bevel" alternateTitle="LDCM" bezelStyle="regularSquare" image="Canvas 13" imagePosition="left" inset="2" id="CxW-kf-wRb">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="btnsClick:" target="-2" id="Bjz-dW-0OE"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PsC-Md-U9h">
+                    <rect key="frame" x="738" y="246" width="81" height="19"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" placeholderString="mV" drawsBackground="YES" id="DFw-tB-dPC">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" fixedFrame="YES" tag="1017" translatesAutoresizingMaskIntoConstraints="NO" id="G5O-os-0m9">
+                    <rect key="frame" x="774" y="215" width="53" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="Set" alternateTitle="LDCM" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="pYj-3M-eu1">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="pbSetClick:" target="-2" id="fQt-Rd-rtf"/>
+                    </connections>
+                </button>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E5H-SI-Y7k" userLabel="ImageView1">
+                    <rect key="frame" x="594" y="386" width="50" height="136"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="image1" id="sDz-9N-vQf"/>
+                </imageView>
+                <button verticalHuggingPriority="750" fixedFrame="YES" tag="1018" translatesAutoresizingMaskIntoConstraints="NO" id="6SU-vi-db0">
+                    <rect key="frame" x="732" y="215" width="53" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="Off" alternateTitle="LDCM" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="wlo-Ko-Dr8">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="pbSetClick:" target="-2" id="D9R-hS-Y8j"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="cVH-iX-cPm" userLabel="imagbtn3">
+                    <rect key="frame" x="438" y="321" width="40" height="62"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="square" alternateTitle="IO_LDCM" bezelStyle="shadowlessSquare" image="Canvas 1" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Aoc-pg-IqW">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="imagBtnsClick:" target="-2" id="Og2-1K-Vud"/>
+                    </connections>
+                </button>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lk9-ng-QjH">
+                    <rect key="frame" x="528" y="178" width="101" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" id="Mkz-3a-UD9">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UBP-UQ-UjH">
+                    <rect key="frame" x="132" y="10" width="778" height="94"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="gDN-sy-Ssd">
+                        <font key="font" metaFont="system"/>
+                        <string key="title">Process:
+1. Enter Diags with OneButtonEnterDiags/Mobile Restore.
+2. Load Diags Roots via usbfs -f/ usbfs-e
+3. Connect LDCM load in GUI
+4. Run Diags Commands /Smokey in Diags CLI and View Logs in Console, in the Main DVP Tools GU</string>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+        </customView>
+    </objects>
+    <resources>
+        <image name="Canvas 1" width="35.639999389648438" height="61.919998168945312"/>
+        <image name="Canvas 13" width="8.6400003433227539" height="8.6400003433227539"/>
+        <image name="LDCM_New" width="818" height="672"/>
+        <image name="image1" width="117" height="371"/>
+        <image name="image9" width="117" height="371"/>
+        <image name="switch3_on" width="76" height="42"/>
+    </resources>
+</document>

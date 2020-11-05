@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA6527A22552578A000B333C /* GraphicHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6527332552578A000B333C /* GraphicHeader.m */; };
+		BA6527A32552578A000B333C /* StimCmdList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA6527342552578A000B333C /* StimCmdList.plist */; };
+		BA6527A42552578A000B333C /* CommandHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527362552578A000B333C /* CommandHandler.mm */; };
+		BA6527A52552578A000B333C /* DebugLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527372552578A000B333C /* DebugLog.h */; };
+		BA6527A62552578A000B333C /* DebugLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527382552578A000B333C /* DebugLog.mm */; };
+		BA6527A72552578A000B333C /* CommandHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527392552578A000B333C /* CommandHandler.h */; };
+		BA6527A82552578A000B333C /* ExtensionConst.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65273A2552578A000B333C /* ExtensionConst.mm */; };
+		BA6527A92552578A000B333C /* ExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = BA65273B2552578A000B333C /* ExtensionConst.h */; };
+		BA6527AA2552578A000B333C /* GraphicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BA65273C2552578A000B333C /* GraphicHeader.h */; };
+		BA6527AB2552578A000B333C /* PowerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65273F2552578A000B333C /* PowerViewController.mm */; };
+		BA6527AC2552578A000B333C /* PowerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527402552578A000B333C /* PowerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527AD2552578A000B333C /* PowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527412552578A000B333C /* PowerViewController.xib */; };
+		BA6527AE2552578A000B333C /* PenroseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527432552578A000B333C /* PenroseViewController.xib */; };
+		BA6527AF2552578A000B333C /* PenroseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6527442552578A000B333C /* PenroseViewController.m */; };
+		BA6527B02552578A000B333C /* PenroseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527452552578A000B333C /* PenroseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527B12552578A000B333C /* CCELoadViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527472552578A000B333C /* CCELoadViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527B32552578A000B333C /* CCELoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527492552578A000B333C /* CCELoadViewController.xib */; };
+		BA6527B62552578A000B333C /* CCELoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65274C2552578A000B333C /* CCELoadViewController.m */; };
+		BA6527B72552578A000B333C /* ButtonPressViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65274E2552578A000B333C /* ButtonPressViewController.mm */; };
+		BA6527B82552578A000B333C /* ButtonPressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65274F2552578A000B333C /* ButtonPressViewController.xib */; };
+		BA6527B92552578A000B333C /* ButtonPressViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527502552578A000B333C /* ButtonPressViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527BA2552578A000B333C /* ORION.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527522552578A000B333C /* ORION.jpg */; };
+		BA6527BB2552578A000B333C /* LDCM_New.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527532552578A000B333C /* LDCM_New.jpg */; };
+		BA6527BC2552578A000B333C /* Canvas 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6527542552578A000B333C /* Canvas 1.png */; };
+		BA6527BD2552578A000B333C /* E_Load.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527552552578A000B333C /* E_Load.jpg */; };
+		BA6527BE2552578A000B333C /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527562552578A000B333C /* image8.jpg */; };
+		BA6527BF2552578A000B333C /* penrose1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527572552578A000B333C /* penrose1.jpg */; };
+		BA6527C02552578A000B333C /* Canvas 4.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6527582552578A000B333C /* Canvas 4.png */; };
+		BA6527C12552578A000B333C /* switch2_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527592552578A000B333C /* switch2_on.jpg */; };
+		BA6527C22552578A000B333C /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275A2552578A000B333C /* image9.jpg */; };
+		BA6527C32552578A000B333C /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275B2552578A000B333C /* image1.jpeg */; };
+		BA6527C42552578A000B333C /* NTC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275C2552578A000B333C /* NTC.jpg */; };
+		BA6527C52552578A000B333C /* RIGEL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275D2552578A000B333C /* RIGEL.jpg */; };
+		BA6527C62552578A000B333C /* switch1_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275E2552578A000B333C /* switch1_off.jpg */; };
+		BA6527C72552578A000B333C /* image14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275F2552578A000B333C /* image14.jpg */; };
+		BA6527C82552578A000B333C /* image15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527602552578A000B333C /* image15.jpg */; };
+		BA6527C92552578A000B333C /* POWER.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527612552578A000B333C /* POWER.jpg */; };
+		BA6527CA2552578A000B333C /* ResAudio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527622552578A000B333C /* ResAudio.jpg */; };
+		BA6527CB2552578A000B333C /* image16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527632552578A000B333C /* image16.jpg */; };
+		BA6527CC2552578A000B333C /* switch3_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527642552578A000B333C /* switch3_off.jpg */; };
+		BA6527CD2552578A000B333C /* Canvas 13.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6527652552578A000B333C /* Canvas 13.png */; };
+		BA6527CE2552578A000B333C /* image12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527662552578A000B333C /* image12.jpg */; };
+		BA6527CF2552578A000B333C /* switch2_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527672552578A000B333C /* switch2_off.jpg */; };
+		BA6527D02552578A000B333C /* image13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527682552578A000B333C /* image13.jpg */; };
+		BA6527D12552578A000B333C /* CCELoad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527692552578A000B333C /* CCELoad.jpg */; };
+		BA6527D22552578A000B333C /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276A2552578A000B333C /* image11.jpg */; };
+		BA6527D32552578A000B333C /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276B2552578A000B333C /* image10.jpg */; };
+		BA6527D42552578A000B333C /* penrose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276C2552578A000B333C /* penrose.jpg */; };
+		BA6527D52552578A000B333C /* switch1_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276D2552578A000B333C /* switch1_on.jpg */; };
+		BA6527D62552578A000B333C /* LDCM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276E2552578A000B333C /* LDCM.jpg */; };
+		BA6527D72552578A000B333C /* LDCM_New 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276F2552578A000B333C /* LDCM_New 2.jpg */; };
+		BA6527D82552578A000B333C /* DISCHARGE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527702552578A000B333C /* DISCHARGE.jpg */; };
+		BA6527D92552578A000B333C /* switch3_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527712552578A000B333C /* switch3_on.jpg */; };
+		BA6527DA2552578A000B333C /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527722552578A000B333C /* image7.jpg */; };
+		BA6527DB2552578A000B333C /* DMIC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527732552578A000B333C /* DMIC.jpg */; };
+		BA6527DC2552578A000B333C /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527742552578A000B333C /* image6.jpg */; };
+		BA6527DD2552578A000B333C /* BUTTON_PRESS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527752552578A000B333C /* BUTTON_PRESS.jpg */; };
+		BA6527DE2552578A000B333C /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527762552578A000B333C /* image4.jpg */; };
+		BA6527DF2552578A000B333C /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527772552578A000B333C /* image5.jpg */; };
+		BA6527E02552578A000B333C /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527782552578A000B333C /* image2.jpg */; };
+		BA6527E12552578A000B333C /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527792552578A000B333C /* image3.jpg */; };
+		BA6527E22552578A000B333C /* ORIONViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA65277B2552578A000B333C /* ORIONViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527E32552578A000B333C /* ORIONViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65277C2552578A000B333C /* ORIONViewController.mm */; };
+		BA6527E42552578A000B333C /* ORIONViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65277D2552578A000B333C /* ORIONViewController.xib */; };
+		BA6527E52552578A000B333C /* DMICViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65277F2552578A000B333C /* DMICViewController.mm */; };
+		BA6527E62552578A000B333C /* DMICViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527802552578A000B333C /* DMICViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527E72552578A000B333C /* DMICViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527812552578A000B333C /* DMICViewController.xib */; };
+		BA6527E92552578A000B333C /* ResAudioViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527842552578A000B333C /* ResAudioViewController.mm */; };
+		BA6527EA2552578A000B333C /* ResAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527852552578A000B333C /* ResAudioViewController.xib */; };
+		BA6527EB2552578A000B333C /* ResAudioViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527862552578A000B333C /* ResAudioViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527EC2552578A000B333C /* NTCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527882552578A000B333C /* NTCViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527ED2552578A000B333C /* NTCViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527892552578A000B333C /* NTCViewController.mm */; };
+		BA6527EE2552578A000B333C /* NTCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65278A2552578A000B333C /* NTCViewController.xib */; };
+		BA6527EF2552578A000B333C /* LDCMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65278C2552578A000B333C /* LDCMViewController.m */; };
+		BA6527F02552578A000B333C /* LDCMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65278D2552578A000B333C /* LDCMViewController.xib */; };
+		BA6527F12552578A000B333C /* LDCMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA65278E2552578A000B333C /* LDCMViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527F22552578A000B333C /* DischargeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527902552578A000B333C /* DischargeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527F32552578A000B333C /* DischargeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527912552578A000B333C /* DischargeViewController.xib */; };
+		BA6527F42552578A000B333C /* DischargeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527922552578A000B333C /* DischargeViewController.mm */; };
+		BA6527F62552578A000B333C /* RigelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527952552578A000B333C /* RigelViewController.xib */; };
+		BA6527F72552578A000B333C /* RigelViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527962552578A000B333C /* RigelViewController.mm */; };
+		BA6527F82552578A000B333C /* RigelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527972552578A000B333C /* RigelViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527F92552578A000B333C /* STIMBaseViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527992552578A000B333C /* STIMBaseViewController.mm */; };
+		BA6527FA2552578A000B333C /* STIMBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA65279A2552578A000B333C /* STIMBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6527FC2552578A000B333C /* StimMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65279D2552578A000B333C /* StimMainVC.m */; };
+		BA6527FD2552578A000B333C /* StimMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65279E2552578A000B333C /* StimMainVC.xib */; };
+		BA6527FE2552578A000B333C /* StimTabViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65279F2552578A000B333C /* StimTabViewController.mm */; };
+		BA6527FF2552578A000B333C /* StimMainVC.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527A02552578A000B333C /* StimMainVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6528002552578A000B333C /* StimTabViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527A12552578A000B333C /* StimTabViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71B0A1861DCDCD46004165A8 /* DvpStimPanelFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DvpStimPanelFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B0A18A1DCDCD46004165A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6527332552578A000B333C /* GraphicHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicHeader.m; sourceTree = "<group>"; };
+		BA6527342552578A000B333C /* StimCmdList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StimCmdList.plist; sourceTree = "<group>"; };
+		BA6527362552578A000B333C /* CommandHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CommandHandler.mm; sourceTree = "<group>"; };
+		BA6527372552578A000B333C /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
+		BA6527382552578A000B333C /* DebugLog.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DebugLog.mm; sourceTree = "<group>"; };
+		BA6527392552578A000B333C /* CommandHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandHandler.h; sourceTree = "<group>"; };
+		BA65273A2552578A000B333C /* ExtensionConst.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ExtensionConst.mm; sourceTree = "<group>"; };
+		BA65273B2552578A000B333C /* ExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionConst.h; sourceTree = "<group>"; };
+		BA65273C2552578A000B333C /* GraphicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicHeader.h; sourceTree = "<group>"; };
+		BA65273F2552578A000B333C /* PowerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PowerViewController.mm; sourceTree = "<group>"; };
+		BA6527402552578A000B333C /* PowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerViewController.h; sourceTree = "<group>"; };
+		BA6527412552578A000B333C /* PowerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PowerViewController.xib; sourceTree = "<group>"; };
+		BA6527432552578A000B333C /* PenroseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenroseViewController.xib; sourceTree = "<group>"; };
+		BA6527442552578A000B333C /* PenroseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenroseViewController.m; sourceTree = "<group>"; };
+		BA6527452552578A000B333C /* PenroseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenroseViewController.h; sourceTree = "<group>"; };
+		BA6527472552578A000B333C /* CCELoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCELoadViewController.h; sourceTree = "<group>"; };
+		BA6527492552578A000B333C /* CCELoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCELoadViewController.xib; sourceTree = "<group>"; };
+		BA65274C2552578A000B333C /* CCELoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCELoadViewController.m; sourceTree = "<group>"; };
+		BA65274E2552578A000B333C /* ButtonPressViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ButtonPressViewController.mm; sourceTree = "<group>"; };
+		BA65274F2552578A000B333C /* ButtonPressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonPressViewController.xib; sourceTree = "<group>"; };
+		BA6527502552578A000B333C /* ButtonPressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonPressViewController.h; sourceTree = "<group>"; };
+		BA6527522552578A000B333C /* ORION.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ORION.jpg; sourceTree = "<group>"; };
+		BA6527532552578A000B333C /* LDCM_New.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LDCM_New.jpg; sourceTree = "<group>"; };
+		BA6527542552578A000B333C /* Canvas 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Canvas 1.png"; sourceTree = "<group>"; };
+		BA6527552552578A000B333C /* E_Load.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Load.jpg; sourceTree = "<group>"; };
+		BA6527562552578A000B333C /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		BA6527572552578A000B333C /* penrose1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penrose1.jpg; sourceTree = "<group>"; };
+		BA6527582552578A000B333C /* Canvas 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Canvas 4.png"; sourceTree = "<group>"; };
+		BA6527592552578A000B333C /* switch2_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch2_on.jpg; sourceTree = "<group>"; };
+		BA65275A2552578A000B333C /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		BA65275B2552578A000B333C /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
+		BA65275C2552578A000B333C /* NTC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NTC.jpg; sourceTree = "<group>"; };
+		BA65275D2552578A000B333C /* RIGEL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RIGEL.jpg; sourceTree = "<group>"; };
+		BA65275E2552578A000B333C /* switch1_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch1_off.jpg; sourceTree = "<group>"; };
+		BA65275F2552578A000B333C /* image14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image14.jpg; sourceTree = "<group>"; };
+		BA6527602552578A000B333C /* image15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image15.jpg; sourceTree = "<group>"; };
+		BA6527612552578A000B333C /* POWER.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = POWER.jpg; sourceTree = "<group>"; };
+		BA6527622552578A000B333C /* ResAudio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ResAudio.jpg; sourceTree = "<group>"; };
+		BA6527632552578A000B333C /* image16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image16.jpg; sourceTree = "<group>"; };
+		BA6527642552578A000B333C /* switch3_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch3_off.jpg; sourceTree = "<group>"; };
+		BA6527652552578A000B333C /* Canvas 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Canvas 13.png"; sourceTree = "<group>"; };
+		BA6527662552578A000B333C /* image12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image12.jpg; sourceTree = "<group>"; };
+		BA6527672552578A000B333C /* switch2_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch2_off.jpg; sourceTree = "<group>"; };
+		BA6527682552578A000B333C /* image13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image13.jpg; sourceTree = "<group>"; };
+		BA6527692552578A000B333C /* CCELoad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CCELoad.jpg; sourceTree = "<group>"; };
+		BA65276A2552578A000B333C /* image11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpg; sourceTree = "<group>"; };
+		BA65276B2552578A000B333C /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
+		BA65276C2552578A000B333C /* penrose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penrose.jpg; sourceTree = "<group>"; };
+		BA65276D2552578A000B333C /* switch1_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch1_on.jpg; sourceTree = "<group>"; };
+		BA65276E2552578A000B333C /* LDCM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LDCM.jpg; sourceTree = "<group>"; };
+		BA65276F2552578A000B333C /* LDCM_New 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LDCM_New 2.jpg"; sourceTree = "<group>"; };
+		BA6527702552578A000B333C /* DISCHARGE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DISCHARGE.jpg; sourceTree = "<group>"; };
+		BA6527712552578A000B333C /* switch3_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch3_on.jpg; sourceTree = "<group>"; };
+		BA6527722552578A000B333C /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		BA6527732552578A000B333C /* DMIC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DMIC.jpg; sourceTree = "<group>"; };
+		BA6527742552578A000B333C /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		BA6527752552578A000B333C /* BUTTON_PRESS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BUTTON_PRESS.jpg; sourceTree = "<group>"; };
+		BA6527762552578A000B333C /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		BA6527772552578A000B333C /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		BA6527782552578A000B333C /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		BA6527792552578A000B333C /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		BA65277B2552578A000B333C /* ORIONViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORIONViewController.h; sourceTree = "<group>"; };
+		BA65277C2552578A000B333C /* ORIONViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ORIONViewController.mm; sourceTree = "<group>"; };
+		BA65277D2552578A000B333C /* ORIONViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORIONViewController.xib; sourceTree = "<group>"; };
+		BA65277F2552578A000B333C /* DMICViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DMICViewController.mm; sourceTree = "<group>"; };
+		BA6527802552578A000B333C /* DMICViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMICViewController.h; sourceTree = "<group>"; };
+		BA6527812552578A000B333C /* DMICViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DMICViewController.xib; sourceTree = "<group>"; };
+		BA6527842552578A000B333C /* ResAudioViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResAudioViewController.mm; sourceTree = "<group>"; };
+		BA6527852552578A000B333C /* ResAudioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResAudioViewController.xib; sourceTree = "<group>"; };
+		BA6527862552578A000B333C /* ResAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResAudioViewController.h; sourceTree = "<group>"; };
+		BA6527882552578A000B333C /* NTCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTCViewController.h; sourceTree = "<group>"; };
+		BA6527892552578A000B333C /* NTCViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NTCViewController.mm; sourceTree = "<group>"; };
+		BA65278A2552578A000B333C /* NTCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTCViewController.xib; sourceTree = "<group>"; };
+		BA65278C2552578A000B333C /* LDCMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDCMViewController.m; sourceTree = "<group>"; };
+		BA65278D2552578A000B333C /* LDCMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDCMViewController.xib; sourceTree = "<group>"; };
+		BA65278E2552578A000B333C /* LDCMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDCMViewController.h; sourceTree = "<group>"; };
+		BA6527902552578A000B333C /* DischargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DischargeViewController.h; sourceTree = "<group>"; };
+		BA6527912552578A000B333C /* DischargeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DischargeViewController.xib; sourceTree = "<group>"; };
+		BA6527922552578A000B333C /* DischargeViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DischargeViewController.mm; sourceTree = "<group>"; };
+		BA6527952552578A000B333C /* RigelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RigelViewController.xib; sourceTree = "<group>"; };
+		BA6527962552578A000B333C /* RigelViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RigelViewController.mm; sourceTree = "<group>"; };
+		BA6527972552578A000B333C /* RigelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RigelViewController.h; sourceTree = "<group>"; };
+		BA6527992552578A000B333C /* STIMBaseViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = STIMBaseViewController.mm; sourceTree = "<group>"; };
+		BA65279A2552578A000B333C /* STIMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STIMBaseViewController.h; sourceTree = "<group>"; };
+		BA65279D2552578A000B333C /* StimMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StimMainVC.m; sourceTree = "<group>"; };
+		BA65279E2552578A000B333C /* StimMainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StimMainVC.xib; sourceTree = "<group>"; };
+		BA65279F2552578A000B333C /* StimTabViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StimTabViewController.mm; sourceTree = "<group>"; };
+		BA6527A02552578A000B333C /* StimMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StimMainVC.h; sourceTree = "<group>"; };
+		BA6527A12552578A000B333C /* StimTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StimTabViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71B0A1821DCDCD46004165A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71B0A17C1DCDCD46004165A8 = {
+			isa = PBXGroup;
+			children = (
+				71B0A1881DCDCD46004165A8 /* DvpStimPanelFrameWork */,
+				71B0A1871DCDCD46004165A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71B0A1871DCDCD46004165A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71B0A1861DCDCD46004165A8 /* DvpStimPanelFrameWork.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71B0A1881DCDCD46004165A8 /* DvpStimPanelFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527312552578A000B333C /* STIM_V2 */,
+				71B0A18A1DCDCD46004165A8 /* Info.plist */,
+			);
+			path = DvpStimPanelFrameWork;
+			sourceTree = "<group>";
+		};
+		BA6527312552578A000B333C /* STIM_V2 */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527322552578A000B333C /* Others */,
+				BA65273D2552578A000B333C /* STIMController */,
+				BA65279C2552578A000B333C /* Main */,
+			);
+			path = STIM_V2;
+			sourceTree = "<group>";
+		};
+		BA6527322552578A000B333C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BA65273C2552578A000B333C /* GraphicHeader.h */,
+				BA6527332552578A000B333C /* GraphicHeader.m */,
+				BA6527342552578A000B333C /* StimCmdList.plist */,
+				BA6527352552578A000B333C /* DataHandler */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BA6527352552578A000B333C /* DataHandler */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527372552578A000B333C /* DebugLog.h */,
+				BA6527382552578A000B333C /* DebugLog.mm */,
+				BA6527392552578A000B333C /* CommandHandler.h */,
+				BA6527362552578A000B333C /* CommandHandler.mm */,
+				BA65273A2552578A000B333C /* ExtensionConst.mm */,
+				BA65273B2552578A000B333C /* ExtensionConst.h */,
+			);
+			path = DataHandler;
+			sourceTree = "<group>";
+		};
+		BA65273D2552578A000B333C /* STIMController */ = {
+			isa = PBXGroup;
+			children = (
+				BA65273E2552578A000B333C /* Power */,
+				BA6527422552578A000B333C /* Penrose */,
+				BA6527462552578A000B333C /* ELoad */,
+				BA65274D2552578A000B333C /* ButtonPress */,
+				BA6527512552578A000B333C /* Images */,
+				BA65277A2552578A000B333C /* ORION */,
+				BA65277E2552578A000B333C /* DMIC */,
+				BA6527832552578A000B333C /* ResAudio */,
+				BA6527872552578A000B333C /* NTC */,
+				BA65278B2552578A000B333C /* LDCM */,
+				BA65278F2552578A000B333C /* Discharge */,
+				BA6527942552578A000B333C /* Rigel */,
+				BA6527982552578A000B333C /* Base */,
+			);
+			path = STIMController;
+			sourceTree = "<group>";
+		};
+		BA65273E2552578A000B333C /* Power */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527402552578A000B333C /* PowerViewController.h */,
+				BA65273F2552578A000B333C /* PowerViewController.mm */,
+				BA6527412552578A000B333C /* PowerViewController.xib */,
+			);
+			path = Power;
+			sourceTree = "<group>";
+		};
+		BA6527422552578A000B333C /* Penrose */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527432552578A000B333C /* PenroseViewController.xib */,
+				BA6527442552578A000B333C /* PenroseViewController.m */,
+				BA6527452552578A000B333C /* PenroseViewController.h */,
+			);
+			path = Penrose;
+			sourceTree = "<group>";
+		};
+		BA6527462552578A000B333C /* ELoad */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527472552578A000B333C /* CCELoadViewController.h */,
+				BA6527492552578A000B333C /* CCELoadViewController.xib */,
+				BA65274C2552578A000B333C /* CCELoadViewController.m */,
+			);
+			path = ELoad;
+			sourceTree = "<group>";
+		};
+		BA65274D2552578A000B333C /* ButtonPress */ = {
+			isa = PBXGroup;
+			children = (
+				BA65274E2552578A000B333C /* ButtonPressViewController.mm */,
+				BA65274F2552578A000B333C /* ButtonPressViewController.xib */,
+				BA6527502552578A000B333C /* ButtonPressViewController.h */,
+			);
+			path = ButtonPress;
+			sourceTree = "<group>";
+		};
+		BA6527512552578A000B333C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527522552578A000B333C /* ORION.jpg */,
+				BA6527532552578A000B333C /* LDCM_New.jpg */,
+				BA6527542552578A000B333C /* Canvas 1.png */,
+				BA6527552552578A000B333C /* E_Load.jpg */,
+				BA6527562552578A000B333C /* image8.jpg */,
+				BA6527572552578A000B333C /* penrose1.jpg */,
+				BA6527582552578A000B333C /* Canvas 4.png */,
+				BA6527592552578A000B333C /* switch2_on.jpg */,
+				BA65275A2552578A000B333C /* image9.jpg */,
+				BA65275B2552578A000B333C /* image1.jpeg */,
+				BA65275C2552578A000B333C /* NTC.jpg */,
+				BA65275D2552578A000B333C /* RIGEL.jpg */,
+				BA65275E2552578A000B333C /* switch1_off.jpg */,
+				BA65275F2552578A000B333C /* image14.jpg */,
+				BA6527602552578A000B333C /* image15.jpg */,
+				BA6527612552578A000B333C /* POWER.jpg */,
+				BA6527622552578A000B333C /* ResAudio.jpg */,
+				BA6527632552578A000B333C /* image16.jpg */,
+				BA6527642552578A000B333C /* switch3_off.jpg */,
+				BA6527652552578A000B333C /* Canvas 13.png */,
+				BA6527662552578A000B333C /* image12.jpg */,
+				BA6527672552578A000B333C /* switch2_off.jpg */,
+				BA6527682552578A000B333C /* image13.jpg */,
+				BA6527692552578A000B333C /* CCELoad.jpg */,
+				BA65276A2552578A000B333C /* image11.jpg */,
+				BA65276B2552578A000B333C /* image10.jpg */,
+				BA65276C2552578A000B333C /* penrose.jpg */,
+				BA65276D2552578A000B333C /* switch1_on.jpg */,
+				BA65276E2552578A000B333C /* LDCM.jpg */,
+				BA65276F2552578A000B333C /* LDCM_New 2.jpg */,
+				BA6527702552578A000B333C /* DISCHARGE.jpg */,
+				BA6527712552578A000B333C /* switch3_on.jpg */,
+				BA6527722552578A000B333C /* image7.jpg */,
+				BA6527732552578A000B333C /* DMIC.jpg */,
+				BA6527742552578A000B333C /* image6.jpg */,
+				BA6527752552578A000B333C /* BUTTON_PRESS.jpg */,
+				BA6527762552578A000B333C /* image4.jpg */,
+				BA6527772552578A000B333C /* image5.jpg */,
+				BA6527782552578A000B333C /* image2.jpg */,
+				BA6527792552578A000B333C /* image3.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BA65277A2552578A000B333C /* ORION */ = {
+			isa = PBXGroup;
+			children = (
+				BA65277B2552578A000B333C /* ORIONViewController.h */,
+				BA65277C2552578A000B333C /* ORIONViewController.mm */,
+				BA65277D2552578A000B333C /* ORIONViewController.xib */,
+			);
+			path = ORION;
+			sourceTree = "<group>";
+		};
+		BA65277E2552578A000B333C /* DMIC */ = {
+			isa = PBXGroup;
+			children = (
+				BA65277F2552578A000B333C /* DMICViewController.mm */,
+				BA6527802552578A000B333C /* DMICViewController.h */,
+				BA6527812552578A000B333C /* DMICViewController.xib */,
+			);
+			path = DMIC;
+			sourceTree = "<group>";
+		};
+		BA6527832552578A000B333C /* ResAudio */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527842552578A000B333C /* ResAudioViewController.mm */,
+				BA6527852552578A000B333C /* ResAudioViewController.xib */,
+				BA6527862552578A000B333C /* ResAudioViewController.h */,
+			);
+			path = ResAudio;
+			sourceTree = "<group>";
+		};
+		BA6527872552578A000B333C /* NTC */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527882552578A000B333C /* NTCViewController.h */,
+				BA6527892552578A000B333C /* NTCViewController.mm */,
+				BA65278A2552578A000B333C /* NTCViewController.xib */,
+			);
+			path = NTC;
+			sourceTree = "<group>";
+		};
+		BA65278B2552578A000B333C /* LDCM */ = {
+			isa = PBXGroup;
+			children = (
+				BA65278C2552578A000B333C /* LDCMViewController.m */,
+				BA65278D2552578A000B333C /* LDCMViewController.xib */,
+				BA65278E2552578A000B333C /* LDCMViewController.h */,
+			);
+			path = LDCM;
+			sourceTree = "<group>";
+		};
+		BA65278F2552578A000B333C /* Discharge */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527902552578A000B333C /* DischargeViewController.h */,
+				BA6527912552578A000B333C /* DischargeViewController.xib */,
+				BA6527922552578A000B333C /* DischargeViewController.mm */,
+			);
+			path = Discharge;
+			sourceTree = "<group>";
+		};
+		BA6527942552578A000B333C /* Rigel */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527952552578A000B333C /* RigelViewController.xib */,
+				BA6527962552578A000B333C /* RigelViewController.mm */,
+				BA6527972552578A000B333C /* RigelViewController.h */,
+			);
+			path = Rigel;
+			sourceTree = "<group>";
+		};
+		BA6527982552578A000B333C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527992552578A000B333C /* STIMBaseViewController.mm */,
+				BA65279A2552578A000B333C /* STIMBaseViewController.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BA65279C2552578A000B333C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA6527A02552578A000B333C /* StimMainVC.h */,
+				BA65279D2552578A000B333C /* StimMainVC.m */,
+				BA65279E2552578A000B333C /* StimMainVC.xib */,
+				BA6527A12552578A000B333C /* StimTabViewController.h */,
+				BA65279F2552578A000B333C /* StimTabViewController.mm */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71B0A1831DCDCD46004165A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6527A72552578A000B333C /* CommandHandler.h in Headers */,
+				BA6527A92552578A000B333C /* ExtensionConst.h in Headers */,
+				BA6527A52552578A000B333C /* DebugLog.h in Headers */,
+				BA6527EB2552578A000B333C /* ResAudioViewController.h in Headers */,
+				BA6527EC2552578A000B333C /* NTCViewController.h in Headers */,
+				BA6527F22552578A000B333C /* DischargeViewController.h in Headers */,
+				BA6527B92552578A000B333C /* ButtonPressViewController.h in Headers */,
+				BA6527B02552578A000B333C /* PenroseViewController.h in Headers */,
+				BA6527F12552578A000B333C /* LDCMViewController.h in Headers */,
+				BA6527B12552578A000B333C /* CCELoadViewController.h in Headers */,
+				BA6527FA2552578A000B333C /* STIMBaseViewController.h in Headers */,
+				BA6527E62552578A000B333C /* DMICViewController.h in Headers */,
+				BA6527E22552578A000B333C /* ORIONViewController.h in Headers */,
+				BA6527F82552578A000B333C /* RigelViewController.h in Headers */,
+				BA6527AC2552578A000B333C /* PowerViewController.h in Headers */,
+				BA6527FF2552578A000B333C /* StimMainVC.h in Headers */,
+				BA6528002552578A000B333C /* StimTabViewController.h in Headers */,
+				BA6527AA2552578A000B333C /* GraphicHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71B0A1851DCDCD46004165A8 /* DvpStimPanelFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B0A18E1DCDCD46004165A8 /* Build configuration list for PBXNativeTarget "DvpStimPanelFrameWork" */;
+			buildPhases = (
+				71B0A1811DCDCD46004165A8 /* Sources */,
+				71B0A1821DCDCD46004165A8 /* Frameworks */,
+				71B0A1831DCDCD46004165A8 /* Headers */,
+				71B0A1841DCDCD46004165A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DvpStimPanelFrameWork;
+			productName = DvpStimPanelFrameWork;
+			productReference = 71B0A1861DCDCD46004165A8 /* DvpStimPanelFrameWork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71B0A17D1DCDCD46004165A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = suncode;
+				TargetAttributes = {
+					71B0A1851DCDCD46004165A8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71B0A1801DCDCD46004165A8 /* Build configuration list for PBXProject "DvpStimPanelFrameWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71B0A17C1DCDCD46004165A8;
+			productRefGroup = 71B0A1871DCDCD46004165A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71B0A1851DCDCD46004165A8 /* DvpStimPanelFrameWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71B0A1841DCDCD46004165A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6527F62552578A000B333C /* RigelViewController.xib in Resources */,
+				BA6527BD2552578A000B333C /* E_Load.jpg in Resources */,
+				BA6527DF2552578A000B333C /* image5.jpg in Resources */,
+				BA6527B32552578A000B333C /* CCELoadViewController.xib in Resources */,
+				BA6527CB2552578A000B333C /* image16.jpg in Resources */,
+				BA6527CD2552578A000B333C /* Canvas 13.png in Resources */,
+				BA6527C92552578A000B333C /* POWER.jpg in Resources */,
+				BA6527D02552578A000B333C /* image13.jpg in Resources */,
+				BA6527C42552578A000B333C /* NTC.jpg in Resources */,
+				BA6527BC2552578A000B333C /* Canvas 1.png in Resources */,
+				BA6527E12552578A000B333C /* image3.jpg in Resources */,
+				BA6527CC2552578A000B333C /* switch3_off.jpg in Resources */,
+				BA6527F32552578A000B333C /* DischargeViewController.xib in Resources */,
+				BA6527C32552578A000B333C /* image1.jpeg in Resources */,
+				BA6527DA2552578A000B333C /* image7.jpg in Resources */,
+				BA6527E42552578A000B333C /* ORIONViewController.xib in Resources */,
+				BA6527DE2552578A000B333C /* image4.jpg in Resources */,
+				BA6527D62552578A000B333C /* LDCM.jpg in Resources */,
+				BA6527D12552578A000B333C /* CCELoad.jpg in Resources */,
+				BA6527BE2552578A000B333C /* image8.jpg in Resources */,
+				BA6527C22552578A000B333C /* image9.jpg in Resources */,
+				BA6527E02552578A000B333C /* image2.jpg in Resources */,
+				BA6527CE2552578A000B333C /* image12.jpg in Resources */,
+				BA6527F02552578A000B333C /* LDCMViewController.xib in Resources */,
+				BA6527EA2552578A000B333C /* ResAudioViewController.xib in Resources */,
+				BA6527A32552578A000B333C /* StimCmdList.plist in Resources */,
+				BA6527D42552578A000B333C /* penrose.jpg in Resources */,
+				BA6527AE2552578A000B333C /* PenroseViewController.xib in Resources */,
+				BA6527C72552578A000B333C /* image14.jpg in Resources */,
+				BA6527BF2552578A000B333C /* penrose1.jpg in Resources */,
+				BA6527D32552578A000B333C /* image10.jpg in Resources */,
+				BA6527FD2552578A000B333C /* StimMainVC.xib in Resources */,
+				BA6527E72552578A000B333C /* DMICViewController.xib in Resources */,
+				BA6527BB2552578A000B333C /* LDCM_New.jpg in Resources */,
+				BA6527DB2552578A000B333C /* DMIC.jpg in Resources */,
+				BA6527D72552578A000B333C /* LDCM_New 2.jpg in Resources */,
+				BA6527DD2552578A000B333C /* BUTTON_PRESS.jpg in Resources */,
+				BA6527C52552578A000B333C /* RIGEL.jpg in Resources */,
+				BA6527D92552578A000B333C /* switch3_on.jpg in Resources */,
+				BA6527AD2552578A000B333C /* PowerViewController.xib in Resources */,
+				BA6527DC2552578A000B333C /* image6.jpg in Resources */,
+				BA6527C02552578A000B333C /* Canvas 4.png in Resources */,
+				BA6527CF2552578A000B333C /* switch2_off.jpg in Resources */,
+				BA6527C12552578A000B333C /* switch2_on.jpg in Resources */,
+				BA6527D82552578A000B333C /* DISCHARGE.jpg in Resources */,
+				BA6527B82552578A000B333C /* ButtonPressViewController.xib in Resources */,
+				BA6527BA2552578A000B333C /* ORION.jpg in Resources */,
+				BA6527C62552578A000B333C /* switch1_off.jpg in Resources */,
+				BA6527C82552578A000B333C /* image15.jpg in Resources */,
+				BA6527CA2552578A000B333C /* ResAudio.jpg in Resources */,
+				BA6527EE2552578A000B333C /* NTCViewController.xib in Resources */,
+				BA6527D52552578A000B333C /* switch1_on.jpg in Resources */,
+				BA6527D22552578A000B333C /* image11.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71B0A1811DCDCD46004165A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6527F72552578A000B333C /* RigelViewController.mm in Sources */,
+				BA6527F92552578A000B333C /* STIMBaseViewController.mm in Sources */,
+				BA6527B72552578A000B333C /* ButtonPressViewController.mm in Sources */,
+				BA6527AB2552578A000B333C /* PowerViewController.mm in Sources */,
+				BA6527A62552578A000B333C /* DebugLog.mm in Sources */,
+				BA6527E32552578A000B333C /* ORIONViewController.mm in Sources */,
+				BA6527E52552578A000B333C /* DMICViewController.mm in Sources */,
+				BA6527B62552578A000B333C /* CCELoadViewController.m in Sources */,
+				BA6527A42552578A000B333C /* CommandHandler.mm in Sources */,
+				BA6527EF2552578A000B333C /* LDCMViewController.m in Sources */,
+				BA6527F42552578A000B333C /* DischargeViewController.mm in Sources */,
+				BA6527FC2552578A000B333C /* StimMainVC.m in Sources */,
+				BA6527A82552578A000B333C /* ExtensionConst.mm in Sources */,
+				BA6527E92552578A000B333C /* ResAudioViewController.mm in Sources */,
+				BA6527FE2552578A000B333C /* StimTabViewController.mm in Sources */,
+				BA6527ED2552578A000B333C /* NTCViewController.mm in Sources */,
+				BA6527A22552578A000B333C /* GraphicHeader.m in Sources */,
+				BA6527AF2552578A000B333C /* PenroseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71B0A18C1DCDCD46004165A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71B0A18D1DCDCD46004165A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71B0A18F1DCDCD46004165A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = DvpStimPanelFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.io.DvpStimPanelFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		71B0A1901DCDCD46004165A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = DvpStimPanelFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.io.DvpStimPanelFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71B0A1801DCDCD46004165A8 /* Build configuration list for PBXProject "DvpStimPanelFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B0A18C1DCDCD46004165A8 /* Debug */,
+				71B0A18D1DCDCD46004165A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B0A18E1DCDCD46004165A8 /* Build configuration list for PBXNativeTarget "DvpStimPanelFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B0A18F1DCDCD46004165A8 /* Debug */,
+				71B0A1901DCDCD46004165A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71B0A17D1DCDCD46004165A8 /* Project object */;
+}
