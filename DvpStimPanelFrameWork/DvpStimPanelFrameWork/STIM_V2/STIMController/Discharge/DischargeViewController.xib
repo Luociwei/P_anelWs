@@ -8,6 +8,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="DischargeViewController">
             <connections>
+                <outlet property="backgroundView" destination="adS-h2-DoX" id="rWh-70-0KX"/>
                 <outlet property="bit227" destination="KrD-yK-cmx" id="aE9-4h-8Qf"/>
                 <outlet property="bit253" destination="BcG-G4-pra" id="tpz-l5-Uvx"/>
                 <outlet property="bit254" destination="wn8-hg-gU6" id="eq2-sj-D9O"/>

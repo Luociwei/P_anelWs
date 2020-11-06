@@ -8,6 +8,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="RigelViewController">
             <connections>
+                <outlet property="backgroundView" destination="Ew2-WS-Rbe" id="XHj-VP-Ecp"/>
                 <outlet property="bit37_btn" destination="4ss-ct-gGO" id="Egp-nv-I2J"/>
                 <outlet property="bit38_btn" destination="MQv-x0-T9F" id="PHb-cW-86z"/>
                 <outlet property="bit39_btn" destination="ocl-kN-1qj" id="5jy-XC-D3C"/>

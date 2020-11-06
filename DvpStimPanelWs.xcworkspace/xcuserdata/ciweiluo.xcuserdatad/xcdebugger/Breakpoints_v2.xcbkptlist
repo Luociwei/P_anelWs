@@ -6,11 +6,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DvpStimDemo/DvpStimDemo/DvpStimController.m"
-            timestampString = "626322439.555528"
+            timestampString = "626323046.025683"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DvpStimPanelFrameWork/DvpStimPanelFrameWork/STIM_V2/STIMController/Power/PowerViewController.mm"
-            timestampString = "626281020.604964"
+            timestampString = "626349075.4319251"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
             landmarkName = "-btnsClick:"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DvpStimPanelFrameWork/DvpStimPanelFrameWork/STIM_V2/STIMController/Base/STIMBaseViewController.mm"
-            timestampString = "626320830.407676"
+            timestampString = "626349075.432021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "112"
             endingLineNumber = "112"
-            landmarkName = "-setSwitch3BtnImage:"
+            landmarkName = "-joinSwitchBtnAndTextName:textName:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DvpStimPanelFrameWork/DvpStimPanelFrameWork/STIM_V2/STIMController/LDCM/LDCMViewController.m"
-            timestampString = "626322439.555812"
+            timestampString = "626349075.432079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "220"
-            endingLineNumber = "220"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
             landmarkName = "-btnsClick:"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,12 +74,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DvpStimPanelFrameWork/DvpStimPanelFrameWork/STIM_V2/STIMController/LDCM/LDCMViewController.m"
-            timestampString = "626322439.556289"
+            timestampString = "626349075.432484"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "-getSwitchBtnName:"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "-traceClick:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -89,13 +89,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DvpStimPanelFrameWork/DvpStimPanelFrameWork/STIM_V2/STIMController/LDCM/LDCMViewController.m"
-            timestampString = "626322439.5566"
+            filePath = "DvpStimPanelFrameWork/DvpStimPanelFrameWork/STIM_V2/STIMController/Base/STIMBaseViewController.mm"
+            timestampString = "626349075.432784"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
-            landmarkName = "-traceClick:"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "-setImageView:imageName:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

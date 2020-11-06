@@ -33,6 +33,9 @@
 @property (assign) IBOutlet NSButton *btn12v;
 @property (assign) IBOutlet NSButton *btn15v;
 
+@property (weak) IBOutlet NSImageView *backgroundView;
+
+
 @end
 
 
@@ -49,6 +52,7 @@
     
 //    [DebugLog saveLogToDefaultFileWithContent:[NSString stringWithFormat:@"start---------------%@-----------------log",self.title] fileName:self.title];
     
+    [self setImages];
     self.textFeilds = @[_textF1,_textF2,_textF3,_textF4,_textF5,_textF6];
     self.allSwitchs = @[@[_s1,_s2,_s3,_s4],@[_s5]];
     
@@ -61,7 +65,14 @@
 }
 
 
-
+-(void)setImages{
+    [self setImageView:self.backgroundView imageName:@"POWER.jpg"];
+    [self setSwitch1BtnImage:self.s1];
+    [self setSwitch1BtnImage:self.s2];
+    [self setSwitch1BtnImage:self.s3];
+    [self setSwitch1BtnImage:self.s4];
+    [self setSwitch3BtnImage:self.s5];
+}
 
 -(NSString *)getSwitchBtnNameWithTag:(NSInteger)tag{
     NSString *btnName = @"";
@@ -134,21 +145,22 @@
 -(void)resetRelays{
     [super resetRelays];
     
-    [self.s5 setImage:[NSImage imageNamed:@"switch3_on"]];
-    
+//    [self.s5 setImage:[NSImage imageNamed:@"switch3_on"]];
+    [self.s5 setState:NSControlStateValueOff];
+    [self setSwitch3BtnImage:self.s5];
     [self.btn5v setEnabled:YES];
     [self.btn9v setEnabled:NO];
     [self.btn12v setEnabled:NO];
     [self.btn15v setEnabled:NO];
 }
 
--(void)setSwitch3BtnImage:(NSButton *)switchBtn{
-    if (switchBtn.state) {
-        [switchBtn setImage:[NSImage imageNamed:@"switch3_off"]];
-    }else{
-        [switchBtn setImage:[NSImage imageNamed:@"switch3_on"]];
-    }
-}
+//-(void)setSwitch3BtnImage:(NSButton *)switchBtn{
+//    if (switchBtn.state) {
+//        [switchBtn setImage:[NSImage imageNamed:@"switch3_off"]];
+//    }else{
+//        [switchBtn setImage:[NSImage imageNamed:@"switch3_on"]];
+//    }
+//}
 
 
 - (IBAction)okBtnsClick:(NSButton *)switchBtn

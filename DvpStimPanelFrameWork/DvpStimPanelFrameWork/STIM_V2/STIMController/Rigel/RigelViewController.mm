@@ -15,7 +15,7 @@
 @property (assign) IBOutlet NSButton *bit39_btn;
 @property (assign) IBOutlet NSButton *bit38_btn;
 @property (assign) IBOutlet NSButton *bit37_btn;
-
+@property (weak) IBOutlet NSImageView *backgroundView;
 @property (copy) NSArray *switchBtns;
 @end
 
@@ -24,13 +24,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self setImages];
     self.switchBtns = @[_bit37_btn,_bit38_btn,_bit39_btn];
     self.allSwitchs = @[@[_bit37_btn,_bit38_btn,_bit39_btn,_bit78_btn,_bit79_btn]];
 }
 
 
-
+-(void)setImages{
+    [self setImageView:self.backgroundView imageName:@"RIGEL.jpg"];
+    
+    [self setSwitch1BtnImage:self.bit78_btn];
+    [self setSwitch1BtnImage:self.bit79_btn];
+    [self setSwitch1BtnImage:self.bit39_btn];
+    [self setSwitch1BtnImage:self.bit38_btn];
+    
+    [self setSwitch1BtnImage:self.bit37_btn];
+    
+    
+    
+}
 - (IBAction)bit37_38_39Click:(NSButton *)switchBtn {
     
     [self mutexSwitchsStateWithCurrentSelectedBtn1:switchBtn WithSwitchsArray:self.switchBtns];

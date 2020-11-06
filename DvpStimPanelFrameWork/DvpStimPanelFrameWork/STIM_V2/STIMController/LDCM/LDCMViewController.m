@@ -24,24 +24,33 @@
 @property (assign) IBOutlet NSTextField *powerBoardView;
 @property (assign) IBOutlet NSTextField *vauleDisplay;
 @property (assign) IBOutlet NSTextField *descLabel;
+@property (weak) IBOutlet NSImageView *backgroundView;
 
+@property (weak) IBOutlet NSButton *btn1;
+@property (weak) IBOutlet NSButton *btn2;
+@property (weak) IBOutlet NSButton *btn3;
+@property (weak) IBOutlet NSButton *btn4;
+@property (weak) IBOutlet NSButton *btn5;
+@property (weak) IBOutlet NSButton *btn6;
+@property (weak) IBOutlet NSButton *btn7;
+@property (weak) IBOutlet NSButton *btn8;
+@property (weak) IBOutlet NSButton *btn9;
+@property (weak) IBOutlet NSButton *btn10;
+@property (weak) IBOutlet NSButton *btn11;
+@property (weak) IBOutlet NSButton *btn12;
+@property (weak) IBOutlet NSButton *btn13;
+@property (weak) IBOutlet NSButton *btn14;
+@property (weak) IBOutlet NSButton *btn15;
+@property (weak) IBOutlet NSButton *btn16;
 @end
 
 @implementation LDCMViewController
-//+(instancetype)allocInit{
-//    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-//    
-//    LDCMViewController *vc = [[self alloc] initWithNibName:NSStringFromClass([LDCMViewController class]) bundle:bundle];
-//    return vc;
-//    
-//}
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do view setup here.
 //    NSInteger state = self.imagBtn1.state;
-    NSLog(@"111");
+    [self setImages];
     NSString *path = [[NSBundle mainBundle]pathForResource:@"information.plist" ofType:nil];
     NSDictionary *dic = [NSDictionary dictionaryWithContentsOfFile:path];
     NSString *desc = [dic objectForKey:@"LDCM_Desc"];
@@ -141,7 +150,34 @@
 #endif
     
 }
-
+-(void)setImages{
+    [self setImageView:self.backgroundView imageName:@"LDCM_New.jpg"];
+    [self setSwitchImage:@"Canvas 1.jpg" switchBtn:self.imagBtn1];
+    [self setSwitchImage:@"Canvas 1.jpg" switchBtn:self.imagBtn2];
+    [self setSwitchImage:@"Canvas 1.jpg" switchBtn:self.imagBtn3];
+    [self setImageView:self.image1 imageName:@"image1.jpg"];
+    [self setImageView:self.image2 imageName:@"image9.jpg"];
+    
+    [self setSwitch3BtnImage:self.btnTrace1];
+    [self setSwitch3BtnImage:self.btnTrace2];
+    
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn1];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn2];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn3];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn4];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn5];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn6];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn7];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn8];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn9];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn10];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn11];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn12];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn13];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn14];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn15];
+    [self setSwitchImage:@"Canvas 13.jpg" switchBtn:self.btn16];
+}
 -(void)setSwitch4BtnImage:(NSButton *)switchBtn{
     NSInteger state = switchBtn.state;
     self.imagBtn1.state = state;
@@ -248,8 +284,12 @@
     [self setImageView:self.image1 imageName:@"image1.jpg"];
     [self setImageView:self.image2 imageName:@"image9.jpg"];
     
-    [self setSwitchImage:@"switch3_on.jpg" switchBtn:self.btnTrace1];
-    [self setSwitchImage:@"switch3_on.jpg" switchBtn:self.btnTrace2];
+    [self.btnTrace1 setState:NSControlStateValueOff];
+    [self.btnTrace2 setState:NSControlStateValueOff];
+    [self setSwitch3BtnImage:self.btnTrace1];
+    [self setSwitch3BtnImage:self.btnTrace2];
+//    [self setSwitchImage:@"switch3_on.jpg" switchBtn:self.btnTrace1];
+//    [self setSwitchImage:@"switch3_on.jpg" switchBtn:self.btnTrace2];
 //    [self.btnTrace1 setImage:[NSImage imageNamed:@"switch3_on"]];
 //    [self.btnTrace2 setImage:[NSImage imageNamed:@"switch3_on"]];
 }

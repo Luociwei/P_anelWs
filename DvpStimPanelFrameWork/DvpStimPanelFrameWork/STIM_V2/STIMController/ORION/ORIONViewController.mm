@@ -24,7 +24,7 @@
 @property (assign) IBOutlet NSButton *btnConsumer;
 @property (assign) IBOutlet NSButton *btnOAB;
 
-
+@property (weak) IBOutlet NSImageView *backgroundView;
 @end
 typedef NS_ENUM(NSUInteger, OrionSwitchControlType) {
     OrionSwitchControlTypeOAB    = 0,
@@ -36,10 +36,21 @@ typedef NS_ENUM(NSUInteger, OrionSwitchControlType) {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setImageView:self.backgroundView imageName:@"ORION.jpg"];
     self.switchBtns = @[_switchBtn1,_switchBtn2,_switchBtn3];
     self.allSwitchs = @[@[_switchBtn1,_switchBtn2,_switchBtn3]];
     
 }
+
+
+-(void)setImages{
+    [self setImageView:self.backgroundView imageName:@"ORION.jpg"];
+    [self setSwitch1BtnImage:self.switchBtn1];
+    [self setSwitch1BtnImage:self.switchBtn2];
+    [self setSwitch1BtnImage:self.switchBtn3];
+    
+}
+
 -(NSString *)getSwitchBtnName:(NSButton *)btn{
     NSString *btnName = @"";
     NSInteger tag = btn.tag;

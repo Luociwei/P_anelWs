@@ -24,6 +24,8 @@
 
 @property (assign) IBOutlet NSButton *startBtn;
 @property (assign) IBOutlet NSButton *stopBtn;
+
+@property (weak) IBOutlet NSImageView *backgroundView;
 @end
 
 
@@ -32,6 +34,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do view setup here.
+    [self setImages];
     self.switchBtns = @[@[_switchBtn1,_switchBtn2],@[_switchBtn3,_switchBtn4],@[_switchBtn5,_switchBtn6],@[_switchBtn7,_switchBtn8]];
     self.allSwitchs=@[@[_switchBtn1,_switchBtn2,_switchBtn3,_switchBtn4,_switchBtn5,_switchBtn6,_switchBtn7,_switchBtn8]];
     int j=1;
@@ -53,6 +56,18 @@
         }
         j++;
     }
+}
+-(void)setImages{
+    [self setImageView:self.backgroundView imageName:@"DMIC.jpg"];
+    [self setSwitch1BtnImage:self.switchBtn1];
+    [self setSwitch1BtnImage:self.switchBtn2];
+    [self setSwitch1BtnImage:self.switchBtn3];
+    [self setSwitch1BtnImage:self.switchBtn4];
+    [self setSwitch1BtnImage:self.switchBtn5];
+    [self setSwitch1BtnImage:self.switchBtn6];
+    [self setSwitch1BtnImage:self.switchBtn7];
+    [self setSwitch1BtnImage:self.switchBtn8];
+    
 }
 
 - (IBAction)pdmBtnClick:(NSButton *)btn {

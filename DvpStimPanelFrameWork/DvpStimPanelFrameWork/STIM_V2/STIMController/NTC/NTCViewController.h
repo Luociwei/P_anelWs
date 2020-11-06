@@ -10,6 +10,5 @@
 
 @interface NTCViewController : STIMBaseViewController
 
-//+(instancetype)createViewController;
 
 @end

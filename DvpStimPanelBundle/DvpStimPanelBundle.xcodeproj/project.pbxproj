@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAF189B125552CB50000306D /* ORION.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1898925552CB50000306D /* ORION.jpg */; };
+		BAF189B225552CB50000306D /* LDCM_New.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1898A25552CB50000306D /* LDCM_New.jpg */; };
+		BAF189B325552CB50000306D /* Canvas 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1898B25552CB50000306D /* Canvas 1.jpg */; };
+		BAF189B425552CB50000306D /* E_Load.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1898C25552CB50000306D /* E_Load.jpg */; };
+		BAF189B525552CB50000306D /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1898D25552CB50000306D /* image8.jpg */; };
+		BAF189B625552CB50000306D /* Canvas 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1898E25552CB50000306D /* Canvas 4.jpg */; };
+		BAF189B725552CB50000306D /* penrose1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1898F25552CB50000306D /* penrose1.jpg */; };
+		BAF189B825552CB50000306D /* switch2_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899025552CB50000306D /* switch2_on.jpg */; };
+		BAF189B925552CB50000306D /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899125552CB50000306D /* image9.jpg */; };
+		BAF189BA25552CB50000306D /* NTC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899225552CB50000306D /* NTC.jpg */; };
+		BAF189BB25552CB50000306D /* RIGEL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899325552CB50000306D /* RIGEL.jpg */; };
+		BAF189BC25552CB50000306D /* switch1_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899425552CB50000306D /* switch1_off.jpg */; };
+		BAF189BD25552CB50000306D /* image14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899525552CB50000306D /* image14.jpg */; };
+		BAF189BE25552CB50000306D /* image15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899625552CB50000306D /* image15.jpg */; };
+		BAF189BF25552CB50000306D /* POWER.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899725552CB50000306D /* POWER.jpg */; };
+		BAF189C025552CB50000306D /* ResAudio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899825552CB50000306D /* ResAudio.jpg */; };
+		BAF189C125552CB50000306D /* image16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899925552CB50000306D /* image16.jpg */; };
+		BAF189C225552CB50000306D /* switch3_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899A25552CB50000306D /* switch3_off.jpg */; };
+		BAF189C325552CB50000306D /* Canvas 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899B25552CB50000306D /* Canvas 13.jpg */; };
+		BAF189C425552CB50000306D /* image12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899C25552CB50000306D /* image12.jpg */; };
+		BAF189C525552CB50000306D /* switch2_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899D25552CB50000306D /* switch2_off.jpg */; };
+		BAF189C625552CB50000306D /* image13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899E25552CB50000306D /* image13.jpg */; };
+		BAF189C725552CB50000306D /* CCELoad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF1899F25552CB50000306D /* CCELoad.jpg */; };
+		BAF189C825552CB50000306D /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189A025552CB50000306D /* image11.jpg */; };
+		BAF189C925552CB50000306D /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189A125552CB50000306D /* image10.jpg */; };
+		BAF189CA25552CB50000306D /* penrose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189A225552CB50000306D /* penrose.jpg */; };
+		BAF189CB25552CB50000306D /* switch1_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189A325552CB50000306D /* switch1_on.jpg */; };
+		BAF189CC25552CB50000306D /* LDCM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189A425552CB50000306D /* LDCM.jpg */; };
+		BAF189CD25552CB50000306D /* LDCM_New 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189A525552CB50000306D /* LDCM_New 2.jpg */; };
+		BAF189CE25552CB50000306D /* DISCHARGE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189A625552CB50000306D /* DISCHARGE.jpg */; };
+		BAF189CF25552CB50000306D /* switch3_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189A725552CB50000306D /* switch3_on.jpg */; };
+		BAF189D025552CB50000306D /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189A825552CB50000306D /* image7.jpg */; };
+		BAF189D125552CB50000306D /* DMIC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189A925552CB50000306D /* DMIC.jpg */; };
+		BAF189D225552CB50000306D /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189AA25552CB50000306D /* image6.jpg */; };
+		BAF189D325552CB50000306D /* BUTTON_PRESS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189AB25552CB50000306D /* BUTTON_PRESS.jpg */; };
+		BAF189D425552CB50000306D /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189AC25552CB50000306D /* image4.jpg */; };
+		BAF189D525552CB50000306D /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189AD25552CB50000306D /* image5.jpg */; };
+		BAF189D625552CB50000306D /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189AE25552CB50000306D /* image1.jpg */; };
+		BAF189D725552CB50000306D /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189AF25552CB50000306D /* image2.jpg */; };
+		BAF189D825552CB50000306D /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189B025552CB50000306D /* image3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA65230B255065F2000B333C /* DvpStimPanelBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DvpStimPanelBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF1898925552CB50000306D /* ORION.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ORION.jpg; sourceTree = "<group>"; };
+		BAF1898A25552CB50000306D /* LDCM_New.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LDCM_New.jpg; sourceTree = "<group>"; };
+		BAF1898B25552CB50000306D /* Canvas 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canvas 1.jpg"; sourceTree = "<group>"; };
+		BAF1898C25552CB50000306D /* E_Load.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Load.jpg; sourceTree = "<group>"; };
+		BAF1898D25552CB50000306D /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		BAF1898E25552CB50000306D /* Canvas 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canvas 4.jpg"; sourceTree = "<group>"; };
+		BAF1898F25552CB50000306D /* penrose1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penrose1.jpg; sourceTree = "<group>"; };
+		BAF1899025552CB50000306D /* switch2_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch2_on.jpg; sourceTree = "<group>"; };
+		BAF1899125552CB50000306D /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		BAF1899225552CB50000306D /* NTC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NTC.jpg; sourceTree = "<group>"; };
+		BAF1899325552CB50000306D /* RIGEL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RIGEL.jpg; sourceTree = "<group>"; };
+		BAF1899425552CB50000306D /* switch1_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch1_off.jpg; sourceTree = "<group>"; };
+		BAF1899525552CB50000306D /* image14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image14.jpg; sourceTree = "<group>"; };
+		BAF1899625552CB50000306D /* image15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image15.jpg; sourceTree = "<group>"; };
+		BAF1899725552CB50000306D /* POWER.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = POWER.jpg; sourceTree = "<group>"; };
+		BAF1899825552CB50000306D /* ResAudio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ResAudio.jpg; sourceTree = "<group>"; };
+		BAF1899925552CB50000306D /* image16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image16.jpg; sourceTree = "<group>"; };
+		BAF1899A25552CB50000306D /* switch3_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch3_off.jpg; sourceTree = "<group>"; };
+		BAF1899B25552CB50000306D /* Canvas 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canvas 13.jpg"; sourceTree = "<group>"; };
+		BAF1899C25552CB50000306D /* image12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image12.jpg; sourceTree = "<group>"; };
+		BAF1899D25552CB50000306D /* switch2_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch2_off.jpg; sourceTree = "<group>"; };
+		BAF1899E25552CB50000306D /* image13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image13.jpg; sourceTree = "<group>"; };
+		BAF1899F25552CB50000306D /* CCELoad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CCELoad.jpg; sourceTree = "<group>"; };
+		BAF189A025552CB50000306D /* image11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpg; sourceTree = "<group>"; };
+		BAF189A125552CB50000306D /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
+		BAF189A225552CB50000306D /* penrose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penrose.jpg; sourceTree = "<group>"; };
+		BAF189A325552CB50000306D /* switch1_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch1_on.jpg; sourceTree = "<group>"; };
+		BAF189A425552CB50000306D /* LDCM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LDCM.jpg; sourceTree = "<group>"; };
+		BAF189A525552CB50000306D /* LDCM_New 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LDCM_New 2.jpg"; sourceTree = "<group>"; };
+		BAF189A625552CB50000306D /* DISCHARGE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DISCHARGE.jpg; sourceTree = "<group>"; };
+		BAF189A725552CB50000306D /* switch3_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch3_on.jpg; sourceTree = "<group>"; };
+		BAF189A825552CB50000306D /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		BAF189A925552CB50000306D /* DMIC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DMIC.jpg; sourceTree = "<group>"; };
+		BAF189AA25552CB50000306D /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		BAF189AB25552CB50000306D /* BUTTON_PRESS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BUTTON_PRESS.jpg; sourceTree = "<group>"; };
+		BAF189AC25552CB50000306D /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		BAF189AD25552CB50000306D /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		BAF189AE25552CB50000306D /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		BAF189AF25552CB50000306D /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		BAF189B025552CB50000306D /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA652308255065F2000B333C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA652302255065F2000B333C = {
+			isa = PBXGroup;
+			children = (
+				BAF1898825552CB50000306D /* Images */,
+				BA65230C255065F2000B333C /* Products */,
+				BA65236D25515109000B333C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA65230C255065F2000B333C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA65230B255065F2000B333C /* DvpStimPanelBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA65236D25515109000B333C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAF1898825552CB50000306D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BAF1898925552CB50000306D /* ORION.jpg */,
+				BAF1898A25552CB50000306D /* LDCM_New.jpg */,
+				BAF1898B25552CB50000306D /* Canvas 1.jpg */,
+				BAF1898C25552CB50000306D /* E_Load.jpg */,
+				BAF1898D25552CB50000306D /* image8.jpg */,
+				BAF1898E25552CB50000306D /* Canvas 4.jpg */,
+				BAF1898F25552CB50000306D /* penrose1.jpg */,
+				BAF1899025552CB50000306D /* switch2_on.jpg */,
+				BAF1899125552CB50000306D /* image9.jpg */,
+				BAF1899225552CB50000306D /* NTC.jpg */,
+				BAF1899325552CB50000306D /* RIGEL.jpg */,
+				BAF1899425552CB50000306D /* switch1_off.jpg */,
+				BAF1899525552CB50000306D /* image14.jpg */,
+				BAF1899625552CB50000306D /* image15.jpg */,
+				BAF1899725552CB50000306D /* POWER.jpg */,
+				BAF1899825552CB50000306D /* ResAudio.jpg */,
+				BAF1899925552CB50000306D /* image16.jpg */,
+				BAF1899A25552CB50000306D /* switch3_off.jpg */,
+				BAF1899B25552CB50000306D /* Canvas 13.jpg */,
+				BAF1899C25552CB50000306D /* image12.jpg */,
+				BAF1899D25552CB50000306D /* switch2_off.jpg */,
+				BAF1899E25552CB50000306D /* image13.jpg */,
+				BAF1899F25552CB50000306D /* CCELoad.jpg */,
+				BAF189A025552CB50000306D /* image11.jpg */,
+				BAF189A125552CB50000306D /* image10.jpg */,
+				BAF189A225552CB50000306D /* penrose.jpg */,
+				BAF189A325552CB50000306D /* switch1_on.jpg */,
+				BAF189A425552CB50000306D /* LDCM.jpg */,
+				BAF189A525552CB50000306D /* LDCM_New 2.jpg */,
+				BAF189A625552CB50000306D /* DISCHARGE.jpg */,
+				BAF189A725552CB50000306D /* switch3_on.jpg */,
+				BAF189A825552CB50000306D /* image7.jpg */,
+				BAF189A925552CB50000306D /* DMIC.jpg */,
+				BAF189AA25552CB50000306D /* image6.jpg */,
+				BAF189AB25552CB50000306D /* BUTTON_PRESS.jpg */,
+				BAF189AC25552CB50000306D /* image4.jpg */,
+				BAF189AD25552CB50000306D /* image5.jpg */,
+				BAF189AE25552CB50000306D /* image1.jpg */,
+				BAF189AF25552CB50000306D /* image2.jpg */,
+				BAF189B025552CB50000306D /* image3.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA65230A255065F2000B333C /* DvpStimPanelBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA652311255065F2000B333C /* Build configuration list for PBXNativeTarget "DvpStimPanelBundle" */;
+			buildPhases = (
+				BA652307255065F2000B333C /* Sources */,
+				BA652308255065F2000B333C /* Frameworks */,
+				BA652309255065F2000B333C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DvpStimPanelBundle;
+			productName = DvpStimPanelBundle;
+			productReference = BA65230B255065F2000B333C /* DvpStimPanelBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA652303255065F2000B333C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "ciwei luo";
+				TargetAttributes = {
+					BA65230A255065F2000B333C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BA652306255065F2000B333C /* Build configuration list for PBXProject "DvpStimPanelBundle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA652302255065F2000B333C;
+			productRefGroup = BA65230C255065F2000B333C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA65230A255065F2000B333C /* DvpStimPanelBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA652309255065F2000B333C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF189B225552CB50000306D /* LDCM_New.jpg in Resources */,
+				BAF189BB25552CB50000306D /* RIGEL.jpg in Resources */,
+				BAF189B525552CB50000306D /* image8.jpg in Resources */,
+				BAF189C625552CB50000306D /* image13.jpg in Resources */,
+				BAF189CF25552CB50000306D /* switch3_on.jpg in Resources */,
+				BAF189B425552CB50000306D /* E_Load.jpg in Resources */,
+				BAF189CD25552CB50000306D /* LDCM_New 2.jpg in Resources */,
+				BAF189B925552CB50000306D /* image9.jpg in Resources */,
+				BAF189B125552CB50000306D /* ORION.jpg in Resources */,
+				BAF189CB25552CB50000306D /* switch1_on.jpg in Resources */,
+				BAF189D225552CB50000306D /* image6.jpg in Resources */,
+				BAF189B325552CB50000306D /* Canvas 1.jpg in Resources */,
+				BAF189D125552CB50000306D /* DMIC.jpg in Resources */,
+				BAF189CE25552CB50000306D /* DISCHARGE.jpg in Resources */,
+				BAF189C925552CB50000306D /* image10.jpg in Resources */,
+				BAF189C025552CB50000306D /* ResAudio.jpg in Resources */,
+				BAF189CC25552CB50000306D /* LDCM.jpg in Resources */,
+				BAF189BE25552CB50000306D /* image15.jpg in Resources */,
+				BAF189B825552CB50000306D /* switch2_on.jpg in Resources */,
+				BAF189D725552CB50000306D /* image2.jpg in Resources */,
+				BAF189CA25552CB50000306D /* penrose.jpg in Resources */,
+				BAF189C325552CB50000306D /* Canvas 13.jpg in Resources */,
+				BAF189D325552CB50000306D /* BUTTON_PRESS.jpg in Resources */,
+				BAF189D025552CB50000306D /* image7.jpg in Resources */,
+				BAF189D625552CB50000306D /* image1.jpg in Resources */,
+				BAF189BD25552CB50000306D /* image14.jpg in Resources */,
+				BAF189C725552CB50000306D /* CCELoad.jpg in Resources */,
+				BAF189D525552CB50000306D /* image5.jpg in Resources */,
+				BAF189C525552CB50000306D /* switch2_off.jpg in Resources */,
+				BAF189C225552CB50000306D /* switch3_off.jpg in Resources */,
+				BAF189B625552CB50000306D /* Canvas 4.jpg in Resources */,
+				BAF189D825552CB50000306D /* image3.jpg in Resources */,
+				BAF189B725552CB50000306D /* penrose1.jpg in Resources */,
+				BAF189BA25552CB50000306D /* NTC.jpg in Resources */,
+				BAF189C425552CB50000306D /* image12.jpg in Resources */,
+				BAF189C125552CB50000306D /* image16.jpg in Resources */,
+				BAF189D425552CB50000306D /* image4.jpg in Resources */,
+				BAF189BF25552CB50000306D /* POWER.jpg in Resources */,
+				BAF189BC25552CB50000306D /* switch1_off.jpg in Resources */,
+				BAF189C825552CB50000306D /* image11.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA652307255065F2000B333C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA65230F255065F2000B333C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA652310255065F2000B333C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA652312255065F2000B333C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suncode.DvpStimPanelBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BA652313255065F2000B333C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suncode.DvpStimPanelBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA652306255065F2000B333C /* Build configuration list for PBXProject "DvpStimPanelBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA65230F255065F2000B333C /* Debug */,
+				BA652310255065F2000B333C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA652311255065F2000B333C /* Build configuration list for PBXNativeTarget "DvpStimPanelBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA652312255065F2000B333C /* Debug */,
+				BA652313255065F2000B333C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA652303255065F2000B333C /* Project object */;
+}

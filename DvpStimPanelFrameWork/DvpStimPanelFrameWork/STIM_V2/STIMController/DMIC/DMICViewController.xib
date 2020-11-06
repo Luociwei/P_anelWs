@@ -8,6 +8,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="DMICViewController">
             <connections>
+                <outlet property="backgroundView" destination="YKh-Os-Jcm" id="onx-ZM-8N6"/>
                 <outlet property="startBtn" destination="A44-op-7SG" id="fwe-je-2qM"/>
                 <outlet property="stopBtn" destination="Lnq-eb-NME" id="e0O-oY-OhS"/>
                 <outlet property="switchBtn1" destination="ls5-7i-Sy1" id="Met-Ju-Wzx"/>
@@ -77,7 +78,7 @@
                     </connections>
                 </button>
                 <button tag="108" id="9ol-xz-qsU" userLabel="bit108_btn1">
-                    <rect key="frame" x="421" y="319" width="64" height="30"/>
+                    <rect key="frame" x="421" y="318" width="64" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="KtM-24-DBx">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
@@ -88,7 +89,7 @@
                     </connections>
                 </button>
                 <button tag="108" id="4jz-JB-zFG" userLabel="bit108_btn2">
-                    <rect key="frame" x="421" y="286" width="64" height="30"/>
+                    <rect key="frame" x="421" y="285" width="64" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="BR7-5w-HoR">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
@@ -132,7 +133,7 @@
                     </connections>
                 </button>
                 <button tag="105" id="m6m-aq-ziX" userLabel="bit105_btn2">
-                    <rect key="frame" x="420" y="137" width="64" height="30"/>
+                    <rect key="frame" x="420" y="136" width="64" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="Me0-fd-c7A">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>

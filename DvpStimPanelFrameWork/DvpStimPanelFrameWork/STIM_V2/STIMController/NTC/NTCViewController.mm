@@ -14,7 +14,7 @@
 @property (assign) IBOutlet NSButton *bit121_btn;
 
 @property (assign) IBOutlet NSButton *bit122_btn;
-
+@property (weak) IBOutlet NSImageView *backgroundView;
 
 @property (copy) NSArray *switchBtns;
 @end
@@ -23,20 +23,13 @@
 @implementation NTCViewController
 
 
-+(instancetype)createViewController{
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    
-    NTCViewController *vc = [[NTCViewController alloc] initWithNibName:@"NTCViewController" bundle:bundle];
-    return vc;
-    
-}
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do view setup here.
+    
+    [self setImages];
     self.switchBtns = @[_bit120_btn,_bit121_btn,_bit122_btn];
-     self.allSwitchs = @[@[_bit120_btn,_bit121_btn,_bit122_btn]];
+    self.allSwitchs = @[@[_bit120_btn,_bit121_btn,_bit122_btn]];
 }
 -(NSString *)getSwitchBtnName:(NSButton *)btn{
     NSString *btnName = @"";
@@ -56,6 +49,17 @@
     
     return btnName;
 }
+
+-(void)setImages{
+    [self setImageView:self.backgroundView imageName:@"NTC.jpg"];
+
+    [self setSwitch1BtnImage:self.bit120_btn];
+    [self setSwitch1BtnImage:self.bit121_btn];
+    [self setSwitch1BtnImage:self.bit122_btn];
+
+}
+
+
 - (IBAction)bitBtnsClick:(NSButton *)switchBtn {
     
     [self mutexSwitchsStateWithCurrentSelectedBtn1:switchBtn WithSwitchsArray:self.switchBtns];

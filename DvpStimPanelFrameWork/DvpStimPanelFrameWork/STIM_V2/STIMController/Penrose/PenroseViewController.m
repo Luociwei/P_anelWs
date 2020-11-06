@@ -25,6 +25,7 @@
 @property (assign) IBOutlet NSButton *s1;
 @property (assign) IBOutlet NSButton *s2;
 @property (assign) IBOutlet NSTextField *descLabel;
+@property (weak) IBOutlet NSImageView *backgroundView;
 
 @end
 
@@ -33,6 +34,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do view setup here.
+    
+    [self setImages];
     self.allSwitchs = @[@[_s1,_s2]];
     NSString *path = [[NSBundle mainBundle]pathForResource:@"information.plist" ofType:nil];
     NSDictionary *dic = [NSDictionary dictionaryWithContentsOfFile:path];
@@ -95,6 +98,17 @@
     
     return btnName;
 }
+
+
+
+-(void)setImages{
+    [self setImageView:self.backgroundView imageName:@"penrose.jpg"];
+    
+    [self setSwitch1BtnImage:self.s1];
+    [self setSwitch1BtnImage:self.s2];
+    
+}
+
 - (IBAction)s1click:(NSButton *)btn {
     
     [self dmicSwitchsStateWithCurrentSelectedBtn:btn WithSwitchsArray:@[@[_s1,_s2]]];
@@ -111,6 +125,8 @@
 #endif
     
 }
+
+
 
 //-(void)resetRelays{
 //    [super resetRelays];

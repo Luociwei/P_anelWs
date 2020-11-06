@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:TestBundle1/TestBundle1.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:DvpStimPanelFrameWork/DvpStimPanelFrameWork.xcodeproj">
    </FileRef>
    <FileRef

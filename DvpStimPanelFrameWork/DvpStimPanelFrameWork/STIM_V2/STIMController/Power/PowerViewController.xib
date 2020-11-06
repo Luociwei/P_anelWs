@@ -8,6 +8,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="PowerViewController">
             <connections>
+                <outlet property="backgroundView" destination="rLh-uK-gkd" id="og5-Yv-ksr"/>
                 <outlet property="btn12v" destination="l4o-66-FiH" id="cgD-04-hHc"/>
                 <outlet property="btn15v" destination="8d9-8K-9Lk" id="4dS-7M-dtT"/>
                 <outlet property="btn5v" destination="I8Y-ZO-BuK" id="kOx-zg-5Z9"/>
@@ -39,7 +40,7 @@
                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="photo" image="POWER" id="usV-Es-yS5"/>
                 </imageView>
                 <button verticalHuggingPriority="750" tag="13" id="8d9-8K-9Lk" userLabel="VBUS2_OK4">
-                    <rect key="frame" x="932" y="99" width="54" height="32"/>
+                    <rect key="frame" x="932" y="98" width="54" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="push" title="OK" alternateTitle="VBUS2" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" sound="Basso" inset="2" id="vpj-Tn-4Ib">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -59,7 +60,7 @@
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" tag="4" id="Lfe-5l-Z7t" userLabel="VBUS_OK">
-                    <rect key="frame" x="162" y="333" width="65" height="32"/>
+                    <rect key="frame" x="162" y="332" width="65" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="push" title="OK" alternateTitle="VBUS" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" sound="Basso" inset="2" id="pAY-zk-9Ii">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -70,7 +71,7 @@
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" tag="10" id="I8Y-ZO-BuK" userLabel="VBUS2_OK1">
-                    <rect key="frame" x="932" y="159" width="54" height="32"/>
+                    <rect key="frame" x="932" y="158" width="54" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="push" title="OK" alternateTitle="VBUS2" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" sound="Basso" inset="2" id="ULC-9C-8eJ">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -90,7 +91,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" tag="4" id="VrL-Ns-X0F" userLabel="vBusTextF">
-                    <rect key="frame" x="66" y="371" width="64" height="22"/>
+                    <rect key="frame" x="66" y="370" width="64" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" title="5000" drawsBackground="YES" id="F8J-3R-R0G">
                         <font key="font" metaFont="system"/>
@@ -99,7 +100,7 @@
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" tag="12" id="l4o-66-FiH" userLabel="VBUS2_OK3">
-                    <rect key="frame" x="932" y="119" width="54" height="32"/>
+                    <rect key="frame" x="932" y="118" width="54" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="push" title="OK" alternateTitle="VBUS2" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" sound="Basso" inset="2" id="JBG-eD-V1E">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -110,7 +111,7 @@
                     </connections>
                 </button>
                 <button tag="50" id="MSf-vE-qIz" userLabel="S3">
-                    <rect key="frame" x="551" y="264" width="67" height="32"/>
+                    <rect key="frame" x="551" y="263" width="67" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="T9R-Jq-Pej">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
@@ -132,7 +133,7 @@
                     </connections>
                 </button>
                 <button tag="63" id="dOQ-ip-Oty" userLabel="S3">
-                    <rect key="frame" x="586" y="324" width="67" height="32"/>
+                    <rect key="frame" x="586" y="323" width="67" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="square" alternateTitle="IO" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="JJg-C2-kxj">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
@@ -165,7 +166,7 @@
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" tag="11" id="4vh-iN-YTB" userLabel="VBUS2_OK2">
-                    <rect key="frame" x="932" y="139" width="54" height="32"/>
+                    <rect key="frame" x="932" y="138" width="54" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="push" title="OK" alternateTitle="VBUS2" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" sound="Basso" inset="2" id="415-o2-7k0">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>

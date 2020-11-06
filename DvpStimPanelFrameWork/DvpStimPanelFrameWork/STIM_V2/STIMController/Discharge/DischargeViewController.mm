@@ -17,7 +17,7 @@
 
 @property (assign) IBOutlet NSButton *bit99;
 @property (assign) IBOutlet NSButton *bit255;
-
+@property (weak) IBOutlet NSImageView *backgroundView;
 @end
 
 
@@ -25,8 +25,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setImages];
     
     self.allSwitchs = @[@[_bit253,_bit256,_bit227,_bit254,_bit255,_bit99]];
+    
 }
 
 -(NSString *)getSwitchBtnName:(NSButton *)btn{
@@ -53,6 +55,22 @@
     
     return btnName;
 }
+
+-(void)setImages{
+    [self setImageView:self.backgroundView imageName:@"DISCHARGE.jpg"];
+
+    [self setSwitch1BtnImage:self.bit99];
+    [self setSwitch1BtnImage:self.bit253];
+    [self setSwitch1BtnImage:self.bit256];
+    [self setSwitch1BtnImage:self.bit227];
+    
+    [self setSwitch1BtnImage:self.bit254];
+    [self setSwitch1BtnImage:self.bit255];
+
+    
+}
+
+
 - (IBAction)btsClick:(NSButton *)switchBtn {
     
     

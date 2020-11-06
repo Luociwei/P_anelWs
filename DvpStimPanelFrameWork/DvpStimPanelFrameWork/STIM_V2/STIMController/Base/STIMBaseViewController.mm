@@ -35,18 +35,6 @@
 }
 
 
-
-
-//-(instancetype)initWithNibName:(NSNibName)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
-//    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-//    if (self) {
-//        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-//        [self initWithNibName:NSStringFromClass([self class]) bundle:bundle];
-//
-//    }
-//    return self;
-//}
-
 +(instancetype)allocInit{
    
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
@@ -56,7 +44,6 @@
     return vc;
     
 }
-
 
 
 
@@ -131,14 +118,18 @@
 
 
 -(void)setSwitchImage:(NSString *)imageName switchBtn:(NSButton *)switchBtn{
-    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:imageName];
+    //    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:imageName];
+    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"DvpStimPanelBundle.bundle/%@",imageName]];
     NSImage *image = [[NSImage alloc]initWithContentsOfFile:pic_path];
+//    NSImage imagei
     [switchBtn setImage:image];
 }
 
 
 -(void)setImageView:(NSImageView *)imageView imageName:(NSString *)imageName{
-    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:imageName];
+//    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:imageName];
+    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"DvpStimPanelBundle.bundle/%@",imageName]];
+    
     NSImage *image = [[NSImage alloc]initWithContentsOfFile:pic_path];
    
     [imageView setImage:image];

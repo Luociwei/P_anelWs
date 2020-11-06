@@ -31,6 +31,7 @@
 @property (assign) IBOutlet NSButton *bit_243_btn2;
 @property (assign) IBOutlet NSButton *bit_243_btn3;
 @property (assign) IBOutlet NSButton *bit_243_btn4;
+@property (weak) IBOutlet NSImageView *backgroundView;
 @end
 
 
@@ -40,7 +41,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do view setup here.
-    
+    [self setImages];
     self.switchBtns = @[_bit_244_btn1,_bit_244_btn2,_bit_244_btn3,_bit_244_btn4,_bit_242_btn1,_bit_242_btn2,_bit_242_btn3,_bit_242_btn4,_bit_245_btn1,_bit_245_btn2,_bit_245_btn3,_bit_245_btn4,_bit_243_btn1,_bit_243_btn2,_bit_243_btn3,_bit_243_btn4];
     
     self.allSwitchs = @[@[_bit_245_btn1,_bit_245_btn2,_bit_245_btn3,_bit_245_btn4,_bit_243_btn1,_bit_243_btn2,_bit_243_btn3,_bit_243_btn4],@[_bit_244_btn1,_bit_244_btn2,_bit_244_btn3,_bit_244_btn4,_bit_242_btn1,_bit_242_btn2,_bit_242_btn3,_bit_242_btn4]];
@@ -63,6 +64,29 @@
     }
     
 }
+
+
+-(void)setImages{
+    [self setImageView:self.backgroundView imageName:@"ResAudio.jpg"];
+    [self setSwitch2BtnImage:self.bit_244_btn1];
+    [self setSwitch2BtnImage:self.bit_244_btn2];
+    [self setSwitch2BtnImage:self.bit_244_btn3];
+    [self setSwitch2BtnImage:self.bit_244_btn4];
+    [self setSwitch2BtnImage:self.bit_242_btn1];
+    [self setSwitch2BtnImage:self.bit_242_btn2];
+    [self setSwitch2BtnImage:self.bit_242_btn3];
+    [self setSwitch2BtnImage:self.bit_242_btn4];
+    
+    [self setSwitch1BtnImage:self.bit_243_btn1];
+    [self setSwitch1BtnImage:self.bit_243_btn2];
+    [self setSwitch1BtnImage:self.bit_243_btn3];
+    [self setSwitch1BtnImage:self.bit_243_btn4];
+    [self setSwitch1BtnImage:self.bit_245_btn1];
+    [self setSwitch1BtnImage:self.bit_245_btn2];
+    [self setSwitch1BtnImage:self.bit_245_btn3];
+    [self setSwitch1BtnImage:self.bit_245_btn4];
+}
+
 -(NSString *)getSwitchBtnName:(NSButton *)btn{
     NSString *btnName = @"";
     NSInteger tag = btn.tag;

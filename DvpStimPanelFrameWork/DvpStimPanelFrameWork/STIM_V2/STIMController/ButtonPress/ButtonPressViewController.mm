@@ -14,7 +14,7 @@
 @property (assign) IBOutlet NSButton *bit_117_btn;
 
 @property (assign) IBOutlet NSButton *bit_116_btn;
-
+@property (weak) IBOutlet NSImageView *backgroundView;
 @property (copy) NSArray *switchBtns;
 
 @end
@@ -24,6 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setImageView:self.backgroundView imageName:@"BUTTON_PRESS.jpg"];
     self.switchBtns = @[_bit_118_btn,_bit_117_btn,_bit_116_btn];
     self.allSwitchs=@[@[_bit_118_btn,_bit_117_btn,_bit_116_btn]];
 }
@@ -42,6 +43,15 @@
     [CommandHandler generateCommandWithSwitchBtn:switchBtn text:@""];
     
 #endif
+}
+
+
+-(void)setImages{
+    [self setImageView:self.backgroundView imageName:@"BUTTON_PRESS.jpg"];
+    [self setSwitch1BtnImage:self.bit_116_btn];
+    [self setSwitch1BtnImage:self.bit_117_btn];
+    [self setSwitch1BtnImage:self.bit_118_btn];
+ 
 }
 
 

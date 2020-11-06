@@ -31,7 +31,7 @@
 #import <DvpStimPanelFrameWork/PenroseViewController.h>
 #import <DvpStimPanelFrameWork/StimMainVC.h>
 #import "DvpStimController.h"
-
+#import "DemoStimController.h"
 
 
 @interface AppDelegate ()
@@ -66,8 +66,8 @@
                                                  [DischargeViewController allocInit],
                                                  [LDCMViewController allocInit],
                                                  [PenroseViewController allocInit],
+                                                 [DemoStimController allocInit]
             
-                                                 
                                                  ]];
 }
 

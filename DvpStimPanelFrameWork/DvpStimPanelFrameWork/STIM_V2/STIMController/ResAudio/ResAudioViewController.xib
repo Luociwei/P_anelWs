@@ -8,6 +8,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="ResAudioViewController">
             <connections>
+                <outlet property="backgroundView" destination="bda-8u-oef" id="crU-yn-Egb"/>
                 <outlet property="bit_242_btn1" destination="yrg-ea-WEz" id="Xt3-Cn-6sz"/>
                 <outlet property="bit_242_btn2" destination="FIR-J8-OYf" id="rhs-BT-1c8"/>
                 <outlet property="bit_242_btn3" destination="bEF-Sf-9u4" id="L2q-lE-E8q"/>

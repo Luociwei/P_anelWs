@@ -8,6 +8,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NTCViewController">
             <connections>
+                <outlet property="backgroundView" destination="qz9-Vh-dcN" id="NMf-0e-kCH"/>
                 <outlet property="bit120_btn" destination="AAX-vM-6NM" id="9qN-MY-ykn"/>
                 <outlet property="bit121_btn" destination="x7J-Bu-dpo" id="tm4-pR-4ED"/>
                 <outlet property="bit122_btn" destination="98F-CS-8KI" id="SgV-pP-eBE"/>

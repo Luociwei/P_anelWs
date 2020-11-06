@@ -28,46 +28,6 @@
 		BA6527B72552578A000B333C /* ButtonPressViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65274E2552578A000B333C /* ButtonPressViewController.mm */; };
 		BA6527B82552578A000B333C /* ButtonPressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65274F2552578A000B333C /* ButtonPressViewController.xib */; };
 		BA6527B92552578A000B333C /* ButtonPressViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527502552578A000B333C /* ButtonPressViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA6527BA2552578A000B333C /* ORION.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527522552578A000B333C /* ORION.jpg */; };
-		BA6527BB2552578A000B333C /* LDCM_New.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527532552578A000B333C /* LDCM_New.jpg */; };
-		BA6527BC2552578A000B333C /* Canvas 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527542552578A000B333C /* Canvas 1.jpg */; };
-		BA6527BD2552578A000B333C /* E_Load.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527552552578A000B333C /* E_Load.jpg */; };
-		BA6527BE2552578A000B333C /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527562552578A000B333C /* image8.jpg */; };
-		BA6527BF2552578A000B333C /* penrose1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527572552578A000B333C /* penrose1.jpg */; };
-		BA6527C02552578A000B333C /* Canvas 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527582552578A000B333C /* Canvas 4.jpg */; };
-		BA6527C12552578A000B333C /* switch2_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527592552578A000B333C /* switch2_on.jpg */; };
-		BA6527C22552578A000B333C /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275A2552578A000B333C /* image9.jpg */; };
-		BA6527C32552578A000B333C /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275B2552578A000B333C /* image1.jpg */; };
-		BA6527C42552578A000B333C /* NTC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275C2552578A000B333C /* NTC.jpg */; };
-		BA6527C52552578A000B333C /* RIGEL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275D2552578A000B333C /* RIGEL.jpg */; };
-		BA6527C62552578A000B333C /* switch1_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275E2552578A000B333C /* switch1_off.jpg */; };
-		BA6527C72552578A000B333C /* image14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275F2552578A000B333C /* image14.jpg */; };
-		BA6527C82552578A000B333C /* image15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527602552578A000B333C /* image15.jpg */; };
-		BA6527C92552578A000B333C /* POWER.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527612552578A000B333C /* POWER.jpg */; };
-		BA6527CA2552578A000B333C /* ResAudio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527622552578A000B333C /* ResAudio.jpg */; };
-		BA6527CB2552578A000B333C /* image16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527632552578A000B333C /* image16.jpg */; };
-		BA6527CC2552578A000B333C /* switch3_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527642552578A000B333C /* switch3_off.jpg */; };
-		BA6527CD2552578A000B333C /* Canvas 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527652552578A000B333C /* Canvas 13.jpg */; };
-		BA6527CE2552578A000B333C /* image12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527662552578A000B333C /* image12.jpg */; };
-		BA6527CF2552578A000B333C /* switch2_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527672552578A000B333C /* switch2_off.jpg */; };
-		BA6527D02552578A000B333C /* image13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527682552578A000B333C /* image13.jpg */; };
-		BA6527D12552578A000B333C /* CCELoad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527692552578A000B333C /* CCELoad.jpg */; };
-		BA6527D22552578A000B333C /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276A2552578A000B333C /* image11.jpg */; };
-		BA6527D32552578A000B333C /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276B2552578A000B333C /* image10.jpg */; };
-		BA6527D42552578A000B333C /* penrose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276C2552578A000B333C /* penrose.jpg */; };
-		BA6527D52552578A000B333C /* switch1_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276D2552578A000B333C /* switch1_on.jpg */; };
-		BA6527D62552578A000B333C /* LDCM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276E2552578A000B333C /* LDCM.jpg */; };
-		BA6527D72552578A000B333C /* LDCM_New 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65276F2552578A000B333C /* LDCM_New 2.jpg */; };
-		BA6527D82552578A000B333C /* DISCHARGE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527702552578A000B333C /* DISCHARGE.jpg */; };
-		BA6527D92552578A000B333C /* switch3_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527712552578A000B333C /* switch3_on.jpg */; };
-		BA6527DA2552578A000B333C /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527722552578A000B333C /* image7.jpg */; };
-		BA6527DB2552578A000B333C /* DMIC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527732552578A000B333C /* DMIC.jpg */; };
-		BA6527DC2552578A000B333C /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527742552578A000B333C /* image6.jpg */; };
-		BA6527DD2552578A000B333C /* BUTTON_PRESS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527752552578A000B333C /* BUTTON_PRESS.jpg */; };
-		BA6527DE2552578A000B333C /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527762552578A000B333C /* image4.jpg */; };
-		BA6527DF2552578A000B333C /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527772552578A000B333C /* image5.jpg */; };
-		BA6527E02552578A000B333C /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527782552578A000B333C /* image2.jpg */; };
-		BA6527E12552578A000B333C /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527792552578A000B333C /* image3.jpg */; };
 		BA6527E22552578A000B333C /* ORIONViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA65277B2552578A000B333C /* ORIONViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6527E32552578A000B333C /* ORIONViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65277C2552578A000B333C /* ORIONViewController.mm */; };
 		BA6527E42552578A000B333C /* ORIONViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65277D2552578A000B333C /* ORIONViewController.xib */; };
@@ -99,6 +59,7 @@
 		BA6AD22F2553DFA800BE4772 /* StimMainVcProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6AD22E2553DFA800BE4772 /* StimMainVcProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6AD2322553E8E600BE4772 /* StimVcMode.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6AD2302553E8E600BE4772 /* StimVcMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6AD2332553E8E600BE4772 /* StimVcMode.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD2312553E8E600BE4772 /* StimVcMode.m */; };
+		BAF189DC255531C00000306D /* DvpStimPanelBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAF189DB255531C00000306D /* DvpStimPanelBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,46 +86,6 @@
 		BA65274E2552578A000B333C /* ButtonPressViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ButtonPressViewController.mm; sourceTree = "<group>"; };
 		BA65274F2552578A000B333C /* ButtonPressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonPressViewController.xib; sourceTree = "<group>"; };
 		BA6527502552578A000B333C /* ButtonPressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonPressViewController.h; sourceTree = "<group>"; };
-		BA6527522552578A000B333C /* ORION.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ORION.jpg; sourceTree = "<group>"; };
-		BA6527532552578A000B333C /* LDCM_New.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LDCM_New.jpg; sourceTree = "<group>"; };
-		BA6527542552578A000B333C /* Canvas 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canvas 1.jpg"; sourceTree = "<group>"; };
-		BA6527552552578A000B333C /* E_Load.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Load.jpg; sourceTree = "<group>"; };
-		BA6527562552578A000B333C /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
-		BA6527572552578A000B333C /* penrose1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penrose1.jpg; sourceTree = "<group>"; };
-		BA6527582552578A000B333C /* Canvas 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canvas 4.jpg"; sourceTree = "<group>"; };
-		BA6527592552578A000B333C /* switch2_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch2_on.jpg; sourceTree = "<group>"; };
-		BA65275A2552578A000B333C /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
-		BA65275B2552578A000B333C /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
-		BA65275C2552578A000B333C /* NTC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NTC.jpg; sourceTree = "<group>"; };
-		BA65275D2552578A000B333C /* RIGEL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RIGEL.jpg; sourceTree = "<group>"; };
-		BA65275E2552578A000B333C /* switch1_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch1_off.jpg; sourceTree = "<group>"; };
-		BA65275F2552578A000B333C /* image14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image14.jpg; sourceTree = "<group>"; };
-		BA6527602552578A000B333C /* image15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image15.jpg; sourceTree = "<group>"; };
-		BA6527612552578A000B333C /* POWER.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = POWER.jpg; sourceTree = "<group>"; };
-		BA6527622552578A000B333C /* ResAudio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ResAudio.jpg; sourceTree = "<group>"; };
-		BA6527632552578A000B333C /* image16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image16.jpg; sourceTree = "<group>"; };
-		BA6527642552578A000B333C /* switch3_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch3_off.jpg; sourceTree = "<group>"; };
-		BA6527652552578A000B333C /* Canvas 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canvas 13.jpg"; sourceTree = "<group>"; };
-		BA6527662552578A000B333C /* image12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image12.jpg; sourceTree = "<group>"; };
-		BA6527672552578A000B333C /* switch2_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch2_off.jpg; sourceTree = "<group>"; };
-		BA6527682552578A000B333C /* image13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image13.jpg; sourceTree = "<group>"; };
-		BA6527692552578A000B333C /* CCELoad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CCELoad.jpg; sourceTree = "<group>"; };
-		BA65276A2552578A000B333C /* image11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpg; sourceTree = "<group>"; };
-		BA65276B2552578A000B333C /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
-		BA65276C2552578A000B333C /* penrose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penrose.jpg; sourceTree = "<group>"; };
-		BA65276D2552578A000B333C /* switch1_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch1_on.jpg; sourceTree = "<group>"; };
-		BA65276E2552578A000B333C /* LDCM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LDCM.jpg; sourceTree = "<group>"; };
-		BA65276F2552578A000B333C /* LDCM_New 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LDCM_New 2.jpg"; sourceTree = "<group>"; };
-		BA6527702552578A000B333C /* DISCHARGE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DISCHARGE.jpg; sourceTree = "<group>"; };
-		BA6527712552578A000B333C /* switch3_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch3_on.jpg; sourceTree = "<group>"; };
-		BA6527722552578A000B333C /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
-		BA6527732552578A000B333C /* DMIC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DMIC.jpg; sourceTree = "<group>"; };
-		BA6527742552578A000B333C /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
-		BA6527752552578A000B333C /* BUTTON_PRESS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BUTTON_PRESS.jpg; sourceTree = "<group>"; };
-		BA6527762552578A000B333C /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
-		BA6527772552578A000B333C /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
-		BA6527782552578A000B333C /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
-		BA6527792552578A000B333C /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 		BA65277B2552578A000B333C /* ORIONViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORIONViewController.h; sourceTree = "<group>"; };
 		BA65277C2552578A000B333C /* ORIONViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ORIONViewController.mm; sourceTree = "<group>"; };
 		BA65277D2552578A000B333C /* ORIONViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORIONViewController.xib; sourceTree = "<group>"; };
@@ -196,6 +117,7 @@
 		BA6AD22E2553DFA800BE4772 /* StimMainVcProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StimMainVcProtocol.h; sourceTree = "<group>"; };
 		BA6AD2302553E8E600BE4772 /* StimVcMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StimVcMode.h; sourceTree = "<group>"; };
 		BA6AD2312553E8E600BE4772 /* StimVcMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StimVcMode.m; sourceTree = "<group>"; };
+		BAF189DB255531C00000306D /* DvpStimPanelBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DvpStimPanelBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +150,7 @@
 		71B0A1881DCDCD46004165A8 /* DvpStimPanelFrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				BAF189DB255531C00000306D /* DvpStimPanelBundle.bundle */,
 				BA6527312552578A000B333C /* STIM_V2 */,
 				71B0A18A1DCDCD46004165A8 /* Info.plist */,
 			);
@@ -275,7 +198,6 @@
 				BA6527422552578A000B333C /* Penrose */,
 				BA6527462552578A000B333C /* ELoad */,
 				BA65274D2552578A000B333C /* ButtonPress */,
-				BA6527512552578A000B333C /* Images */,
 				BA65277A2552578A000B333C /* ORION */,
 				BA65277E2552578A000B333C /* DMIC */,
 				BA6527832552578A000B333C /* ResAudio */,
@@ -326,53 +248,6 @@
 				BA6527502552578A000B333C /* ButtonPressViewController.h */,
 			);
 			path = ButtonPress;
-			sourceTree = "<group>";
-		};
-		BA6527512552578A000B333C /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				BA6527522552578A000B333C /* ORION.jpg */,
-				BA6527532552578A000B333C /* LDCM_New.jpg */,
-				BA6527542552578A000B333C /* Canvas 1.jpg */,
-				BA6527552552578A000B333C /* E_Load.jpg */,
-				BA6527562552578A000B333C /* image8.jpg */,
-				BA6527572552578A000B333C /* penrose1.jpg */,
-				BA6527582552578A000B333C /* Canvas 4.jpg */,
-				BA6527592552578A000B333C /* switch2_on.jpg */,
-				BA65275A2552578A000B333C /* image9.jpg */,
-				BA65275B2552578A000B333C /* image1.jpg */,
-				BA65275C2552578A000B333C /* NTC.jpg */,
-				BA65275D2552578A000B333C /* RIGEL.jpg */,
-				BA65275E2552578A000B333C /* switch1_off.jpg */,
-				BA65275F2552578A000B333C /* image14.jpg */,
-				BA6527602552578A000B333C /* image15.jpg */,
-				BA6527612552578A000B333C /* POWER.jpg */,
-				BA6527622552578A000B333C /* ResAudio.jpg */,
-				BA6527632552578A000B333C /* image16.jpg */,
-				BA6527642552578A000B333C /* switch3_off.jpg */,
-				BA6527652552578A000B333C /* Canvas 13.jpg */,
-				BA6527662552578A000B333C /* image12.jpg */,
-				BA6527672552578A000B333C /* switch2_off.jpg */,
-				BA6527682552578A000B333C /* image13.jpg */,
-				BA6527692552578A000B333C /* CCELoad.jpg */,
-				BA65276A2552578A000B333C /* image11.jpg */,
-				BA65276B2552578A000B333C /* image10.jpg */,
-				BA65276C2552578A000B333C /* penrose.jpg */,
-				BA65276D2552578A000B333C /* switch1_on.jpg */,
-				BA65276E2552578A000B333C /* LDCM.jpg */,
-				BA65276F2552578A000B333C /* LDCM_New 2.jpg */,
-				BA6527702552578A000B333C /* DISCHARGE.jpg */,
-				BA6527712552578A000B333C /* switch3_on.jpg */,
-				BA6527722552578A000B333C /* image7.jpg */,
-				BA6527732552578A000B333C /* DMIC.jpg */,
-				BA6527742552578A000B333C /* image6.jpg */,
-				BA6527752552578A000B333C /* BUTTON_PRESS.jpg */,
-				BA6527762552578A000B333C /* image4.jpg */,
-				BA6527772552578A000B333C /* image5.jpg */,
-				BA6527782552578A000B333C /* image2.jpg */,
-				BA6527792552578A000B333C /* image3.jpg */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		BA65277A2552578A000B333C /* ORION */ = {
@@ -557,59 +432,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF189DC255531C00000306D /* DvpStimPanelBundle.bundle in Resources */,
 				BA6527F62552578A000B333C /* RigelViewController.xib in Resources */,
-				BA6527BD2552578A000B333C /* E_Load.jpg in Resources */,
-				BA6527DF2552578A000B333C /* image5.jpg in Resources */,
 				BA6527B32552578A000B333C /* CCELoadViewController.xib in Resources */,
-				BA6527CB2552578A000B333C /* image16.jpg in Resources */,
-				BA6527CD2552578A000B333C /* Canvas 13.jpg in Resources */,
-				BA6527C92552578A000B333C /* POWER.jpg in Resources */,
-				BA6527D02552578A000B333C /* image13.jpg in Resources */,
-				BA6527C42552578A000B333C /* NTC.jpg in Resources */,
-				BA6527BC2552578A000B333C /* Canvas 1.jpg in Resources */,
-				BA6527E12552578A000B333C /* image3.jpg in Resources */,
-				BA6527CC2552578A000B333C /* switch3_off.jpg in Resources */,
 				BA6527F32552578A000B333C /* DischargeViewController.xib in Resources */,
-				BA6527C32552578A000B333C /* image1.jpg in Resources */,
-				BA6527DA2552578A000B333C /* image7.jpg in Resources */,
 				BA6527E42552578A000B333C /* ORIONViewController.xib in Resources */,
-				BA6527DE2552578A000B333C /* image4.jpg in Resources */,
-				BA6527D62552578A000B333C /* LDCM.jpg in Resources */,
-				BA6527D12552578A000B333C /* CCELoad.jpg in Resources */,
-				BA6527BE2552578A000B333C /* image8.jpg in Resources */,
-				BA6527C22552578A000B333C /* image9.jpg in Resources */,
-				BA6527E02552578A000B333C /* image2.jpg in Resources */,
-				BA6527CE2552578A000B333C /* image12.jpg in Resources */,
 				BA6527F02552578A000B333C /* LDCMViewController.xib in Resources */,
 				BA6527EA2552578A000B333C /* ResAudioViewController.xib in Resources */,
 				BA6527A32552578A000B333C /* StimCmdList.plist in Resources */,
-				BA6527D42552578A000B333C /* penrose.jpg in Resources */,
 				BA6527AE2552578A000B333C /* PenroseViewController.xib in Resources */,
-				BA6527C72552578A000B333C /* image14.jpg in Resources */,
-				BA6527BF2552578A000B333C /* penrose1.jpg in Resources */,
-				BA6527D32552578A000B333C /* image10.jpg in Resources */,
 				BA6527FD2552578A000B333C /* StimMainVC.xib in Resources */,
 				BA6527E72552578A000B333C /* DMICViewController.xib in Resources */,
-				BA6527BB2552578A000B333C /* LDCM_New.jpg in Resources */,
-				BA6527DB2552578A000B333C /* DMIC.jpg in Resources */,
-				BA6527D72552578A000B333C /* LDCM_New 2.jpg in Resources */,
-				BA6527DD2552578A000B333C /* BUTTON_PRESS.jpg in Resources */,
-				BA6527C52552578A000B333C /* RIGEL.jpg in Resources */,
-				BA6527D92552578A000B333C /* switch3_on.jpg in Resources */,
 				BA6527AD2552578A000B333C /* PowerViewController.xib in Resources */,
-				BA6527DC2552578A000B333C /* image6.jpg in Resources */,
-				BA6527C02552578A000B333C /* Canvas 4.jpg in Resources */,
-				BA6527CF2552578A000B333C /* switch2_off.jpg in Resources */,
-				BA6527C12552578A000B333C /* switch2_on.jpg in Resources */,
-				BA6527D82552578A000B333C /* DISCHARGE.jpg in Resources */,
 				BA6527B82552578A000B333C /* ButtonPressViewController.xib in Resources */,
-				BA6527BA2552578A000B333C /* ORION.jpg in Resources */,
-				BA6527C62552578A000B333C /* switch1_off.jpg in Resources */,
-				BA6527C82552578A000B333C /* image15.jpg in Resources */,
-				BA6527CA2552578A000B333C /* ResAudio.jpg in Resources */,
 				BA6527EE2552578A000B333C /* NTCViewController.xib in Resources */,
-				BA6527D52552578A000B333C /* switch1_on.jpg in Resources */,
-				BA6527D22552578A000B333C /* image11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

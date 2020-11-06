@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -16,6 +16,7 @@
                 <outlet property="OffPWM2" destination="FB7-ez-uBl" id="WOy-Ut-yex"/>
                 <outlet property="SetPWM1" destination="1i8-qS-BxX" id="gg8-6g-ceQ"/>
                 <outlet property="SetPWM2" destination="dmd-nA-yb7" id="TFF-Uw-iJp"/>
+                <outlet property="backgroundView" destination="O83-cG-eGP" id="nMB-Ca-AME"/>
                 <outlet property="descLabel" destination="vA7-68-o3n" id="xTQ-KY-nnm"/>
                 <outlet property="s1" destination="dwJ-5B-K4o" id="OAc-cD-17L"/>
                 <outlet property="s2" destination="vtR-3j-b7i" id="SKc-WX-9g2"/>
@@ -34,7 +35,7 @@
                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="penrose" id="XeZ-e3-NDd"/>
                 </imageView>
                 <button fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="dwJ-5B-K4o" userLabel="S1">
-                    <rect key="frame" x="629" y="377" width="67" height="32"/>
+                    <rect key="frame" x="629" y="376" width="67" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="square" alternateTitle="IO_Penrose" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="Cmh-Q4-JDh">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
@@ -67,7 +68,7 @@
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="dmd-nA-yb7" userLabel="PWM2_Set">
-                    <rect key="frame" x="79" y="245" width="61" height="32"/>
+                    <rect key="frame" x="79" y="244" width="61" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="push" title="Set" alternateTitle="Penrose" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zzU-GS-pru">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -78,7 +79,7 @@
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" fixedFrame="YES" tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="FB7-ez-uBl" userLabel="PWM2_OFF">
-                    <rect key="frame" x="150" y="245" width="65" height="32"/>
+                    <rect key="frame" x="150" y="244" width="65" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="push" title="OFF" alternateTitle="Penrose" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ngA-hx-rkF">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -89,7 +90,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zt4-hK-1HV" userLabel="PWM1_Freq">
-                    <rect key="frame" x="158" y="390" width="70" height="18"/>
+                    <rect key="frame" x="158" y="389" width="70" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" alignment="left" placeholderString="500" drawsBackground="YES" id="2IQ-Dt-Tq3">
                         <font key="font" metaFont="system"/>
@@ -125,7 +126,7 @@
                     </textFieldCell>
                 </textField>
                 <button fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="vtR-3j-b7i" userLabel="S1">
-                    <rect key="frame" x="629" y="341" width="67" height="32"/>
+                    <rect key="frame" x="629" y="340" width="67" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="square" alternateTitle="IO_Penrose" bezelStyle="shadowlessSquare" image="switch1_off" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="K5V-MG-Xnb">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
@@ -136,7 +137,7 @@
                     </connections>
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fGf-tn-C2t">
-                    <rect key="frame" x="698" y="362" width="20" height="17"/>
+                    <rect key="frame" x="698" y="361" width="20" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="S2" id="Ssp-m9-k5H">
                         <font key="font" metaFont="system"/>
@@ -145,7 +146,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zbU-9A-dd8">
-                    <rect key="frame" x="698" y="400" width="19" height="17"/>
+                    <rect key="frame" x="698" y="399" width="19" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="S1" id="Rsr-6r-4fY">
                         <font key="font" metaFont="system"/>

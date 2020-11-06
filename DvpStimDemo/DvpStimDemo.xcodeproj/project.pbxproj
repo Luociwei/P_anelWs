@@ -11,11 +11,11 @@
 		BA65249F25517398000B333C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65249E25517398000B333C /* Assets.xcassets */; };
 		BA6524A225517398000B333C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6524A025517398000B333C /* MainMenu.xib */; };
 		BA6524A525517398000B333C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6524A425517398000B333C /* main.m */; };
-		BA65280E2552AB91000B333C /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65280C2552AB91000B333C /* MyWindowController.m */; };
-		BA65280F2552AB91000B333C /* MyWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65280D2552AB91000B333C /* MyWindowController.xib */; };
 		BA6528432552C9A8000B333C /* DvpStimPanelFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6528422552C9A8000B333C /* DvpStimPanelFrameWork.framework */; };
 		BA6AD23725543BEA00BE4772 /* DvpStimController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD23525543BEA00BE4772 /* DvpStimController.m */; };
 		BA6AD23825543BEA00BE4772 /* DvpStimController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6AD23625543BEA00BE4772 /* DvpStimController.xib */; };
+		BAF188502554F00D0000306D /* DemoStimController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF1884E2554F00D0000306D /* DemoStimController.m */; };
+		BAF188512554F00D0000306D /* DemoStimController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF1884F2554F00D0000306D /* DemoStimController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +27,13 @@
 		BA6524A325517398000B333C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6524A425517398000B333C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA6524A625517398000B333C /* DvpStimDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DvpStimDemo.entitlements; sourceTree = "<group>"; };
-		BA65280B2552AB91000B333C /* MyWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
-		BA65280C2552AB91000B333C /* MyWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
-		BA65280D2552AB91000B333C /* MyWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyWindowController.xib; sourceTree = "<group>"; };
 		BA6528422552C9A8000B333C /* DvpStimPanelFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DvpStimPanelFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6AD23425543BEA00BE4772 /* DvpStimController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DvpStimController.h; sourceTree = "<group>"; };
 		BA6AD23525543BEA00BE4772 /* DvpStimController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DvpStimController.m; sourceTree = "<group>"; };
 		BA6AD23625543BEA00BE4772 /* DvpStimController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DvpStimController.xib; sourceTree = "<group>"; };
+		BAF1884D2554F00D0000306D /* DemoStimController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoStimController.h; sourceTree = "<group>"; };
+		BAF1884E2554F00D0000306D /* DemoStimController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoStimController.m; sourceTree = "<group>"; };
+		BAF1884F2554F00D0000306D /* DemoStimController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoStimController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +73,9 @@
 				BA6AD23425543BEA00BE4772 /* DvpStimController.h */,
 				BA6AD23525543BEA00BE4772 /* DvpStimController.m */,
 				BA6AD23625543BEA00BE4772 /* DvpStimController.xib */,
-				BA65280B2552AB91000B333C /* MyWindowController.h */,
-				BA65280C2552AB91000B333C /* MyWindowController.m */,
-				BA65280D2552AB91000B333C /* MyWindowController.xib */,
+				BAF1884D2554F00D0000306D /* DemoStimController.h */,
+				BAF1884E2554F00D0000306D /* DemoStimController.m */,
+				BAF1884F2554F00D0000306D /* DemoStimController.xib */,
 				BA65249E25517398000B333C /* Assets.xcassets */,
 				BA6524A025517398000B333C /* MainMenu.xib */,
 				BA6524A325517398000B333C /* Info.plist */,
@@ -150,8 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA65280F2552AB91000B333C /* MyWindowController.xib in Resources */,
 				BA6AD23825543BEA00BE4772 /* DvpStimController.xib in Resources */,
+				BAF188512554F00D0000306D /* DemoStimController.xib in Resources */,
 				BA65249F25517398000B333C /* Assets.xcassets in Resources */,
 				BA6524A225517398000B333C /* MainMenu.xib in Resources */,
 			);
@@ -165,9 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA6524A525517398000B333C /* main.m in Sources */,
+				BAF188502554F00D0000306D /* DemoStimController.m in Sources */,
 				BA6AD23725543BEA00BE4772 /* DvpStimController.m in Sources */,
 				BA65249D25517396000B333C /* AppDelegate.m in Sources */,
-				BA65280E2552AB91000B333C /* MyWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

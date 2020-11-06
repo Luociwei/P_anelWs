@@ -8,6 +8,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="ButtonPressViewController">
             <connections>
+                <outlet property="backgroundView" destination="ORk-HG-lZN" id="DWu-13-4b9"/>
                 <outlet property="bit_116_btn" destination="MMv-wp-QAV" id="lXd-iP-2cN"/>
                 <outlet property="bit_117_btn" destination="W6q-xd-jpW" id="Rrj-LX-TgN"/>
                 <outlet property="bit_118_btn" destination="SCU-ZZ-vlb" id="mi6-Ly-zZt"/>

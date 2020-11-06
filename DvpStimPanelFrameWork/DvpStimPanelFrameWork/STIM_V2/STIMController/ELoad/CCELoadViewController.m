@@ -20,7 +20,7 @@
 @property (assign) IBOutlet NSButton *btns4;
 @property (assign) IBOutlet NSButton *btns5;
 @property (assign) IBOutlet NSButton *btns6;
-
+@property (weak) IBOutlet NSImageView *backgroundView;
 @property (assign) IBOutlet NSButton *btns7;
 @property (nonatomic,copy)NSArray *eloadBtns;
 @property (nonatomic,copy)NSArray *textFs;
@@ -34,6 +34,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do view setup here.
+
+    [self setImages];
     self.allSwitchs =@[@[_btns1,_btns2,_btns3,_btns4,_btns5,_btns6],@[_btns7]];
 //    self.allSwitchs =@[@[_btns1,_btns2],@[_btns3,_btns4],@[_btns5,_btns6]];
     self.textFs = @[_ccload1_view,_ccload2_view];
@@ -59,6 +61,20 @@
 
     return btnName;
 }
+
+-(void)setImages{
+    [self setImageView:self.backgroundView imageName:@"CCELoad.jpg"];
+    [self setSwitch1BtnImage:self.btns1];
+    [self setSwitch1BtnImage:self.btns2];
+    [self setSwitch1BtnImage:self.btns3];
+    [self setSwitch1BtnImage:self.btns4];
+    [self setSwitch1BtnImage:self.btns5];
+    [self setSwitch1BtnImage:self.btns6];
+    [self setSwitch3BtnImage:self.btns7];
+    
+    
+}
+
 - (IBAction)setBtnClick:(NSButton *)btn{
     
     
