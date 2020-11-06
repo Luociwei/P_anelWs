@@ -29,7 +29,30 @@
     self.allSwitchs = @[@[_bit253,_bit256,_bit227,_bit254,_bit255,_bit99]];
 }
 
-
+-(NSString *)getSwitchBtnName:(NSButton *)btn{
+    NSString *btnName = @"";
+    NSInteger tag = btn.tag;
+    if (btn.title.length) {
+        
+    }else{
+        if (tag == 253) {
+            btnName = [self joinSwitchBtnAndTextName:@"S1" textName:@""];
+        }else if (tag == 255){
+            btnName = [self joinSwitchBtnAndTextName:@"S2" textName:@""];
+        }else if (tag == 256){
+            btnName = [self joinSwitchBtnAndTextName:@"S3" textName:@""];
+        }else if (tag == 227){
+            btnName = [self joinSwitchBtnAndTextName:@"S4" textName:@""];
+        }else if (tag == 254){
+            btnName = [self joinSwitchBtnAndTextName:@"S5" textName:@""];
+        }else if (tag == 99){
+            btnName = [self joinSwitchBtnAndTextName:@"S6" textName:@""];
+        }
+        
+    }
+    
+    return btnName;
+}
 - (IBAction)btsClick:(NSButton *)switchBtn {
     
     
@@ -38,7 +61,7 @@
     
 #if 1
     // Insert code here
-    
+    [self getSwitchBtnName:switchBtn];
     [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:switchBtn];
 #else //suncode
 

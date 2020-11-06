@@ -17,6 +17,9 @@
 @property (nonatomic,copy)NSArray *allSwitchs;
 -(void)setSwitch1BtnImage:(NSButton *)switchBtn;
 -(void)setSwitch2BtnImage:(NSButton *)switchBtn;
+-(void)setSwitch3BtnImage:(NSButton *)switchBtn;
+-(void)setImageView:(NSImageView *)imageView imageName:(NSString *)imageName;
+-(void)setSwitchImage:(NSString *)imageName switchBtn:(NSButton *)switchBtn;
 @property (nonatomic,strong)StimVcMode *stimMode;
 -(void)mutexSwitchsStateWithCurrentSelectedBtn1:(NSButton *)switchBtn WithSwitchsArray:(NSArray *)switchs;
 -(void)mutexSwitchsStateWithCurrentSelectedBtn2:(NSButton *)switchBtn WithSwitchsArray:(NSArray *)switchs;

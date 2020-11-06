@@ -108,6 +108,16 @@
     }
 }
 
+-(void)setSwitch3BtnImage:(NSButton *)switchBtn{
+    if (switchBtn.state) {
+        
+        [self setSwitchImage:@"switch3_off.jpg" switchBtn:switchBtn];
+    }else{
+        
+        [self setSwitchImage:@"switch3_on.jpg" switchBtn:switchBtn];
+    }
+}
+
 -(NSString *)joinSwitchBtnAndTextName:(NSString *)btnName textName:(NSString *)textValue{
     
     NSString *btnTextName = @"";
@@ -118,10 +128,20 @@
     }
     return btnTextName;
 }
+
+
 -(void)setSwitchImage:(NSString *)imageName switchBtn:(NSButton *)switchBtn{
     NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:imageName];
     NSImage *image = [[NSImage alloc]initWithContentsOfFile:pic_path];
     [switchBtn setImage:image];
+}
+
+
+-(void)setImageView:(NSImageView *)imageView imageName:(NSString *)imageName{
+    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:imageName];
+    NSImage *image = [[NSImage alloc]initWithContentsOfFile:pic_path];
+   
+    [imageView setImage:image];
 }
 
 -(void)mutexSwitchsStateWithCurrentSelectedBtn1:(NSButton *)switchBtn WithSwitchsArray:(NSArray *)switchs{

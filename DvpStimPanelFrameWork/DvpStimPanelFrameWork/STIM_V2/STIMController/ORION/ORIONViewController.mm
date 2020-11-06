@@ -40,7 +40,35 @@ typedef NS_ENUM(NSUInteger, OrionSwitchControlType) {
     self.allSwitchs = @[@[_switchBtn1,_switchBtn2,_switchBtn3]];
     
 }
-
+-(NSString *)getSwitchBtnName:(NSButton *)btn{
+    NSString *btnName = @"";
+    NSInteger tag = btn.tag;
+    if (btn.title.length) {
+        if (tag ==1) {
+            NSString *textName = [NSString stringWithFormat:@"%@",self.textF.stringValue];
+            btnName = [self joinSwitchBtnAndTextName:@"Set_CC_Load" textName:textName];
+            
+        }else if (tag==2){
+         
+            btnName = [self joinSwitchBtnAndTextName:btn.title textName:@""];
+            //        btnName = [self joinSwitchBtnAndTextName:@"set_VBUS" textName:self.textF2.stringValue];
+            
+        }else if (tag==3){
+           
+            btnName = [self joinSwitchBtnAndTextName:btn.title textName:@""];
+            
+        }else if (tag==4){
+            
+            
+            btnName = [self joinSwitchBtnAndTextName:btn.title textName:@""];
+        }
+        //btnName = [self joinSwitchBtnAndTextName:@"S5" textName:@""];
+    }else{
+         btnName = [self joinSwitchBtnAndTextName:[NSString stringWithFormat:@"S%ld",tag] textName:@""];
+    }
+    
+    return btnName;
+}
 -(void)setSwitchsStateWithType:(OrionSwitchControlType)type{
     for (int i=0; i<self.switchBtns.count; i++) {
         NSButton *btn = self.switchBtns[i];
@@ -83,7 +111,8 @@ typedef NS_ENUM(NSUInteger, OrionSwitchControlType) {
     
 #if 1
     // Insert code here
-    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:switchBtn];
+//    [self getSwitchBtnName:switchBtn];
+    [self respondsToStimControllerSwitchClickWithSwtichName:[self getSwitchBtnName:switchBtn] switchBtn:switchBtn];
     
 #else //suncode
 
@@ -176,7 +205,7 @@ typedef NS_ENUM(NSUInteger, OrionSwitchControlType) {
     
 #if 1
     // Insert code here
-    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:switchBtn];
+    [self respondsToStimControllerSwitchClickWithSwtichName:[self getSwitchBtnName:switchBtn] switchBtn:switchBtn];
     
 #else //suncode
     

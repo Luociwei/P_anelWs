@@ -38,13 +38,31 @@
     self.switchBtns = @[_bit120_btn,_bit121_btn,_bit122_btn];
      self.allSwitchs = @[@[_bit120_btn,_bit121_btn,_bit122_btn]];
 }
-
+-(NSString *)getSwitchBtnName:(NSButton *)btn{
+    NSString *btnName = @"";
+    NSInteger tag = btn.tag;
+    if (btn.title.length) {
+        
+    }else{
+        if (tag == 120) {
+            btnName = [self joinSwitchBtnAndTextName:@"S1" textName:@""];
+        }else if (tag == 121){
+            btnName = [self joinSwitchBtnAndTextName:@"S2" textName:@""];
+        }else if (tag == 122){
+            btnName = [self joinSwitchBtnAndTextName:@"S3" textName:@""];
+        }
+        
+    }
+    
+    return btnName;
+}
 - (IBAction)bitBtnsClick:(NSButton *)switchBtn {
     
     [self mutexSwitchsStateWithCurrentSelectedBtn1:switchBtn WithSwitchsArray:self.switchBtns];
 #if 1
     // Insert code here
-    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:switchBtn];
+    
+    [self respondsToStimControllerSwitchClickWithSwtichName:[self getSwitchBtnName:switchBtn] switchBtn:switchBtn];
  
 #else //suncode
     

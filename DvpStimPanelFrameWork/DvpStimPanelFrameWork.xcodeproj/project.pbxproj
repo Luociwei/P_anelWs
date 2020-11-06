@@ -30,14 +30,14 @@
 		BA6527B92552578A000B333C /* ButtonPressViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527502552578A000B333C /* ButtonPressViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6527BA2552578A000B333C /* ORION.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527522552578A000B333C /* ORION.jpg */; };
 		BA6527BB2552578A000B333C /* LDCM_New.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527532552578A000B333C /* LDCM_New.jpg */; };
-		BA6527BC2552578A000B333C /* Canvas 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6527542552578A000B333C /* Canvas 1.png */; };
+		BA6527BC2552578A000B333C /* Canvas 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527542552578A000B333C /* Canvas 1.jpg */; };
 		BA6527BD2552578A000B333C /* E_Load.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527552552578A000B333C /* E_Load.jpg */; };
 		BA6527BE2552578A000B333C /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527562552578A000B333C /* image8.jpg */; };
 		BA6527BF2552578A000B333C /* penrose1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527572552578A000B333C /* penrose1.jpg */; };
-		BA6527C02552578A000B333C /* Canvas 4.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6527582552578A000B333C /* Canvas 4.png */; };
+		BA6527C02552578A000B333C /* Canvas 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527582552578A000B333C /* Canvas 4.jpg */; };
 		BA6527C12552578A000B333C /* switch2_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527592552578A000B333C /* switch2_on.jpg */; };
 		BA6527C22552578A000B333C /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275A2552578A000B333C /* image9.jpg */; };
-		BA6527C32552578A000B333C /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275B2552578A000B333C /* image1.jpeg */; };
+		BA6527C32552578A000B333C /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275B2552578A000B333C /* image1.jpg */; };
 		BA6527C42552578A000B333C /* NTC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275C2552578A000B333C /* NTC.jpg */; };
 		BA6527C52552578A000B333C /* RIGEL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275D2552578A000B333C /* RIGEL.jpg */; };
 		BA6527C62552578A000B333C /* switch1_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA65275E2552578A000B333C /* switch1_off.jpg */; };
@@ -47,7 +47,7 @@
 		BA6527CA2552578A000B333C /* ResAudio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527622552578A000B333C /* ResAudio.jpg */; };
 		BA6527CB2552578A000B333C /* image16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527632552578A000B333C /* image16.jpg */; };
 		BA6527CC2552578A000B333C /* switch3_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527642552578A000B333C /* switch3_off.jpg */; };
-		BA6527CD2552578A000B333C /* Canvas 13.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6527652552578A000B333C /* Canvas 13.png */; };
+		BA6527CD2552578A000B333C /* Canvas 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527652552578A000B333C /* Canvas 13.jpg */; };
 		BA6527CE2552578A000B333C /* image12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527662552578A000B333C /* image12.jpg */; };
 		BA6527CF2552578A000B333C /* switch2_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527672552578A000B333C /* switch2_off.jpg */; };
 		BA6527D02552578A000B333C /* image13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6527682552578A000B333C /* image13.jpg */; };
@@ -127,14 +127,14 @@
 		BA6527502552578A000B333C /* ButtonPressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonPressViewController.h; sourceTree = "<group>"; };
 		BA6527522552578A000B333C /* ORION.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ORION.jpg; sourceTree = "<group>"; };
 		BA6527532552578A000B333C /* LDCM_New.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LDCM_New.jpg; sourceTree = "<group>"; };
-		BA6527542552578A000B333C /* Canvas 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Canvas 1.png"; sourceTree = "<group>"; };
+		BA6527542552578A000B333C /* Canvas 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canvas 1.jpg"; sourceTree = "<group>"; };
 		BA6527552552578A000B333C /* E_Load.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E_Load.jpg; sourceTree = "<group>"; };
 		BA6527562552578A000B333C /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
 		BA6527572552578A000B333C /* penrose1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penrose1.jpg; sourceTree = "<group>"; };
-		BA6527582552578A000B333C /* Canvas 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Canvas 4.png"; sourceTree = "<group>"; };
+		BA6527582552578A000B333C /* Canvas 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canvas 4.jpg"; sourceTree = "<group>"; };
 		BA6527592552578A000B333C /* switch2_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch2_on.jpg; sourceTree = "<group>"; };
 		BA65275A2552578A000B333C /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
-		BA65275B2552578A000B333C /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
+		BA65275B2552578A000B333C /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 		BA65275C2552578A000B333C /* NTC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NTC.jpg; sourceTree = "<group>"; };
 		BA65275D2552578A000B333C /* RIGEL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RIGEL.jpg; sourceTree = "<group>"; };
 		BA65275E2552578A000B333C /* switch1_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch1_off.jpg; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 		BA6527622552578A000B333C /* ResAudio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ResAudio.jpg; sourceTree = "<group>"; };
 		BA6527632552578A000B333C /* image16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image16.jpg; sourceTree = "<group>"; };
 		BA6527642552578A000B333C /* switch3_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch3_off.jpg; sourceTree = "<group>"; };
-		BA6527652552578A000B333C /* Canvas 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Canvas 13.png"; sourceTree = "<group>"; };
+		BA6527652552578A000B333C /* Canvas 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canvas 13.jpg"; sourceTree = "<group>"; };
 		BA6527662552578A000B333C /* image12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image12.jpg; sourceTree = "<group>"; };
 		BA6527672552578A000B333C /* switch2_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = switch2_off.jpg; sourceTree = "<group>"; };
 		BA6527682552578A000B333C /* image13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image13.jpg; sourceTree = "<group>"; };
@@ -333,14 +333,14 @@
 			children = (
 				BA6527522552578A000B333C /* ORION.jpg */,
 				BA6527532552578A000B333C /* LDCM_New.jpg */,
-				BA6527542552578A000B333C /* Canvas 1.png */,
+				BA6527542552578A000B333C /* Canvas 1.jpg */,
 				BA6527552552578A000B333C /* E_Load.jpg */,
 				BA6527562552578A000B333C /* image8.jpg */,
 				BA6527572552578A000B333C /* penrose1.jpg */,
-				BA6527582552578A000B333C /* Canvas 4.png */,
+				BA6527582552578A000B333C /* Canvas 4.jpg */,
 				BA6527592552578A000B333C /* switch2_on.jpg */,
 				BA65275A2552578A000B333C /* image9.jpg */,
-				BA65275B2552578A000B333C /* image1.jpeg */,
+				BA65275B2552578A000B333C /* image1.jpg */,
 				BA65275C2552578A000B333C /* NTC.jpg */,
 				BA65275D2552578A000B333C /* RIGEL.jpg */,
 				BA65275E2552578A000B333C /* switch1_off.jpg */,
@@ -350,7 +350,7 @@
 				BA6527622552578A000B333C /* ResAudio.jpg */,
 				BA6527632552578A000B333C /* image16.jpg */,
 				BA6527642552578A000B333C /* switch3_off.jpg */,
-				BA6527652552578A000B333C /* Canvas 13.png */,
+				BA6527652552578A000B333C /* Canvas 13.jpg */,
 				BA6527662552578A000B333C /* image12.jpg */,
 				BA6527672552578A000B333C /* switch2_off.jpg */,
 				BA6527682552578A000B333C /* image13.jpg */,
@@ -562,15 +562,15 @@
 				BA6527DF2552578A000B333C /* image5.jpg in Resources */,
 				BA6527B32552578A000B333C /* CCELoadViewController.xib in Resources */,
 				BA6527CB2552578A000B333C /* image16.jpg in Resources */,
-				BA6527CD2552578A000B333C /* Canvas 13.png in Resources */,
+				BA6527CD2552578A000B333C /* Canvas 13.jpg in Resources */,
 				BA6527C92552578A000B333C /* POWER.jpg in Resources */,
 				BA6527D02552578A000B333C /* image13.jpg in Resources */,
 				BA6527C42552578A000B333C /* NTC.jpg in Resources */,
-				BA6527BC2552578A000B333C /* Canvas 1.png in Resources */,
+				BA6527BC2552578A000B333C /* Canvas 1.jpg in Resources */,
 				BA6527E12552578A000B333C /* image3.jpg in Resources */,
 				BA6527CC2552578A000B333C /* switch3_off.jpg in Resources */,
 				BA6527F32552578A000B333C /* DischargeViewController.xib in Resources */,
-				BA6527C32552578A000B333C /* image1.jpeg in Resources */,
+				BA6527C32552578A000B333C /* image1.jpg in Resources */,
 				BA6527DA2552578A000B333C /* image7.jpg in Resources */,
 				BA6527E42552578A000B333C /* ORIONViewController.xib in Resources */,
 				BA6527DE2552578A000B333C /* image4.jpg in Resources */,
@@ -598,7 +598,7 @@
 				BA6527D92552578A000B333C /* switch3_on.jpg in Resources */,
 				BA6527AD2552578A000B333C /* PowerViewController.xib in Resources */,
 				BA6527DC2552578A000B333C /* image6.jpg in Resources */,
-				BA6527C02552578A000B333C /* Canvas 4.png in Resources */,
+				BA6527C02552578A000B333C /* Canvas 4.jpg in Resources */,
 				BA6527CF2552578A000B333C /* switch2_off.jpg in Resources */,
 				BA6527C12552578A000B333C /* switch2_on.jpg in Resources */,
 				BA6527D82552578A000B333C /* DISCHARGE.jpg in Resources */,

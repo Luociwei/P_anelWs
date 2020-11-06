@@ -63,7 +63,26 @@
     }
     
 }
-
+-(NSString *)getSwitchBtnName:(NSButton *)btn{
+    NSString *btnName = @"";
+    NSInteger tag = btn.tag;
+    if (btn.title.length) {
+        
+    }else{
+        if (tag == 244) {
+            btnName = [self joinSwitchBtnAndTextName:@"S1" textName:@""];
+        }else if (tag == 245){
+            btnName = [self joinSwitchBtnAndTextName:@"S2" textName:@""];
+        }else if (tag == 242){
+            btnName = [self joinSwitchBtnAndTextName:@"S3" textName:@""];
+        }else if (tag == 243){
+            btnName = [self joinSwitchBtnAndTextName:@"S4" textName:@""];
+        }
+        
+    }
+    
+    return btnName;
+}
 
 - (IBAction)switch2Click:(NSButton *)switchBtn {
     NSControlStateValue btnState = switchBtn.state;
@@ -80,8 +99,8 @@
     }
 #if 1
     // Insert code here
-    
-    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:switchBtn];
+    NSString *name = [self getSwitchBtnName:switchBtn];
+    [self respondsToStimControllerSwitchClickWithSwtichName:name switchBtn:switchBtn];
 #else //suncode
     [CommandHandler generateCommandWithSwitchBtn:switchBtn text:@""];
 #endif

@@ -68,7 +68,7 @@
 
 #if 1
     // Insert code here
-    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:btn];
+    [self respondsToStimControllerSwitchClickWithSwtichName:[self getSwitchBtnName:btn] switchBtn:btn];
     
 #else //suncode
 
@@ -80,12 +80,35 @@
         }
     }else{
         self.btnTrace2.state =0;
-        [self.btnTrace2 setImage:[NSImage imageNamed:@"switch3_on"]];
+
+        [self setSwitchImage:@"switch3_on" switchBtn:self.btnTrace2];
         [CommandHandler generateCommandWithSwitchBtn:btn text:@""];
     }
     
 #endif
 
+}
+
+
+-(NSString *)getSwitchBtnName:(NSButton *)btn{
+    NSString *btnName = @"";
+    NSInteger tag = btn.tag;
+    if (btn.title.length) {
+        if (tag ==1017) {
+            NSString *textName = [NSString stringWithFormat:@"%@",self.powerBoardView.stringValue];
+            btnName = [self joinSwitchBtnAndTextName:@"Set_PowerBoard_VBUS" textName:textName];
+            
+        }else if (tag==1018){
+            NSString *textName = [NSString stringWithFormat:@"%@",self.powerBoardView.stringValue];
+            btnName = [self joinSwitchBtnAndTextName:@"Off_PowerBoard_VBUS" textName:textName];
+        }
+        
+    }else{
+        
+        btnName = [self joinSwitchBtnAndTextName:[NSString stringWithFormat:@"S%ld",tag] textName:@""];
+    }
+    
+    return btnName;
 }
 
 
@@ -95,7 +118,7 @@
     
 #if 1
     // Insert code here
-    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:btn];
+    [self respondsToStimControllerSwitchClickWithSwtichName:[self getSwitchBtnName:btn] switchBtn:btn];
     
 #else //suncode
       [CommandHandler generateCommandWithSwitchBtn:btn text:@""];
@@ -103,21 +126,15 @@
   
 }
 
--(void)setSwitch3BtnImage:(NSButton *)switchBtn{
-    if (switchBtn.state) {
-        [switchBtn setImage:[NSImage imageNamed:@"switch3_off"]];
-    }else{
-        [switchBtn setImage:[NSImage imageNamed:@"switch3_on"]];
-    }
-}
+
 
 - (IBAction)imagBtnsClick:(NSButton *)btn {
     
     
-    [self setSwitch1BtnImage:btn];
+    [self setSwitch4BtnImage:btn];
 #if 1
     // Insert code here
-    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:btn];
+    [self respondsToStimControllerSwitchClickWithSwtichName:[self getSwitchBtnName:btn] switchBtn:btn];
     
 #else //suncode
     [CommandHandler generateCommandWithSwitchBtn:btn text:@""];
@@ -125,19 +142,20 @@
     
 }
 
--(void)setSwitch1BtnImage:(NSButton *)switchBtn{
+-(void)setSwitch4BtnImage:(NSButton *)switchBtn{
     NSInteger state = switchBtn.state;
     self.imagBtn1.state = state;
     self.imagBtn2.state = state;
     self.imagBtn3.state = state;
     if (state) {
-        [self.imagBtn1 setImage:[NSImage imageNamed:@"Canvas 4"]];
-        [self.imagBtn2 setImage:[NSImage imageNamed:@"Canvas 4"]];
-        [self.imagBtn3 setImage:[NSImage imageNamed:@"Canvas 4"]];
+        [self setSwitchImage:@"Canvas 4.jpg" switchBtn:self.imagBtn1];
+        [self setSwitchImage:@"Canvas 4.jpg" switchBtn:self.imagBtn2];
+        [self setSwitchImage:@"Canvas 4.jpg" switchBtn:self.imagBtn3];
     }else{
-        [self.imagBtn1 setImage:[NSImage imageNamed:@"Canvas 1"]];
-        [self.imagBtn2 setImage:[NSImage imageNamed:@"Canvas 1"]];
-        [self.imagBtn3 setImage:[NSImage imageNamed:@"Canvas 1"]];
+ 
+        [self setSwitchImage:@"Canvas 1.jpg" switchBtn:self.imagBtn1];
+        [self setSwitchImage:@"Canvas 1.jpg" switchBtn:self.imagBtn2];
+        [self setSwitchImage:@"Canvas 1.jpg" switchBtn:self.imagBtn3];
     }
 }
 
@@ -146,44 +164,60 @@
     
     NSInteger btn_tag = btn.tag;
     if (btn_tag==1001) {
-        [self.image1 setImage:[NSImage imageNamed:@"image1"]];
+
+        [self setImageView:self.image1 imageName:@"image1.jpg"];
     }else if (btn_tag==1002){
-        [self.image1 setImage:[NSImage imageNamed:@"image2"]];
+        [self setImageView:self.image1 imageName:@"image2.jpg"];
+
     }else if (btn_tag==1003){
-        [self.image1 setImage:[NSImage imageNamed:@"image3"]];
+        [self setImageView:self.image1 imageName:@"image3.jpg"];
+
     }else if (btn_tag==1004){
-        [self.image1 setImage:[NSImage imageNamed:@"image4"]];
+        [self setImageView:self.image1 imageName:@"image4.jpg"];
+
     }else if (btn_tag==1005){
-        [self.image1 setImage:[NSImage imageNamed:@"image5"]];
+        [self setImageView:self.image1 imageName:@"image5.jpg"];
+
     }else if (btn_tag==1006){
-        [self.image1 setImage:[NSImage imageNamed:@"image6"]];
+        [self setImageView:self.image1 imageName:@"image6.jpg"];
+
     }else if (btn_tag==1007){
-        [self.image1 setImage:[NSImage imageNamed:@"image7"]];
+        [self setImageView:self.image1 imageName:@"image7.jpg"];
+
     }else if (btn_tag==1008){
-        [self.image1 setImage:[NSImage imageNamed:@"image8"]];
+        [self setImageView:self.image1 imageName:@"image8.jpg"];
+
     }else if (btn_tag==1009){
-        [self.image2 setImage:[NSImage imageNamed:@"image9"]];
+        [self setImageView:self.image2 imageName:@"image9.jpg"];
+
     }else if (btn_tag==1010){
-        [self.image2 setImage:[NSImage imageNamed:@"image10"]];
+        [self setImageView:self.image2 imageName:@"image10.jpg"];
+
     }else if (btn_tag==1011){
-        [self.image2 setImage:[NSImage imageNamed:@"image11"]];
+        [self setImageView:self.image2 imageName:@"image11.jpg"];
+
     }else if (btn_tag==1012){
-        [self.image2 setImage:[NSImage imageNamed:@"image12"]];
+        [self setImageView:self.image2 imageName:@"image12.jpg"];
+
     }else if (btn_tag==1013){
-        [self.image2 setImage:[NSImage imageNamed:@"image13"]];
+        [self setImageView:self.image2 imageName:@"image13.jpg"];
+
     }else if (btn_tag==1014){
-        [self.image2 setImage:[NSImage imageNamed:@"image14"]];
+        [self setImageView:self.image2 imageName:@"image14.jpg"];
+
     }else if (btn_tag==1015){
-        [self.image2 setImage:[NSImage imageNamed:@"image15"]];
+        [self setImageView:self.image2 imageName:@"image15.jpg"];
+
     }else if (btn_tag==1016){
-        [self.image2 setImage:[NSImage imageNamed:@"image16"]];
+        [self setImageView:self.image2 imageName:@"image16.jpg"];
+
     }
     
     
 #if 1
     // Insert code here
     
-    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:btn];
+    [self respondsToStimControllerSwitchClickWithSwtichName:[self getSwitchBtnName:btn] switchBtn:btn];
 #else //suncode
     
   
@@ -206,15 +240,18 @@
     self.btnTrace1.state =0;
     self.btnTrace2.state =0;
     
-    [self.imagBtn1 setImage:[NSImage imageNamed:@"Canvas 1"]];
-    [self.imagBtn2 setImage:[NSImage imageNamed:@"Canvas 1"]];
-    [self.imagBtn3 setImage:[NSImage imageNamed:@"Canvas 1"]];
+    [self setSwitchImage:@"Canvas 1.jpg" switchBtn:self.imagBtn1];
+    [self setSwitchImage:@"Canvas 1.jpg" switchBtn:self.imagBtn2];
+    [self setSwitchImage:@"Canvas 1.jpg" switchBtn:self.imagBtn3];
     
-    [self.image1 setImage:[NSImage imageNamed:@"image1"]];
-    [self.image2 setImage:[NSImage imageNamed:@"image9"]];
+
+    [self setImageView:self.image1 imageName:@"image1.jpg"];
+    [self setImageView:self.image2 imageName:@"image9.jpg"];
     
-    [self.btnTrace1 setImage:[NSImage imageNamed:@"switch3_on"]];
-    [self.btnTrace2 setImage:[NSImage imageNamed:@"switch3_on"]];
+    [self setSwitchImage:@"switch3_on.jpg" switchBtn:self.btnTrace1];
+    [self setSwitchImage:@"switch3_on.jpg" switchBtn:self.btnTrace2];
+//    [self.btnTrace1 setImage:[NSImage imageNamed:@"switch3_on"]];
+//    [self.btnTrace2 setImage:[NSImage imageNamed:@"switch3_on"]];
 }
 
 @end

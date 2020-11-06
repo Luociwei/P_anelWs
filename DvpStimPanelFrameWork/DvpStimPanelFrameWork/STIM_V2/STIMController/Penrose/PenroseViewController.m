@@ -46,22 +46,39 @@
     NSString *btnName = @"";
     NSInteger tag = btn.tag;
     if (btn.title.length) {
+        NSString *textName = @"";
         if (tag ==1) {
-            NSString *textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM1.stringValue,self.DutyPWM1.stringValue];
+  
+            if (self.FreqPWM1.stringValue.length&&self.DutyPWM1.stringValue.length) {
+                textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM1.stringValue,self.DutyPWM1.stringValue];
+            }
+
+      
             btnName = [self joinSwitchBtnAndTextName:@"Set_PWM1" textName:textName];
             
         }else if (tag==3){
-            NSString *textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM1.stringValue,self.DutyPWM1.stringValue];
+            
+            if (self.FreqPWM1.stringValue.length&&self.DutyPWM1.stringValue.length) {
+                textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM1.stringValue,self.DutyPWM1.stringValue];
+            }
+  
             btnName = [self joinSwitchBtnAndTextName:@"Off_PWM1" textName:textName];
             //        btnName = [self joinSwitchBtnAndTextName:@"set_VBUS" textName:self.textF2.stringValue];
             
         }else if (tag==2){
-            NSString *textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM2.stringValue,self.DutyPWM2.stringValue];
+            if (self.FreqPWM2.stringValue.length&&self.DutyPWM2.stringValue.length) {
+                textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM2.stringValue,self.DutyPWM2.stringValue];
+            }
+            
+        
             btnName = [self joinSwitchBtnAndTextName:@"Set_PWM2" textName:textName];
             
         }else if (tag==4){
+            if (self.FreqPWM2.stringValue.length&&self.DutyPWM2.stringValue.length) {
+                textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM2.stringValue,self.DutyPWM2.stringValue];
+            }
             
-            NSString *textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM2.stringValue,self.DutyPWM2.stringValue];
+
             btnName = [self joinSwitchBtnAndTextName:@"Off_PWM2" textName:textName];
         }
         //btnName = [self joinSwitchBtnAndTextName:@"S5" textName:@""];

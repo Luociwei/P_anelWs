@@ -34,6 +34,7 @@
     
 #if 1
     // Insert code here
+    [self getSwitchBtnName:switchBtn];
     [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:switchBtn];
  
 #else //suncode //suncode 
@@ -44,5 +45,23 @@
 }
 
 
-
+-(NSString *)getSwitchBtnName:(NSButton *)btn{
+    NSString *btnName = @"";
+    NSInteger tag = btn.tag;
+    
+    if (tag ==118) {
+        
+        btnName = [self joinSwitchBtnAndTextName:@"S1" textName:@""];
+        
+    }else if (tag==117){
+        
+        btnName = [self joinSwitchBtnAndTextName:@"S2" textName:@""];
+    }else if (tag==116){
+        
+        btnName = [self joinSwitchBtnAndTextName:@"S3" textName:@""];
+        
+    }
+    
+    return btnName;
+}
 @end
