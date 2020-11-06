@@ -57,7 +57,19 @@
 
 - (IBAction)pdmBtnClick:(NSButton *)btn {
     
+#if 1
+    // Insert code here
+    
+    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:btn];
+    
+    
+#else //suncode
+    
     [CommandHandler generateCommandWithSwitchBtn:btn text:@""];
+    
+#endif
+    
+    
 }
 
 
@@ -65,8 +77,22 @@
 - (IBAction)btnsClick:(NSButton *)switchBtn {
     
     [self dmicSwitchsStateWithCurrentSelectedBtn:switchBtn WithSwitchsArray:self.switchBtns];
-
+    
+    
+#if 1
+    // Insert code here
+    
+    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:switchBtn];
+    
+    
+#else //suncode
+    
     [CommandHandler generateCommandWithSwitchBtn:switchBtn text:@""];
+    
+#endif
+    
+
+    
 }
 
 //-(void)setRadius{

@@ -83,15 +83,10 @@ typedef NS_ENUM(NSUInteger, OrionSwitchControlType) {
     
 #if 1
     // Insert code here
-    
+    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:switchBtn];
     
 #else //suncode
-    
-    
-    
-    
 
-    
     NSString *btnTitle = switchBtn.title.uppercaseString;
     
     
@@ -181,7 +176,7 @@ typedef NS_ENUM(NSUInteger, OrionSwitchControlType) {
     
 #if 1
     // Insert code here
-    
+    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:switchBtn];
     
 #else //suncode
     

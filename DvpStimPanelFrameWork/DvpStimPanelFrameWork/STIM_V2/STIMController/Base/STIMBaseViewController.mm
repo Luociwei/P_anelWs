@@ -11,6 +11,7 @@
 #define textF_h 60
 #import "STIMBaseViewController.h"
 #import "ExtensionConst.h"
+#import "StimVcMode.h"
 
 @interface STIMBaseViewController ()
 @property (nonatomic,strong)NSButton *lastBtn1;
@@ -22,6 +23,8 @@
 @property (nonatomic,strong)NSButton *lastBtn_dmic;
 //@property (nonatomic,copy)NSArray *switchsArr_dmic;
 @end
+
+
 
 
 @implementation STIMBaseViewController
@@ -105,7 +108,16 @@
     }
 }
 
-
+-(NSString *)joinSwitchBtnAndTextName:(NSString *)btnName textName:(NSString *)textValue{
+    
+    NSString *btnTextName = @"";
+    if (textValue.length) {
+        btnTextName = [NSString stringWithFormat:@"%@++%@",btnName,textValue];
+    }else{
+        btnTextName = btnName;
+    }
+    return btnTextName;
+}
 -(void)setSwitchImage:(NSString *)imageName switchBtn:(NSButton *)switchBtn{
     NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:imageName];
     NSImage *image = [[NSImage alloc]initWithContentsOfFile:pic_path];
@@ -164,7 +176,16 @@
     
 //    [CommandHandler generateCommandWithSwitchBtn:switchBtn text:@""];
 }
-
+-(StimVcMode *)stimMode{
+    if (_stimMode == nil) {
+        _stimMode = [[StimVcMode alloc]init];
+        _stimMode.controllerTitle = NSStringFromClass([self class]);
+        _stimMode.textBoxVaule = @"";
+        _stimMode.switchName = @"";
+        _stimMode.switchTyte = @"";
+    }
+    return _stimMode;
+}
 
 -(void)changeSwitchStateWithSelectBtn:(NSButton *)switchBtn{
     
@@ -200,5 +221,25 @@
 
 
 
+-(void)respondsToStimControllerSwitchClickWithSwtichName:(NSString *)name switchBtn:(NSButton *)switchBtn{
+    self.stimMode.switchState = switchBtn.state;
+    self.stimMode.textBoxVaule = @"";
+    if ([name containsString:@"++"]) {
+        NSArray *arr = [name componentsSeparatedByString:@"++"];
+        self.stimMode.switchName = arr[0];
+        if (arr.count == 2) {
+            self.stimMode.textBoxVaule = arr[1];
+        }
+    }else{
+        self.stimMode.switchName = name;
+    }
 
+    self.stimMode.switchTag = (int)switchBtn.tag;
+    self.stimMode.switchTyte = switchBtn.alternateTitle;
+    
+    if (self.stimDelegate && [self.stimDelegate respondsToSelector:@selector(StimControllerSwitchClick:)]) {
+        
+        [self.stimDelegate StimControllerSwitchClick:self.stimMode];
+    }
+}
 @end

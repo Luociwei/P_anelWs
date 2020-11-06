@@ -42,14 +42,50 @@
     }
     
 }
-
+-(NSString *)getSwitchBtnName:(NSButton *)btn{
+    NSString *btnName = @"";
+    NSInteger tag = btn.tag;
+    if (btn.title.length) {
+        if (tag ==1) {
+            NSString *textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM1.stringValue,self.DutyPWM1.stringValue];
+            btnName = [self joinSwitchBtnAndTextName:@"Set_PWM1" textName:textName];
+            
+        }else if (tag==3){
+            NSString *textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM1.stringValue,self.DutyPWM1.stringValue];
+            btnName = [self joinSwitchBtnAndTextName:@"Off_PWM1" textName:textName];
+            //        btnName = [self joinSwitchBtnAndTextName:@"set_VBUS" textName:self.textF2.stringValue];
+            
+        }else if (tag==2){
+            NSString *textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM2.stringValue,self.DutyPWM2.stringValue];
+            btnName = [self joinSwitchBtnAndTextName:@"Set_PWM2" textName:textName];
+            
+        }else if (tag==4){
+            
+            NSString *textName = [NSString stringWithFormat:@"%@&&%@",self.FreqPWM2.stringValue,self.DutyPWM2.stringValue];
+            btnName = [self joinSwitchBtnAndTextName:@"Off_PWM2" textName:textName];
+        }
+        //btnName = [self joinSwitchBtnAndTextName:@"S5" textName:@""];
+    }else{
+        if (tag ==1) {
+    
+            btnName = [self joinSwitchBtnAndTextName:@"S1" textName:@""];
+            
+        }else if (tag==2){
+            btnName = [self joinSwitchBtnAndTextName:@"S2" textName:@""];
+            
+        }
+    }
+    
+    return btnName;
+}
 - (IBAction)s1click:(NSButton *)btn {
     
     [self dmicSwitchsStateWithCurrentSelectedBtn:btn WithSwitchsArray:@[@[_s1,_s2]]];
 #if 1
     // Insert code here
+    NSString *btnTextName = [self getSwitchBtnName:btn];
     
-    
+    [self respondsToStimControllerSwitchClickWithSwtichName:btnTextName switchBtn:btn];
 
 #else //suncode
     
@@ -71,8 +107,10 @@
 #if 1
          // Insert code here
          
-         
-         
+    NSString *btnTextName = [self getSwitchBtnName:btn];
+    
+    [self respondsToStimControllerSwitchClickWithSwtichName:btnTextName switchBtn:btn];
+    
          
          
 #else //suncode
@@ -101,7 +139,9 @@
     // Insert code here
     
     
+    NSString *btnTextName = [self getSwitchBtnName:btn];
     
+    [self respondsToStimControllerSwitchClickWithSwtichName:btnTextName switchBtn:btn];
     
     
 #else //suncode

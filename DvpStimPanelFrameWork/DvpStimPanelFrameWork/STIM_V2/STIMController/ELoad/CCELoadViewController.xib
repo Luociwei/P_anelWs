@@ -217,7 +217,7 @@
         </customView>
     </objects>
     <resources>
-        <image name="CCELoad" width="1025" height="700"/>
+        <image name="CCELoad" width="1537.5" height="1050"/>
         <image name="switch1_off" width="62" height="27.5"/>
         <image name="switch2_off" width="76" height="42"/>
     </resources>

@@ -14,17 +14,8 @@
 		BA65280E2552AB91000B333C /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65280C2552AB91000B333C /* MyWindowController.m */; };
 		BA65280F2552AB91000B333C /* MyWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65280D2552AB91000B333C /* MyWindowController.xib */; };
 		BA6528432552C9A8000B333C /* DvpStimPanelFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6528422552C9A8000B333C /* DvpStimPanelFrameWork.framework */; };
-		BA6528682552CA3C000B333C /* ButtonPressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528672552CA3C000B333C /* ButtonPressVC.m */; };
-		BA65286B2552CA78000B333C /* DischargeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65286A2552CA78000B333C /* DischargeVC.m */; };
-		BA65286E2552CAAE000B333C /* DmicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65286D2552CAAE000B333C /* DmicVC.m */; };
-		BA6528712552CAD5000B333C /* EloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528702552CAD5000B333C /* EloadVC.m */; };
-		BA6528742552CAF6000B333C /* LdcmVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528732552CAF6000B333C /* LdcmVC.m */; };
-		BA6528772552CB1B000B333C /* NtcVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528762552CB1B000B333C /* NtcVC.m */; };
-		BA65287A2552CB44000B333C /* OrionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528792552CB44000B333C /* OrionVC.m */; };
-		BA65287D2552CB5C000B333C /* PenroseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65287C2552CB5C000B333C /* PenroseVC.m */; };
-		BA6528802552CB7B000B333C /* PowerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65287F2552CB7B000B333C /* PowerVC.m */; };
-		BA6528832552CB99000B333C /* ResAudioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528822552CB99000B333C /* ResAudioVC.m */; };
-		BA6528862552CBB6000B333C /* RigelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6528852552CBB6000B333C /* RigelVC.m */; };
+		BA6AD23725543BEA00BE4772 /* DvpStimController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD23525543BEA00BE4772 /* DvpStimController.m */; };
+		BA6AD23825543BEA00BE4772 /* DvpStimController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6AD23625543BEA00BE4772 /* DvpStimController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,28 +31,9 @@
 		BA65280C2552AB91000B333C /* MyWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
 		BA65280D2552AB91000B333C /* MyWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyWindowController.xib; sourceTree = "<group>"; };
 		BA6528422552C9A8000B333C /* DvpStimPanelFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DvpStimPanelFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA6528662552CA3C000B333C /* ButtonPressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonPressVC.h; sourceTree = "<group>"; };
-		BA6528672552CA3C000B333C /* ButtonPressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonPressVC.m; sourceTree = "<group>"; };
-		BA6528692552CA78000B333C /* DischargeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DischargeVC.h; sourceTree = "<group>"; };
-		BA65286A2552CA78000B333C /* DischargeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DischargeVC.m; sourceTree = "<group>"; };
-		BA65286C2552CAAE000B333C /* DmicVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DmicVC.h; sourceTree = "<group>"; };
-		BA65286D2552CAAE000B333C /* DmicVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DmicVC.m; sourceTree = "<group>"; };
-		BA65286F2552CAD5000B333C /* EloadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EloadVC.h; sourceTree = "<group>"; };
-		BA6528702552CAD5000B333C /* EloadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EloadVC.m; sourceTree = "<group>"; };
-		BA6528722552CAF6000B333C /* LdcmVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LdcmVC.h; sourceTree = "<group>"; };
-		BA6528732552CAF6000B333C /* LdcmVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LdcmVC.m; sourceTree = "<group>"; };
-		BA6528752552CB1B000B333C /* NtcVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NtcVC.h; sourceTree = "<group>"; };
-		BA6528762552CB1B000B333C /* NtcVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NtcVC.m; sourceTree = "<group>"; };
-		BA6528782552CB44000B333C /* OrionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrionVC.h; sourceTree = "<group>"; };
-		BA6528792552CB44000B333C /* OrionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrionVC.m; sourceTree = "<group>"; };
-		BA65287B2552CB5C000B333C /* PenroseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenroseVC.h; sourceTree = "<group>"; };
-		BA65287C2552CB5C000B333C /* PenroseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenroseVC.m; sourceTree = "<group>"; };
-		BA65287E2552CB7B000B333C /* PowerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerVC.h; sourceTree = "<group>"; };
-		BA65287F2552CB7B000B333C /* PowerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerVC.m; sourceTree = "<group>"; };
-		BA6528812552CB99000B333C /* ResAudioVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResAudioVC.h; sourceTree = "<group>"; };
-		BA6528822552CB99000B333C /* ResAudioVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResAudioVC.m; sourceTree = "<group>"; };
-		BA6528842552CBB6000B333C /* RigelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RigelVC.h; sourceTree = "<group>"; };
-		BA6528852552CBB6000B333C /* RigelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RigelVC.m; sourceTree = "<group>"; };
+		BA6AD23425543BEA00BE4772 /* DvpStimController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DvpStimController.h; sourceTree = "<group>"; };
+		BA6AD23525543BEA00BE4772 /* DvpStimController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DvpStimController.m; sourceTree = "<group>"; };
+		BA6AD23625543BEA00BE4772 /* DvpStimController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DvpStimController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +70,9 @@
 			children = (
 				BA65249B25517396000B333C /* AppDelegate.h */,
 				BA65249C25517396000B333C /* AppDelegate.m */,
+				BA6AD23425543BEA00BE4772 /* DvpStimController.h */,
+				BA6AD23525543BEA00BE4772 /* DvpStimController.m */,
+				BA6AD23625543BEA00BE4772 /* DvpStimController.xib */,
 				BA65280B2552AB91000B333C /* MyWindowController.h */,
 				BA65280C2552AB91000B333C /* MyWindowController.m */,
 				BA65280D2552AB91000B333C /* MyWindowController.xib */,
@@ -106,28 +81,6 @@
 				BA6524A325517398000B333C /* Info.plist */,
 				BA6524A425517398000B333C /* main.m */,
 				BA6524A625517398000B333C /* DvpStimDemo.entitlements */,
-				BA6528662552CA3C000B333C /* ButtonPressVC.h */,
-				BA6528672552CA3C000B333C /* ButtonPressVC.m */,
-				BA6528692552CA78000B333C /* DischargeVC.h */,
-				BA65286A2552CA78000B333C /* DischargeVC.m */,
-				BA65286C2552CAAE000B333C /* DmicVC.h */,
-				BA65286D2552CAAE000B333C /* DmicVC.m */,
-				BA65286F2552CAD5000B333C /* EloadVC.h */,
-				BA6528702552CAD5000B333C /* EloadVC.m */,
-				BA6528722552CAF6000B333C /* LdcmVC.h */,
-				BA6528732552CAF6000B333C /* LdcmVC.m */,
-				BA6528752552CB1B000B333C /* NtcVC.h */,
-				BA6528762552CB1B000B333C /* NtcVC.m */,
-				BA6528782552CB44000B333C /* OrionVC.h */,
-				BA6528792552CB44000B333C /* OrionVC.m */,
-				BA65287B2552CB5C000B333C /* PenroseVC.h */,
-				BA65287C2552CB5C000B333C /* PenroseVC.m */,
-				BA65287E2552CB7B000B333C /* PowerVC.h */,
-				BA65287F2552CB7B000B333C /* PowerVC.m */,
-				BA6528812552CB99000B333C /* ResAudioVC.h */,
-				BA6528822552CB99000B333C /* ResAudioVC.m */,
-				BA6528842552CBB6000B333C /* RigelVC.h */,
-				BA6528852552CBB6000B333C /* RigelVC.m */,
 			);
 			path = DvpStimDemo;
 			sourceTree = "<group>";
@@ -198,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA65280F2552AB91000B333C /* MyWindowController.xib in Resources */,
+				BA6AD23825543BEA00BE4772 /* DvpStimController.xib in Resources */,
 				BA65249F25517398000B333C /* Assets.xcassets in Resources */,
 				BA6524A225517398000B333C /* MainMenu.xib in Resources */,
 			);
@@ -210,20 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA6528862552CBB6000B333C /* RigelVC.m in Sources */,
-				BA6528772552CB1B000B333C /* NtcVC.m in Sources */,
-				BA6528682552CA3C000B333C /* ButtonPressVC.m in Sources */,
-				BA6528832552CB99000B333C /* ResAudioVC.m in Sources */,
 				BA6524A525517398000B333C /* main.m in Sources */,
+				BA6AD23725543BEA00BE4772 /* DvpStimController.m in Sources */,
 				BA65249D25517396000B333C /* AppDelegate.m in Sources */,
-				BA6528712552CAD5000B333C /* EloadVC.m in Sources */,
-				BA6528742552CAF6000B333C /* LdcmVC.m in Sources */,
-				BA6528802552CB7B000B333C /* PowerVC.m in Sources */,
-				BA65286E2552CAAE000B333C /* DmicVC.m in Sources */,
-				BA65286B2552CA78000B333C /* DischargeVC.m in Sources */,
-				BA65287A2552CB44000B333C /* OrionVC.m in Sources */,
 				BA65280E2552AB91000B333C /* MyWindowController.m in Sources */,
-				BA65287D2552CB5C000B333C /* PenroseVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

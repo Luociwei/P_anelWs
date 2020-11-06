@@ -23,7 +23,20 @@
             </view>
             <toolbar key="toolbar" implicitIdentifier="04903932-F236-4990-AB8F-0BB461DC0B8A" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="zAo-n2-MOO">
                 <allowedToolbarItems>
-                    <toolbarItem implicitItemIdentifier="3A7593D2-5D20-461F-AA4D-00DECB56C098" label="" paletteLabel="" id="K4V-4J-K69" userLabel="Reset All">
+                    <toolbarItem implicitItemIdentifier="DA3CD677-C80A-41CE-8789-A173723126CF" label="" paletteLabel="" id="ld4-hu-coV" userLabel="CC_Load_1">
+                        <nil key="toolTip"/>
+                        <size key="maxSize" width="444" height="17"/>
+                        <textField key="view" hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" id="xcD-jv-D3O">
+                            <rect key="frame" x="0.0" y="14" width="402" height="17"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" id="sSp-De-vQM">
+                                <font key="font" usesAppearanceFont="YES"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="4CD69131-0B12-4A65-A775-8F58F6C24068" label="" paletteLabel="" id="K4V-4J-K69" userLabel="Reset All">
                         <nil key="toolTip"/>
                         <size key="minSize" width="105" height="43"/>
                         <size key="maxSize" width="120" height="150"/>
@@ -39,6 +52,8 @@
                             <action selector="reset_all:" target="-2" id="jK6-rQ-aeT"/>
                         </connections>
                     </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="i6r-HK-UiM"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="2k9-cp-6QL"/>
                 </allowedToolbarItems>
                 <defaultToolbarItems>
                     <toolbarItem reference="K4V-4J-K69"/>

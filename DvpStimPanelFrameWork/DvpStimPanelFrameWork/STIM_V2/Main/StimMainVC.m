@@ -9,7 +9,8 @@
 #import "StimMainVC.h"
 #import "ExtensionConst.h"
 #import "StimTabViewController.h"
-#import "STIMBaseViewController.h"
+
+
 @interface StimMainVC ()
 
 //@property (assign) IBOutlet NSComboBox *comboBox;
@@ -26,7 +27,7 @@
 
 @implementation StimMainVC
 
-- (void)showWindowWithViewControllers:(NSArray <NSViewController *>*)viewControllers {
+- (void)showWindowWithViewControllers:(NSArray <STIMBaseViewController *>*)viewControllers {
     self.window.alphaValue = 0.0;
     [self showWindow:self];
     [self.window makeKeyAndOrderFront:self];
@@ -71,12 +72,12 @@
 //   // [self changeViewController:selectedIndex];
 //}
 
--(void)addViewControllers:(NSArray <NSViewController *>*)viewControllers{
+-(void)addViewControllers:(NSArray <STIMBaseViewController *>*)viewControllers{
 
     NSInteger vcCounts = viewControllers.count;
     if (vcCounts) {
         for (int i =0; i<vcCounts; i++) {
-            NSViewController *vc = viewControllers[i];
+            STIMBaseViewController *vc = viewControllers[i];
             [self setUpChildsViewCtroller:vc];
         }
     }
@@ -162,7 +163,7 @@
 
 -(void)resetAll{
     
-    NSString *vaule = @"";
+//    NSString *vaule = @"";
 //    self.cr_load1.stringValue = [NSString stringWithFormat:@"CR_Load_1:%@mA",vaule];
 //
 //    self.cc_load1.stringValue = [NSString stringWithFormat:@"CC_Load_1:%@mA",vaule];
@@ -203,11 +204,12 @@
     [self resetAllRelays];
 }
 
--(void)setUpChildsViewCtroller:(NSViewController *)vc{
+-(void)setUpChildsViewCtroller:(STIMBaseViewController *)vc{
     
     NSString *title = NSStringFromClass([vc class]);
     vc.title = title;
-    
+//    __weak typeof(self) wSelf = self;
+    vc.stimDelegate = self;
     if ([title containsString:@"ViewController"]) {
         NSRange range = [title rangeOfString:@"ViewController"];
         vc.title = [title substringToIndex:range.location];
@@ -229,6 +231,8 @@
 //    [super dealloc];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
+
+
 
 
 @end

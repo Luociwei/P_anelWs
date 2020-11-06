@@ -7,14 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import "STIMBaseViewController.h"
+@class StimMainVcProtocol;
 NS_ASSUME_NONNULL_BEGIN
 #define kNotificationOnLoadProfile            @"On_ReloadProfileByRecMsg"
 #define kNotificationStartTestByRecMsg        @"On_StartTestByRecMsg"
 
-@interface StimMainVC : NSWindowController
+@interface StimMainVC : NSWindowController<StimMainVcProtocol>
 
--(void)showWindowWithViewControllers:(NSArray <NSViewController *>*)viewControllers;
+-(void)showWindowWithViewControllers:(NSArray <STIMBaseViewController *>*)viewControllers;
 -(void)resetAllRelays;
 
 @end

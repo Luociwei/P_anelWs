@@ -39,16 +39,33 @@
     self.textFs = @[_ccload1_view,_ccload2_view];
     self.eloadBtns = @[_btnset1,_btnset2];
 }
+-(NSString *)getSwitchBtnName:(NSButton *)btn{
+    NSString *btnName = @"";
+    NSInteger tag = btn.tag;
+    if (btn.title.length) {
+        if (tag ==1) {
+            NSString *textName = [NSString stringWithFormat:@"%@",self.ccload1_view.stringValue];
+            btnName = [self joinSwitchBtnAndTextName:@"Set_CC_Load1" textName:textName];
 
+        }else if (tag==2){
+            NSString *textName = [NSString stringWithFormat:@"%@",self.ccload2_view.stringValue];
+            btnName = [self joinSwitchBtnAndTextName:@"Set_CC_Load2" textName:textName];
+        }
+        
+    }else{
+        
+         btnName = [self joinSwitchBtnAndTextName:[NSString stringWithFormat:@"S%ld",tag] textName:@""];
+    }
+
+    return btnName;
+}
 - (IBAction)setBtnClick:(NSButton *)btn{
     
     
 #if 1
     // Insert code here
-    
-    
-    
-    
+    NSString *name = [self getSwitchBtnName:btn];
+    [self respondsToStimControllerSwitchClickWithSwtichName:name switchBtn:btn];
     
 #else //suncode
     
@@ -181,7 +198,8 @@
     }
 #if 1
     // Insert code here
-    
+    NSString *name = [self getSwitchBtnName:btn];
+    [self respondsToStimControllerSwitchClickWithSwtichName:name switchBtn:btn];
     
 #else //suncode
     

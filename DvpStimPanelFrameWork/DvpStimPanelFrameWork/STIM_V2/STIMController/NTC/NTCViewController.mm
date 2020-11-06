@@ -44,15 +44,16 @@
     [self mutexSwitchsStateWithCurrentSelectedBtn1:switchBtn WithSwitchsArray:self.switchBtns];
 #if 1
     // Insert code here
-    
-    
+    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:switchBtn];
+ 
 #else //suncode
     
     [CommandHandler generateCommandWithSwitchBtn:switchBtn text:@""];
 #endif
-    
 
-    
 }
+
+
+
 
 @end

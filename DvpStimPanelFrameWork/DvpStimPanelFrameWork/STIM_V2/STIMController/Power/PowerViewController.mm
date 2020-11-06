@@ -62,6 +62,50 @@
 
 
 
+
+-(NSString *)getSwitchBtnNameWithTag:(NSInteger)tag{
+    NSString *btnName = @"";
+    if (tag ==3) {
+    
+        btnName = [self joinSwitchBtnAndTextName:@"Set_VBATT" textName:self.textF1.stringValue];
+        
+    }else if (tag==4){
+
+        btnName = [self joinSwitchBtnAndTextName:@"Set_VBUS" textName:self.textF2.stringValue];
+ 
+    }else if (tag==10){
+        btnName = [self joinSwitchBtnAndTextName:@"Set_VBUS_5V" textName:self.textF3.stringValue];
+        
+    }else if (tag==11){
+
+        btnName = [self joinSwitchBtnAndTextName:@"Set_VBUS_9V" textName:self.textF4.stringValue];
+    }else if (tag==12){
+        
+        btnName = [self joinSwitchBtnAndTextName:@"Set_VBUS_12V" textName:self.textF5.stringValue];
+    }else if (tag==13){
+        
+        btnName = [self joinSwitchBtnAndTextName:@"Set_VBUS_15V" textName:self.textF6.stringValue];
+    }else if (tag==338){
+        
+        btnName = [self joinSwitchBtnAndTextName:@"S1" textName:@""];
+    }else if (tag==64){
+        
+        btnName = [self joinSwitchBtnAndTextName:@"S2" textName:@""];
+    }else if (tag==63){
+        
+        btnName = [self joinSwitchBtnAndTextName:@"S3" textName:@""];
+    }else if (tag==50){
+        
+        btnName = [self joinSwitchBtnAndTextName:@"S4" textName:@""];
+    }else if (tag==49){
+        
+        btnName = [self joinSwitchBtnAndTextName:@"S5" textName:@""];
+    }
+    
+    return btnName;
+}
+
+
 - (IBAction)btnsClick:(NSButton *)switchBtn {
     
     if (switchBtn.tag == 49) {
@@ -73,6 +117,8 @@
     
 #if 1
     // Insert code here
+    NSString *btnTextName = [self getSwitchBtnNameWithTag:switchBtn.tag];
+    [self respondsToStimControllerSwitchClickWithSwtichName:btnTextName switchBtn:switchBtn];
     
 
 #else //suncode
@@ -111,10 +157,8 @@
 
 #if 1
     // Insert code here
-    
-    
-    
-    
+    NSString *btnTextName = [self getSwitchBtnNameWithTag:switchBtn.tag];
+    [self respondsToStimControllerSwitchClickWithSwtichName:btnTextName switchBtn:switchBtn];
     
 #else //suncode
     NSTextField *textF =nil;

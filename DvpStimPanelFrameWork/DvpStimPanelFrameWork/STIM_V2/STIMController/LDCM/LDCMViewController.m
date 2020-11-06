@@ -68,7 +68,7 @@
 
 #if 1
     // Insert code here
-    
+    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:btn];
     
 #else //suncode
 
@@ -95,7 +95,7 @@
     
 #if 1
     // Insert code here
-    
+    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:btn];
     
 #else //suncode
       [CommandHandler generateCommandWithSwitchBtn:btn text:@""];
@@ -117,7 +117,7 @@
     [self setSwitch1BtnImage:btn];
 #if 1
     // Insert code here
-    
+    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:btn];
     
 #else //suncode
     [CommandHandler generateCommandWithSwitchBtn:btn text:@""];
@@ -183,7 +183,7 @@
 #if 1
     // Insert code here
     
-    
+    [self respondsToStimControllerSwitchClickWithSwtichName:@"S1" switchBtn:btn];
 #else //suncode
     
   

@@ -96,6 +96,9 @@
 		BA6527FE2552578A000B333C /* StimTabViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65279F2552578A000B333C /* StimTabViewController.mm */; };
 		BA6527FF2552578A000B333C /* StimMainVC.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527A02552578A000B333C /* StimMainVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6528002552578A000B333C /* StimTabViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527A12552578A000B333C /* StimTabViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6AD22F2553DFA800BE4772 /* StimMainVcProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6AD22E2553DFA800BE4772 /* StimMainVcProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6AD2322553E8E600BE4772 /* StimVcMode.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6AD2302553E8E600BE4772 /* StimVcMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6AD2332553E8E600BE4772 /* StimVcMode.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD2312553E8E600BE4772 /* StimVcMode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -190,6 +193,9 @@
 		BA65279F2552578A000B333C /* StimTabViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StimTabViewController.mm; sourceTree = "<group>"; };
 		BA6527A02552578A000B333C /* StimMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StimMainVC.h; sourceTree = "<group>"; };
 		BA6527A12552578A000B333C /* StimTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StimTabViewController.h; sourceTree = "<group>"; };
+		BA6AD22E2553DFA800BE4772 /* StimMainVcProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StimMainVcProtocol.h; sourceTree = "<group>"; };
+		BA6AD2302553E8E600BE4772 /* StimVcMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StimVcMode.h; sourceTree = "<group>"; };
+		BA6AD2312553E8E600BE4772 /* StimVcMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StimVcMode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,6 +462,9 @@
 				BA65279E2552578A000B333C /* StimMainVC.xib */,
 				BA6527A12552578A000B333C /* StimTabViewController.h */,
 				BA65279F2552578A000B333C /* StimTabViewController.mm */,
+				BA6AD22E2553DFA800BE4772 /* StimMainVcProtocol.h */,
+				BA6AD2302553E8E600BE4772 /* StimVcMode.h */,
+				BA6AD2312553E8E600BE4772 /* StimVcMode.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -478,7 +487,9 @@
 				BA6527F12552578A000B333C /* LDCMViewController.h in Headers */,
 				BA6527B12552578A000B333C /* CCELoadViewController.h in Headers */,
 				BA6527FA2552578A000B333C /* STIMBaseViewController.h in Headers */,
+				BA6AD22F2553DFA800BE4772 /* StimMainVcProtocol.h in Headers */,
 				BA6527E62552578A000B333C /* DMICViewController.h in Headers */,
+				BA6AD2322553E8E600BE4772 /* StimVcMode.h in Headers */,
 				BA6527E22552578A000B333C /* ORIONViewController.h in Headers */,
 				BA6527F82552578A000B333C /* RigelViewController.h in Headers */,
 				BA6527AC2552578A000B333C /* PowerViewController.h in Headers */,
@@ -621,6 +632,7 @@
 				BA6527EF2552578A000B333C /* LDCMViewController.m in Sources */,
 				BA6527F42552578A000B333C /* DischargeViewController.mm in Sources */,
 				BA6527FC2552578A000B333C /* StimMainVC.m in Sources */,
+				BA6AD2332553E8E600BE4772 /* StimVcMode.m in Sources */,
 				BA6527A82552578A000B333C /* ExtensionConst.mm in Sources */,
 				BA6527E92552578A000B333C /* ResAudioViewController.mm in Sources */,
 				BA6527FE2552578A000B333C /* StimTabViewController.mm in Sources */,
