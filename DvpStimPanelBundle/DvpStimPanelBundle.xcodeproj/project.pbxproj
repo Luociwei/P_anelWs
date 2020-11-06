@@ -47,6 +47,18 @@
 		BAF189D625552CB50000306D /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189AE25552CB50000306D /* image1.jpg */; };
 		BAF189D725552CB50000306D /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189AF25552CB50000306D /* image2.jpg */; };
 		BAF189D825552CB50000306D /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF189B025552CB50000306D /* image3.jpg */; };
+		BAF189EB255557130000306D /* RigelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF189E0255557130000306D /* RigelViewController.xib */; };
+		BAF189EC255557130000306D /* PenroseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF189E1255557130000306D /* PenroseViewController.xib */; };
+		BAF189ED255557130000306D /* ResAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF189E2255557130000306D /* ResAudioViewController.xib */; };
+		BAF189EE255557130000306D /* CCELoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF189E3255557130000306D /* CCELoadViewController.xib */; };
+		BAF189EF255557130000306D /* DischargeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF189E4255557130000306D /* DischargeViewController.xib */; };
+		BAF189F0255557130000306D /* DMICViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF189E5255557130000306D /* DMICViewController.xib */; };
+		BAF189F1255557130000306D /* LDCMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF189E6255557130000306D /* LDCMViewController.xib */; };
+		BAF189F2255557130000306D /* ButtonPressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF189E7255557130000306D /* ButtonPressViewController.xib */; };
+		BAF189F3255557130000306D /* ORIONViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF189E8255557130000306D /* ORIONViewController.xib */; };
+		BAF189F4255557130000306D /* NTCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF189E9255557130000306D /* NTCViewController.xib */; };
+		BAF189F5255557130000306D /* PowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF189EA255557130000306D /* PowerViewController.xib */; };
+		BAF18A0B25556F6A0000306D /* StimMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF18A0A25556F6A0000306D /* StimMainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +103,18 @@
 		BAF189AE25552CB50000306D /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 		BAF189AF25552CB50000306D /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
 		BAF189B025552CB50000306D /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		BAF189E0255557130000306D /* RigelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RigelViewController.xib; sourceTree = "<group>"; };
+		BAF189E1255557130000306D /* PenroseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenroseViewController.xib; sourceTree = "<group>"; };
+		BAF189E2255557130000306D /* ResAudioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResAudioViewController.xib; sourceTree = "<group>"; };
+		BAF189E3255557130000306D /* CCELoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCELoadViewController.xib; sourceTree = "<group>"; };
+		BAF189E4255557130000306D /* DischargeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DischargeViewController.xib; sourceTree = "<group>"; };
+		BAF189E5255557130000306D /* DMICViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DMICViewController.xib; sourceTree = "<group>"; };
+		BAF189E6255557130000306D /* LDCMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDCMViewController.xib; sourceTree = "<group>"; };
+		BAF189E7255557130000306D /* ButtonPressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonPressViewController.xib; sourceTree = "<group>"; };
+		BAF189E8255557130000306D /* ORIONViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORIONViewController.xib; sourceTree = "<group>"; };
+		BAF189E9255557130000306D /* NTCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTCViewController.xib; sourceTree = "<group>"; };
+		BAF189EA255557130000306D /* PowerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PowerViewController.xib; sourceTree = "<group>"; };
+		BAF18A0A25556F6A0000306D /* StimMainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StimMainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +131,7 @@
 		BA652302255065F2000B333C = {
 			isa = PBXGroup;
 			children = (
+				BAF189DF255557130000306D /* xibs */,
 				BAF1898825552CB50000306D /* Images */,
 				BA65230C255065F2000B333C /* Products */,
 				BA65236D25515109000B333C /* Frameworks */,
@@ -175,6 +200,25 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		BAF189DF255557130000306D /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				BAF189E0255557130000306D /* RigelViewController.xib */,
+				BAF189E1255557130000306D /* PenroseViewController.xib */,
+				BAF189E2255557130000306D /* ResAudioViewController.xib */,
+				BAF189E3255557130000306D /* CCELoadViewController.xib */,
+				BAF189E4255557130000306D /* DischargeViewController.xib */,
+				BAF189E5255557130000306D /* DMICViewController.xib */,
+				BAF189E6255557130000306D /* LDCMViewController.xib */,
+				BAF189E7255557130000306D /* ButtonPressViewController.xib */,
+				BAF189E8255557130000306D /* ORIONViewController.xib */,
+				BAF189E9255557130000306D /* NTCViewController.xib */,
+				BAF18A0A25556F6A0000306D /* StimMainVC.xib */,
+				BAF189EA255557130000306D /* PowerViewController.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,16 +275,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF189F3255557130000306D /* ORIONViewController.xib in Resources */,
+				BAF189EE255557130000306D /* CCELoadViewController.xib in Resources */,
 				BAF189B225552CB50000306D /* LDCM_New.jpg in Resources */,
 				BAF189BB25552CB50000306D /* RIGEL.jpg in Resources */,
+				BAF189F0255557130000306D /* DMICViewController.xib in Resources */,
 				BAF189B525552CB50000306D /* image8.jpg in Resources */,
 				BAF189C625552CB50000306D /* image13.jpg in Resources */,
 				BAF189CF25552CB50000306D /* switch3_on.jpg in Resources */,
 				BAF189B425552CB50000306D /* E_Load.jpg in Resources */,
 				BAF189CD25552CB50000306D /* LDCM_New 2.jpg in Resources */,
 				BAF189B925552CB50000306D /* image9.jpg in Resources */,
+				BAF189F5255557130000306D /* PowerViewController.xib in Resources */,
 				BAF189B125552CB50000306D /* ORION.jpg in Resources */,
 				BAF189CB25552CB50000306D /* switch1_on.jpg in Resources */,
+				BAF189F1255557130000306D /* LDCMViewController.xib in Resources */,
 				BAF189D225552CB50000306D /* image6.jpg in Resources */,
 				BAF189B325552CB50000306D /* Canvas 1.jpg in Resources */,
 				BAF189D125552CB50000306D /* DMIC.jpg in Resources */,
@@ -248,11 +297,17 @@
 				BAF189C925552CB50000306D /* image10.jpg in Resources */,
 				BAF189C025552CB50000306D /* ResAudio.jpg in Resources */,
 				BAF189CC25552CB50000306D /* LDCM.jpg in Resources */,
+				BAF18A0B25556F6A0000306D /* StimMainVC.xib in Resources */,
+				BAF189EC255557130000306D /* PenroseViewController.xib in Resources */,
 				BAF189BE25552CB50000306D /* image15.jpg in Resources */,
+				BAF189F2255557130000306D /* ButtonPressViewController.xib in Resources */,
 				BAF189B825552CB50000306D /* switch2_on.jpg in Resources */,
 				BAF189D725552CB50000306D /* image2.jpg in Resources */,
 				BAF189CA25552CB50000306D /* penrose.jpg in Resources */,
+				BAF189ED255557130000306D /* ResAudioViewController.xib in Resources */,
 				BAF189C325552CB50000306D /* Canvas 13.jpg in Resources */,
+				BAF189EB255557130000306D /* RigelViewController.xib in Resources */,
+				BAF189EF255557130000306D /* DischargeViewController.xib in Resources */,
 				BAF189D325552CB50000306D /* BUTTON_PRESS.jpg in Resources */,
 				BAF189D025552CB50000306D /* image7.jpg in Resources */,
 				BAF189D625552CB50000306D /* image1.jpg in Resources */,
@@ -266,6 +321,7 @@
 				BAF189B725552CB50000306D /* penrose1.jpg in Resources */,
 				BAF189BA25552CB50000306D /* NTC.jpg in Resources */,
 				BAF189C425552CB50000306D /* image12.jpg in Resources */,
+				BAF189F4255557130000306D /* NTCViewController.xib in Resources */,
 				BAF189C125552CB50000306D /* image16.jpg in Resources */,
 				BAF189D425552CB50000306D /* image4.jpg in Resources */,
 				BAF189BF25552CB50000306D /* POWER.jpg in Resources */,
@@ -402,7 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
+				COMBINE_HIDPI_IMAGES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -420,7 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
+				COMBINE_HIDPI_IMAGES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

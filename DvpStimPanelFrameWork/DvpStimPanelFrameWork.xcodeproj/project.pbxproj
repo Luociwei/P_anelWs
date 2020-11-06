@@ -18,48 +18,36 @@
 		BA6527AA2552578A000B333C /* GraphicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BA65273C2552578A000B333C /* GraphicHeader.h */; };
 		BA6527AB2552578A000B333C /* PowerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65273F2552578A000B333C /* PowerViewController.mm */; };
 		BA6527AC2552578A000B333C /* PowerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527402552578A000B333C /* PowerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA6527AD2552578A000B333C /* PowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527412552578A000B333C /* PowerViewController.xib */; };
-		BA6527AE2552578A000B333C /* PenroseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527432552578A000B333C /* PenroseViewController.xib */; };
 		BA6527AF2552578A000B333C /* PenroseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6527442552578A000B333C /* PenroseViewController.m */; };
 		BA6527B02552578A000B333C /* PenroseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527452552578A000B333C /* PenroseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6527B12552578A000B333C /* CCELoadViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527472552578A000B333C /* CCELoadViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA6527B32552578A000B333C /* CCELoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527492552578A000B333C /* CCELoadViewController.xib */; };
 		BA6527B62552578A000B333C /* CCELoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65274C2552578A000B333C /* CCELoadViewController.m */; };
 		BA6527B72552578A000B333C /* ButtonPressViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65274E2552578A000B333C /* ButtonPressViewController.mm */; };
-		BA6527B82552578A000B333C /* ButtonPressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65274F2552578A000B333C /* ButtonPressViewController.xib */; };
 		BA6527B92552578A000B333C /* ButtonPressViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527502552578A000B333C /* ButtonPressViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6527E22552578A000B333C /* ORIONViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA65277B2552578A000B333C /* ORIONViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6527E32552578A000B333C /* ORIONViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65277C2552578A000B333C /* ORIONViewController.mm */; };
-		BA6527E42552578A000B333C /* ORIONViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65277D2552578A000B333C /* ORIONViewController.xib */; };
 		BA6527E52552578A000B333C /* DMICViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65277F2552578A000B333C /* DMICViewController.mm */; };
 		BA6527E62552578A000B333C /* DMICViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527802552578A000B333C /* DMICViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA6527E72552578A000B333C /* DMICViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527812552578A000B333C /* DMICViewController.xib */; };
 		BA6527E92552578A000B333C /* ResAudioViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527842552578A000B333C /* ResAudioViewController.mm */; };
-		BA6527EA2552578A000B333C /* ResAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527852552578A000B333C /* ResAudioViewController.xib */; };
 		BA6527EB2552578A000B333C /* ResAudioViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527862552578A000B333C /* ResAudioViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6527EC2552578A000B333C /* NTCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527882552578A000B333C /* NTCViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6527ED2552578A000B333C /* NTCViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527892552578A000B333C /* NTCViewController.mm */; };
-		BA6527EE2552578A000B333C /* NTCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65278A2552578A000B333C /* NTCViewController.xib */; };
 		BA6527EF2552578A000B333C /* LDCMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65278C2552578A000B333C /* LDCMViewController.m */; };
-		BA6527F02552578A000B333C /* LDCMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65278D2552578A000B333C /* LDCMViewController.xib */; };
 		BA6527F12552578A000B333C /* LDCMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA65278E2552578A000B333C /* LDCMViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6527F22552578A000B333C /* DischargeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527902552578A000B333C /* DischargeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA6527F32552578A000B333C /* DischargeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527912552578A000B333C /* DischargeViewController.xib */; };
 		BA6527F42552578A000B333C /* DischargeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527922552578A000B333C /* DischargeViewController.mm */; };
-		BA6527F62552578A000B333C /* RigelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6527952552578A000B333C /* RigelViewController.xib */; };
 		BA6527F72552578A000B333C /* RigelViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527962552578A000B333C /* RigelViewController.mm */; };
 		BA6527F82552578A000B333C /* RigelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527972552578A000B333C /* RigelViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6527F92552578A000B333C /* STIMBaseViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA6527992552578A000B333C /* STIMBaseViewController.mm */; };
 		BA6527FA2552578A000B333C /* STIMBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA65279A2552578A000B333C /* STIMBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6527FC2552578A000B333C /* StimMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65279D2552578A000B333C /* StimMainVC.m */; };
-		BA6527FD2552578A000B333C /* StimMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA65279E2552578A000B333C /* StimMainVC.xib */; };
 		BA6527FE2552578A000B333C /* StimTabViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA65279F2552578A000B333C /* StimTabViewController.mm */; };
 		BA6527FF2552578A000B333C /* StimMainVC.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527A02552578A000B333C /* StimMainVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6528002552578A000B333C /* StimTabViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6527A12552578A000B333C /* StimTabViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6AD22F2553DFA800BE4772 /* StimMainVcProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6AD22E2553DFA800BE4772 /* StimMainVcProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6AD2322553E8E600BE4772 /* StimVcMode.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6AD2302553E8E600BE4772 /* StimVcMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6AD2332553E8E600BE4772 /* StimVcMode.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD2312553E8E600BE4772 /* StimVcMode.m */; };
-		BAF189DC255531C00000306D /* DvpStimPanelBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAF189DB255531C00000306D /* DvpStimPanelBundle.bundle */; };
+		BAF18A07255569470000306D /* DvpStimPanelBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAF18A06255569460000306D /* DvpStimPanelBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,48 +64,36 @@
 		BA65273C2552578A000B333C /* GraphicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicHeader.h; sourceTree = "<group>"; };
 		BA65273F2552578A000B333C /* PowerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PowerViewController.mm; sourceTree = "<group>"; };
 		BA6527402552578A000B333C /* PowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerViewController.h; sourceTree = "<group>"; };
-		BA6527412552578A000B333C /* PowerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PowerViewController.xib; sourceTree = "<group>"; };
-		BA6527432552578A000B333C /* PenroseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenroseViewController.xib; sourceTree = "<group>"; };
 		BA6527442552578A000B333C /* PenroseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenroseViewController.m; sourceTree = "<group>"; };
 		BA6527452552578A000B333C /* PenroseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenroseViewController.h; sourceTree = "<group>"; };
 		BA6527472552578A000B333C /* CCELoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCELoadViewController.h; sourceTree = "<group>"; };
-		BA6527492552578A000B333C /* CCELoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCELoadViewController.xib; sourceTree = "<group>"; };
 		BA65274C2552578A000B333C /* CCELoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCELoadViewController.m; sourceTree = "<group>"; };
 		BA65274E2552578A000B333C /* ButtonPressViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ButtonPressViewController.mm; sourceTree = "<group>"; };
-		BA65274F2552578A000B333C /* ButtonPressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonPressViewController.xib; sourceTree = "<group>"; };
 		BA6527502552578A000B333C /* ButtonPressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonPressViewController.h; sourceTree = "<group>"; };
 		BA65277B2552578A000B333C /* ORIONViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORIONViewController.h; sourceTree = "<group>"; };
 		BA65277C2552578A000B333C /* ORIONViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ORIONViewController.mm; sourceTree = "<group>"; };
-		BA65277D2552578A000B333C /* ORIONViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORIONViewController.xib; sourceTree = "<group>"; };
 		BA65277F2552578A000B333C /* DMICViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DMICViewController.mm; sourceTree = "<group>"; };
 		BA6527802552578A000B333C /* DMICViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMICViewController.h; sourceTree = "<group>"; };
-		BA6527812552578A000B333C /* DMICViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DMICViewController.xib; sourceTree = "<group>"; };
 		BA6527842552578A000B333C /* ResAudioViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResAudioViewController.mm; sourceTree = "<group>"; };
-		BA6527852552578A000B333C /* ResAudioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResAudioViewController.xib; sourceTree = "<group>"; };
 		BA6527862552578A000B333C /* ResAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResAudioViewController.h; sourceTree = "<group>"; };
 		BA6527882552578A000B333C /* NTCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTCViewController.h; sourceTree = "<group>"; };
 		BA6527892552578A000B333C /* NTCViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NTCViewController.mm; sourceTree = "<group>"; };
-		BA65278A2552578A000B333C /* NTCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTCViewController.xib; sourceTree = "<group>"; };
 		BA65278C2552578A000B333C /* LDCMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDCMViewController.m; sourceTree = "<group>"; };
-		BA65278D2552578A000B333C /* LDCMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDCMViewController.xib; sourceTree = "<group>"; };
 		BA65278E2552578A000B333C /* LDCMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDCMViewController.h; sourceTree = "<group>"; };
 		BA6527902552578A000B333C /* DischargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DischargeViewController.h; sourceTree = "<group>"; };
-		BA6527912552578A000B333C /* DischargeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DischargeViewController.xib; sourceTree = "<group>"; };
 		BA6527922552578A000B333C /* DischargeViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DischargeViewController.mm; sourceTree = "<group>"; };
-		BA6527952552578A000B333C /* RigelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RigelViewController.xib; sourceTree = "<group>"; };
 		BA6527962552578A000B333C /* RigelViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RigelViewController.mm; sourceTree = "<group>"; };
 		BA6527972552578A000B333C /* RigelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RigelViewController.h; sourceTree = "<group>"; };
 		BA6527992552578A000B333C /* STIMBaseViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = STIMBaseViewController.mm; sourceTree = "<group>"; };
 		BA65279A2552578A000B333C /* STIMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STIMBaseViewController.h; sourceTree = "<group>"; };
 		BA65279D2552578A000B333C /* StimMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StimMainVC.m; sourceTree = "<group>"; };
-		BA65279E2552578A000B333C /* StimMainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StimMainVC.xib; sourceTree = "<group>"; };
 		BA65279F2552578A000B333C /* StimTabViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StimTabViewController.mm; sourceTree = "<group>"; };
 		BA6527A02552578A000B333C /* StimMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StimMainVC.h; sourceTree = "<group>"; };
 		BA6527A12552578A000B333C /* StimTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StimTabViewController.h; sourceTree = "<group>"; };
 		BA6AD22E2553DFA800BE4772 /* StimMainVcProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StimMainVcProtocol.h; sourceTree = "<group>"; };
 		BA6AD2302553E8E600BE4772 /* StimVcMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StimVcMode.h; sourceTree = "<group>"; };
 		BA6AD2312553E8E600BE4772 /* StimVcMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StimVcMode.m; sourceTree = "<group>"; };
-		BAF189DB255531C00000306D /* DvpStimPanelBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DvpStimPanelBundle.bundle; sourceTree = "<group>"; };
+		BAF18A06255569460000306D /* DvpStimPanelBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DvpStimPanelBundle.bundle; path = STIM_V2/DvpStimPanelBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +112,7 @@
 			children = (
 				71B0A1881DCDCD46004165A8 /* DvpStimPanelFrameWork */,
 				71B0A1871DCDCD46004165A8 /* Products */,
+				BAF189FA255558490000306D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,7 +127,7 @@
 		71B0A1881DCDCD46004165A8 /* DvpStimPanelFrameWork */ = {
 			isa = PBXGroup;
 			children = (
-				BAF189DB255531C00000306D /* DvpStimPanelBundle.bundle */,
+				BAF18A06255569460000306D /* DvpStimPanelBundle.bundle */,
 				BA6527312552578A000B333C /* STIM_V2 */,
 				71B0A18A1DCDCD46004165A8 /* Info.plist */,
 			);
@@ -215,7 +192,6 @@
 			children = (
 				BA6527402552578A000B333C /* PowerViewController.h */,
 				BA65273F2552578A000B333C /* PowerViewController.mm */,
-				BA6527412552578A000B333C /* PowerViewController.xib */,
 			);
 			path = Power;
 			sourceTree = "<group>";
@@ -223,7 +199,6 @@
 		BA6527422552578A000B333C /* Penrose */ = {
 			isa = PBXGroup;
 			children = (
-				BA6527432552578A000B333C /* PenroseViewController.xib */,
 				BA6527442552578A000B333C /* PenroseViewController.m */,
 				BA6527452552578A000B333C /* PenroseViewController.h */,
 			);
@@ -234,7 +209,6 @@
 			isa = PBXGroup;
 			children = (
 				BA6527472552578A000B333C /* CCELoadViewController.h */,
-				BA6527492552578A000B333C /* CCELoadViewController.xib */,
 				BA65274C2552578A000B333C /* CCELoadViewController.m */,
 			);
 			path = ELoad;
@@ -244,7 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				BA65274E2552578A000B333C /* ButtonPressViewController.mm */,
-				BA65274F2552578A000B333C /* ButtonPressViewController.xib */,
 				BA6527502552578A000B333C /* ButtonPressViewController.h */,
 			);
 			path = ButtonPress;
@@ -255,7 +228,6 @@
 			children = (
 				BA65277B2552578A000B333C /* ORIONViewController.h */,
 				BA65277C2552578A000B333C /* ORIONViewController.mm */,
-				BA65277D2552578A000B333C /* ORIONViewController.xib */,
 			);
 			path = ORION;
 			sourceTree = "<group>";
@@ -265,7 +237,6 @@
 			children = (
 				BA65277F2552578A000B333C /* DMICViewController.mm */,
 				BA6527802552578A000B333C /* DMICViewController.h */,
-				BA6527812552578A000B333C /* DMICViewController.xib */,
 			);
 			path = DMIC;
 			sourceTree = "<group>";
@@ -274,7 +245,6 @@
 			isa = PBXGroup;
 			children = (
 				BA6527842552578A000B333C /* ResAudioViewController.mm */,
-				BA6527852552578A000B333C /* ResAudioViewController.xib */,
 				BA6527862552578A000B333C /* ResAudioViewController.h */,
 			);
 			path = ResAudio;
@@ -285,7 +255,6 @@
 			children = (
 				BA6527882552578A000B333C /* NTCViewController.h */,
 				BA6527892552578A000B333C /* NTCViewController.mm */,
-				BA65278A2552578A000B333C /* NTCViewController.xib */,
 			);
 			path = NTC;
 			sourceTree = "<group>";
@@ -294,7 +263,6 @@
 			isa = PBXGroup;
 			children = (
 				BA65278C2552578A000B333C /* LDCMViewController.m */,
-				BA65278D2552578A000B333C /* LDCMViewController.xib */,
 				BA65278E2552578A000B333C /* LDCMViewController.h */,
 			);
 			path = LDCM;
@@ -304,7 +272,6 @@
 			isa = PBXGroup;
 			children = (
 				BA6527902552578A000B333C /* DischargeViewController.h */,
-				BA6527912552578A000B333C /* DischargeViewController.xib */,
 				BA6527922552578A000B333C /* DischargeViewController.mm */,
 			);
 			path = Discharge;
@@ -313,7 +280,6 @@
 		BA6527942552578A000B333C /* Rigel */ = {
 			isa = PBXGroup;
 			children = (
-				BA6527952552578A000B333C /* RigelViewController.xib */,
 				BA6527962552578A000B333C /* RigelViewController.mm */,
 				BA6527972552578A000B333C /* RigelViewController.h */,
 			);
@@ -334,7 +300,6 @@
 			children = (
 				BA6527A02552578A000B333C /* StimMainVC.h */,
 				BA65279D2552578A000B333C /* StimMainVC.m */,
-				BA65279E2552578A000B333C /* StimMainVC.xib */,
 				BA6527A12552578A000B333C /* StimTabViewController.h */,
 				BA65279F2552578A000B333C /* StimTabViewController.mm */,
 				BA6AD22E2553DFA800BE4772 /* StimMainVcProtocol.h */,
@@ -342,6 +307,13 @@
 				BA6AD2312553E8E600BE4772 /* StimVcMode.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		BAF189FA255558490000306D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,20 +404,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAF189DC255531C00000306D /* DvpStimPanelBundle.bundle in Resources */,
-				BA6527F62552578A000B333C /* RigelViewController.xib in Resources */,
-				BA6527B32552578A000B333C /* CCELoadViewController.xib in Resources */,
-				BA6527F32552578A000B333C /* DischargeViewController.xib in Resources */,
-				BA6527E42552578A000B333C /* ORIONViewController.xib in Resources */,
-				BA6527F02552578A000B333C /* LDCMViewController.xib in Resources */,
-				BA6527EA2552578A000B333C /* ResAudioViewController.xib in Resources */,
+				BAF18A07255569470000306D /* DvpStimPanelBundle.bundle in Resources */,
 				BA6527A32552578A000B333C /* StimCmdList.plist in Resources */,
-				BA6527AE2552578A000B333C /* PenroseViewController.xib in Resources */,
-				BA6527FD2552578A000B333C /* StimMainVC.xib in Resources */,
-				BA6527E72552578A000B333C /* DMICViewController.xib in Resources */,
-				BA6527AD2552578A000B333C /* PowerViewController.xib in Resources */,
-				BA6527B82552578A000B333C /* ButtonPressViewController.xib in Resources */,
-				BA6527EE2552578A000B333C /* NTCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

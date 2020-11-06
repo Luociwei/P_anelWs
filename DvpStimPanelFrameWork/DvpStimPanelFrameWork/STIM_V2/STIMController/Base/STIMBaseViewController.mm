@@ -37,8 +37,9 @@
 
 +(instancetype)allocInit{
    
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-   
+    NSString *path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:@"DvpStimPanelBundle.bundle"];
+   NSBundle *bundle =   [NSBundle bundleWithPath:path];
+
     STIMBaseViewController *vc = [[self alloc] initWithNibName:NSStringFromClass([self class]) bundle:bundle];
 
     return vc;
@@ -119,7 +120,7 @@
 
 -(void)setSwitchImage:(NSString *)imageName switchBtn:(NSButton *)switchBtn{
     //    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:imageName];
-    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"DvpStimPanelBundle.bundle/%@",imageName]];
+    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"DvpStimPanelBundle.bundle/Contents/Resources/%@",imageName]];
     NSImage *image = [[NSImage alloc]initWithContentsOfFile:pic_path];
 //    NSImage imagei
     [switchBtn setImage:image];
@@ -128,7 +129,7 @@
 
 -(void)setImageView:(NSImageView *)imageView imageName:(NSString *)imageName{
 //    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:imageName];
-    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"DvpStimPanelBundle.bundle/%@",imageName]];
+    NSString *pic_path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"DvpStimPanelBundle.bundle/Contents/Resources/%@",imageName]];
     
     NSImage *image = [[NSImage alloc]initWithContentsOfFile:pic_path];
    
