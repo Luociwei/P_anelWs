@@ -44,11 +44,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    
     self.stimVC = [[DvpStimController alloc] initWithWindowNibName:@"DvpStimController"];
-    
 }
-
 
 - (IBAction)stimPanel:(NSButton *)btn {
     
