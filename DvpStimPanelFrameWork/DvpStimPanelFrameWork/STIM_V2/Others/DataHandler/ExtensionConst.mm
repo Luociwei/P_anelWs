@@ -3,7 +3,7 @@
 //  STIM_Pannel
 //
 //  Created by ciwei luo on 2019/10/27.
-//  Copyright © 2019 macdev. All rights reserved.
+//  Copyright © 2019 suncode. All rights reserved.
 //
 
 #import "ExtensionConst.h"
