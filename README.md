@@ -88,7 +88,7 @@ That's all.
 
 ### Requirements
 
-`DvpStimPanelFrameWork.framework` was written using ARC and "modern" Objective-C 2. At the moment it has only support for OS X 10.12 Yosemite. OS X 10.1 Mavericks should work too, but it's untested yet.Just contact us at [ryan.gao@suncode-smart.com] [louis.luo@suncode-smart.com]
+`DvpStimPanelFrameWork.framework` was written using ARC and "modern" Objective-C 2. At the moment it has only support for OS X 10.12 Yosemite. OS X 10.1 Mavericks should work too, but it's untested yet.Just contact us at [luociwei86@126.com]
 
 
 ### Contribution
